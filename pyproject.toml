@@ -79,7 +79,8 @@ Home-page: https://www.oziproject.dev
 Author: Eden Ross Duff MSc
 Author-email: help@oziproject.dev
 License: @LICENSE@
-Download-URL: https://github.com//ozi-spec/archive/refs/tags/@SCM_VERSION@.tar.gz
+Download-URL: https://github.com/OZI-Project/ozi-spec/archive/refs/tags/@SCM_VERSION@.tar.gz
+Project-URL: Documentation, https://docs.oziproject.dev/en/latest/ozi_spec.html
 Requires-Python: >=3.10, <3.13
 Keywords: specification,standard,OZI,mesonbuild
 Classifier: License :: OSI Approved :: The Unlicense (Unlicense)

@@ -1,7 +1,7 @@
 # ozi/spec/_spec.py
-# Part of the OZI Project, under the Apache License v2.0 with LLVM Exceptions.
+# Part of the OZI Project.
 # See LICENSE.txt for license information.
-# SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+# SPDX-License-Identifier: Unlicense
 """Specification API for OZI Metadata."""
 from dataclasses import dataclass
 from dataclasses import field
