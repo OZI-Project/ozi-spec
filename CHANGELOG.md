@@ -1,4 +1,13 @@
 # CHANGELOG
+## 0.4.1 (2024-07-01)
+
+
+### :bug: Fixed Bugs
+
+* individual file license/copyright header corrected to Unlicense ([`74ff29c`](https://github.com/OZI-Project/ozi-spec/commit/74ff29cc0ea4e991cddffd1da6f553eb1fbb40a8))
+
+* doc and download link metadata — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`8c849f6`](https://github.com/OZI-Project/ozi-spec/commit/8c849f692a566ff65499712f38e3b10da86b1dc8))
+
 ## 0.4.0 (2024-07-01)
 
 
