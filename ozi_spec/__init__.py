@@ -6,7 +6,6 @@
 from ozi_spec._spec import OZI
 from ozi_spec._spec import Metadata
 from ozi_spec._spec import Spec
-from ozi_spec._spec import current_version
 from ozi_spec.base import Default
 from ozi_spec.src import CommentPatterns
 
@@ -17,7 +16,6 @@ __all__ = (
     'Metadata',
     'OZI',
     'Spec',
-    'current_version',
 )
 
 METADATA = Metadata()

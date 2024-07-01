@@ -19,7 +19,7 @@ from warnings import warn
 
 from ozi_spec.base import Default
 
-if TYPE_CHECKING:
+if TYPE_CHECKING:  # pragma: no cover
     import sys
     from collections.abc import Mapping
 

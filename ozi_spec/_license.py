@@ -8,7 +8,7 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from collections.abc import Sequence
+    from collections.abc import Sequence  # pragma: no cover
 
 NOT_SUPPORTED = {
     'Aladdin Free Public License (AFPL)',  # nonreusable

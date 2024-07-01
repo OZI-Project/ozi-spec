@@ -19,7 +19,7 @@ from typing import Protocol
 from typing import TypeAlias
 from typing import TypeVar
 
-if TYPE_CHECKING:
+if TYPE_CHECKING:  # pragma: no cover
     import sys
     from collections.abc import Callable
     from collections.abc import Mapping
@@ -63,8 +63,8 @@ class Default(_FactoryDataclass):
         )
 
     def __iter__(self: Self) -> Iterator[tuple[str, _Val[Any]]]:
-        for f in fields(self):
-            if f.repr:  # pragma: no cover
+        for f in fields(self):  # pragma: no cover
+            if f.repr:
                 yield (
                     f.name,
                     (
@@ -74,7 +74,7 @@ class Default(_FactoryDataclass):
                     ),
                 )
 
-    def asdict(self: Self) -> dict[str, _Val[str]]:
+    def asdict(self: Self) -> dict[str, _Val[str]]:  # pragma: no cover
         """Return a dictionary of all fields where repr=True.
         Hide a variable from the dict by setting repr to False and using
         a Default subclass as the default_factory.
