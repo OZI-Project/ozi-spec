@@ -104,9 +104,7 @@ class SrcTemplate(Default):
         'templates/CHANGELOG.md',
         'templates/.parsed_commit_heading',
     )
-    subprojects: tuple[str, ...] = (
-        'subprojects/ozi.wrap',
-    )
+    subprojects: tuple[str, ...] = ('subprojects/ozi.wrap',)
     add_root: str = field(default='tests/new_test.py.j2')
     add_source: str = field(default='project.name/new_module.py.j2')
     add_test: str = field(default='tests/new_test.py.j2')
