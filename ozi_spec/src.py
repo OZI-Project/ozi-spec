@@ -70,6 +70,12 @@ class SrcTemplate(Default):
     This is also the relative search directory used when searching
     for ``ozi-new`` user-provided templates in the ``templates/``
     root directory.
+
+    .. versionchanged:: 0.5
+
+        Added ``templates``, ``subprojects`` and modified ``ci_provider``
+        to be a dictionary of tuples.
+
     """
 
     root: tuple[str, ...] = (
@@ -88,8 +94,18 @@ class SrcTemplate(Default):
         'project.name/py.typed',
     )
     test: tuple[str, ...] = ('tests/meson.build',)
-    ci_provider: Mapping[str, str] = field(
-        default_factory=lambda: {'github': 'github_workflows/ozi.yml'},
+    ci_provider: Mapping[str, tuple[str, ...]] = field(
+        default_factory=lambda: {
+            'github': ('github_workflows/ozi.yml', 'github_workflows/cleanup.yml'),
+        },
+    )
+    templates: tuple[str, ...] = (
+        'templates/.release_notes.md',
+        'templates/CHANGELOG.md',
+        'templates/.parsed_commit_heading',
+    )
+    subprojects: tuple[str, ...] = (
+        'subprojects/ozi.wrap',
     )
     add_root: str = field(default='tests/new_test.py.j2')
     add_source: str = field(default='project.name/new_module.py.j2')
