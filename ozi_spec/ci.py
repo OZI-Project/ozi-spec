@@ -24,7 +24,7 @@ class Publish(Default):
 class Draft(Default):
     """Draft release patterns for packaged project."""
 
-    version: str = '0.3.3'
+    version: str = '0.3.4'
 
 
 @dataclass(slots=True, frozen=True, eq=True)
