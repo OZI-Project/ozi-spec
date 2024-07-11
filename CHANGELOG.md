@@ -1,4 +1,12 @@
 # ozi-spec CHANGELOG
+## 0.5.1 (2024-07-11)
+
+
+### 🐛 Fixed Bugs
+
+* update version — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`158212b`](https://github.com/OZI-Project/ozi-spec/commit/158212baf2061b55a99c556bc0f1862498ba16ac))
+
 ## 0.5.0 (2024-07-07)
 
 
