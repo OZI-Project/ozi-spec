@@ -17,7 +17,7 @@ class Publish(Default):
     """Publishing patterns for packaged project."""
 
     include: tuple[str, ...] = ('*.tar.gz', '*.whl', 'sig/*')
-    version: str = '0.1.7'
+    version: str = '0.1.8'
 
 
 @dataclass(slots=True, frozen=True, eq=True)
