@@ -1,4 +1,30 @@
 # ozi-spec CHANGELOG
+## 0.5.2 (2024-07-16)
+
+
+### Performance
+
+
+* perf: OZI-Project/draft@0.3.5 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`6344e19`](https://github.com/OZI-Project/ozi-spec/commit/6344e1920ea5e033c062c62bba4a3e7ec70cbcad))
+
+* perf: OZI-Project/checkpoint@0.4.3 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`37f3cdb`](https://github.com/OZI-Project/ozi-spec/commit/37f3cdba726c2c921762bac49bad2e38aac3353c))
+
+* perf: OZI-Project/release@0.6.6 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`49a6d93`](https://github.com/OZI-Project/ozi-spec/commit/49a6d939d5e2808c1de1205974c6c90fd8db4b0e))
+
+* perf: OZI-Project/publish@0.1.8 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`1699c50`](https://github.com/OZI-Project/ozi-spec/commit/1699c5023b492fe2ed49d7340c702abd74f14789))
+
+## 0.5.1 (2024-07-11)
+
+
+### 🐛 Fixed Bugs
+
+* update version — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`158212b`](https://github.com/OZI-Project/ozi-spec/commit/158212baf2061b55a99c556bc0f1862498ba16ac))
+
 ## 0.5.0 (2024-07-07)
 
 
