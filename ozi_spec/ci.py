@@ -17,21 +17,21 @@ class Publish(Default):
     """Publishing patterns for packaged project."""
 
     include: tuple[str, ...] = ('*.tar.gz', '*.whl', 'sig/*')
-    version: str = '0.1.7'
+    version: str = '0.1.8'
 
 
 @dataclass(slots=True, frozen=True, eq=True)
 class Draft(Default):
     """Draft release patterns for packaged project."""
 
-    version: str = '0.3.4'
+    version: str = '0.3.5'
 
 
 @dataclass(slots=True, frozen=True, eq=True)
 class Release(Default):
     """Release patterns for packaged project."""
 
-    version: str = '0.6.5'
+    version: str = '0.6.6'
 
 
 @dataclass(slots=True, frozen=True, eq=True)
@@ -39,7 +39,7 @@ class Checkpoint(Default):
     """Checkpoint suites to run."""
 
     suites: tuple[str, ...] = ('dist', 'lint', 'test')
-    version: str = '0.4.2'
+    version: str = '0.4.3'
 
 
 @dataclass(slots=True, frozen=True, eq=True)
