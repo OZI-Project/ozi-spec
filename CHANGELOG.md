@@ -1,4 +1,99 @@
 # ozi-spec CHANGELOG
+## 0.5.4 (2024-07-18)
+
+
+### Build
+
+
+* (deps): bump OZI-Project/release from 0.6.5 to 0.7.3
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.6.5 to 0.7.3.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/0.6.5...0.7.3)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`15ac435`](https://github.com/OZI-Project/ozi-spec/commit/15ac4353be38569289103aed8404f3e9bb1601a1))
+
+* (deps): bump OZI-Project/checkpoint from 0.4.2 to 0.5.0
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 0.4.2 to 0.5.0.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/0.4.2...0.5.0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`770d374`](https://github.com/OZI-Project/ozi-spec/commit/770d374d80d8690502aa6337846896a62546f197))
+
+* (deps): bump OZI-Project/draft from 0.3.3 to 0.3.6
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.3 to 0.3.6.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/0.3.3...0.3.6)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`219a326`](https://github.com/OZI-Project/ozi-spec/commit/219a326e38ea6d4e63e458e0ff493d4a098d6f50))
+
+* (deps): bump step-security/harden-runner from 2.8.0 to 2.9.0
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.8.0 to 2.9.0.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/v2.8.0...0d381219ddf674d61a7572ddd19d7941e271515c)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`f98d0e8`](https://github.com/OZI-Project/ozi-spec/commit/f98d0e8a55cfcf6cc30f3363d5ce94ee21ac2290))
+
+* (deps): bump OZI-Project/publish from 0.1.6 to 0.1.8
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 0.1.6 to 0.1.8.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/0.1.6...0.1.8)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`751407a`](https://github.com/OZI-Project/ozi-spec/commit/751407ab63ad8a2cdbc133b5e392efe29385974c))
+
+
+### Performance
+
+
+* perf: Merge pull request #19 from OZI-Project/feature/sigstore-v3
+
+Feature/sigstore v3
+([`65f6b21`](https://github.com/OZI-Project/ozi-spec/commit/65f6b216257474dda90fc8a47eb285bd8841f63d))
+
+
+### Unknown
+
+
+* Update dependabot.yml — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
+([`88c5e71`](https://github.com/OZI-Project/ozi-spec/commit/88c5e716e0e82ea2ac0d98dc6dff312d74dc93b2))
+
+* Create dependabot.yml — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
+([`a5c8af8`](https://github.com/OZI-Project/ozi-spec/commit/a5c8af8b6d8e72f4a57433ef2c1052ffdb296113))
+
 ## 0.5.3 (2024-07-18)
 
 
@@ -36,41 +131,13 @@
 ## 0.5.0 (2024-07-07)
 
 
-### Feature
-
-
-* feat(src.py SrcTemplate): add ``templates``, ``subprojects`` and modified ``ci_provider`` to be a dictionary of tuples — rjdbcm &lt;rjdbcm@outlook.com&gt;
-([`6dbd31c`](https://github.com/OZI-Project/ozi-spec/commit/6dbd31c9f0a1053ed0b544c954cc71c20bf150b3))
-
-
-### 🐛 Fixed Bugs
-
-* update commit parser templates — rjdbcm &lt;rjdbcm@outlook.com&gt;
-([`4975a1c`](https://github.com/OZI-Project/ozi-spec/commit/4975a1cc3e3e10b38cae41e5584b92649505eb4e))
-
-
 ### Performance
 
 
 * perf: run black — rjdbcm &lt;rjdbcm@outlook.com&gt;
 ([`a2f0bc8`](https://github.com/OZI-Project/ozi-spec/commit/a2f0bc8356204624cbbf719f363272ef7531e1ed))
 
-* perf: OZI-Project/draft@0.3.4 — rjdbcm &lt;rjdbcm@outlook.com&gt;
-([`e747e9b`](https://github.com/OZI-Project/ozi-spec/commit/e747e9b1c5caeb5c54c51f66a30eab7b57850878))
-
-* perf: OZI-Project/publish@0.1.7 — rjdbcm &lt;rjdbcm@outlook.com&gt;
-([`c224b07`](https://github.com/OZI-Project/ozi-spec/commit/c224b078da4060195d040dec97abb58ca12fb057))
-
 ## 0.4.1 (2024-07-01)
-
-
-### 🐛 Fixed Bugs
-
-* individual file license/copyright header corrected to Unlicense
-([`74ff29c`](https://github.com/OZI-Project/ozi-spec/commit/74ff29cc0ea4e991cddffd1da6f553eb1fbb40a8))
-
-* doc and download link metadata — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
-([`8c849f6`](https://github.com/OZI-Project/ozi-spec/commit/8c849f692a566ff65499712f38e3b10da86b1dc8))
 
 ## 0.4.0 (2024-07-01)
 
@@ -84,8 +151,33 @@
 ### Feature
 
 
+* feat(src.py SrcTemplate): add ``templates``, ``subprojects`` and modified ``ci_provider`` to be a dictionary of tuples — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`6dbd31c`](https://github.com/OZI-Project/ozi-spec/commit/6dbd31c9f0a1053ed0b544c954cc71c20bf150b3))
+
 * feat: tag OZI 1.14
 ([`b6cb028`](https://github.com/OZI-Project/ozi-spec/commit/b6cb0285901d95512e7545c06edd7f2c539c4125))
+
+
+### 🐛 Fixed Bugs
+
+* update commit parser templates — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`4975a1c`](https://github.com/OZI-Project/ozi-spec/commit/4975a1cc3e3e10b38cae41e5584b92649505eb4e))
+
+* individual file license/copyright header corrected to Unlicense
+([`74ff29c`](https://github.com/OZI-Project/ozi-spec/commit/74ff29cc0ea4e991cddffd1da6f553eb1fbb40a8))
+
+* doc and download link metadata — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
+([`8c849f6`](https://github.com/OZI-Project/ozi-spec/commit/8c849f692a566ff65499712f38e3b10da86b1dc8))
+
+
+### Performance
+
+
+* perf: OZI-Project/draft@0.3.4 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`e747e9b`](https://github.com/OZI-Project/ozi-spec/commit/e747e9b1c5caeb5c54c51f66a30eab7b57850878))
+
+* perf: OZI-Project/publish@0.1.7 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`c224b07`](https://github.com/OZI-Project/ozi-spec/commit/c224b078da4060195d040dec97abb58ca12fb057))
 
 
 ### Unknown
