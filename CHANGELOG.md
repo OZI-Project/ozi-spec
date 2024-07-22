@@ -1,4 +1,12 @@
 # ozi-spec CHANGELOG
+## 0.5.6 (2024-07-22)
+
+
+### 🐛 Fixed Bugs
+
+* correct ``templates/templates/*`` names to include ``.j2`` extension
+([`cf1094e`](https://github.com/OZI-Project/ozi-spec/commit/cf1094e8e598afdd62e1d90a87415b699e2bf2a5))
+
 ## 0.5.5 (2024-07-19)
 
 
