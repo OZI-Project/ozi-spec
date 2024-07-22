@@ -100,9 +100,9 @@ class SrcTemplate(Default):
         },
     )
     templates: tuple[str, ...] = (
-        'templates/.release_notes.md',
-        'templates/CHANGELOG.md',
-        'templates/.parsed_commit_heading',
+        'templates/.release_notes.md.j2',
+        'templates/CHANGELOG.md.j2',
+        'templates/.parsed_commit_heading.j2',
     )
     subprojects: tuple[str, ...] = ('subprojects/ozi.wrap',)
     add_root: str = field(default='tests/new_test.py.j2')
