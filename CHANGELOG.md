@@ -1,4 +1,44 @@
 # ozi-spec CHANGELOG
+## 0.5.7 (2024-07-25)
+
+
+### Build
+
+
+* (deps): bump OZI-Project/publish from 0.1.8 to 0.1.9
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 0.1.8 to 0.1.9.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/0.1.8...0.1.9)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`6ad4dff`](https://github.com/OZI-Project/ozi-spec/commit/6ad4dff4be252202a93f012b009ed43a4f324086))
+
+* (deps): bump OZI-Project/draft from 0.3.6 to 0.3.7
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.6 to 0.3.7.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/0.3.6...0.3.7)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`731cd8e`](https://github.com/OZI-Project/ozi-spec/commit/731cd8e0fba988578d0017af49140c179262afc2))
+
+
+### 🐛 Fixed Bugs
+
+* OZI default version 1.17 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`018880d`](https://github.com/OZI-Project/ozi-spec/commit/018880de8601b6930aef6a26d0e59f8a772700e6))
+
 ## 0.5.6 (2024-07-22)
 
 
