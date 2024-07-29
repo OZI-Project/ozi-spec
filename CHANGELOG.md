@@ -1,4 +1,16 @@
 # ozi-spec CHANGELOG
+## 0.5.8 (2024-07-29)
+
+
+### Performance
+
+
+* perf: draft 0.3.7 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`9356eec`](https://github.com/OZI-Project/ozi-spec/commit/9356eecbfd41c2c59f0eb821051e5c0c871293f4))
+
+* perf: publish 0.1.9 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`c5fbfcb`](https://github.com/OZI-Project/ozi-spec/commit/c5fbfcb46b50f8212c28ecb5d2def521179e45a9))
+
 ## 0.5.7 (2024-07-25)
 
 
