@@ -39,7 +39,7 @@ class Checkpoint(Default):
     """Checkpoint suites to run."""
 
     suites: tuple[str, ...] = ('dist', 'lint', 'test')
-    version: str = '0.5.0'
+    version: str = '0.5.1'
 
 
 @dataclass(slots=True, frozen=True, eq=True)
