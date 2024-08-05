@@ -1,4 +1,19 @@
 # ozi-spec CHANGELOG
+## 0.5.9 (2024-08-05)
+
+
+### Performance
+
+
+* perf: Bump OZI-Project/draft from 0.3.7 to 0.3.8 — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
+([`b4422c2`](https://github.com/OZI-Project/ozi-spec/commit/b4422c232cd3e91bc829d17475418d93bab5ac71))
+
+* perf: Bump OZI-Project/release from 0.7.3 to 0.7.4 — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
+([`b97460b`](https://github.com/OZI-Project/ozi-spec/commit/b97460b613a7d397b160cf4430b55b17b18a45d9))
+
+* perf: Bump OZI-Project/checkpoint from 0.5.0 to 0.5.1 — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
+([`b2369f7`](https://github.com/OZI-Project/ozi-spec/commit/b2369f7bdeae8881de0b73a0b8bf86e7dc74b120))
+
 ## 0.5.8 (2024-07-29)
 
 
