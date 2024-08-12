@@ -1,4 +1,87 @@
 # ozi-spec CHANGELOG
+## 0.5.10 (2024-08-12)
+
+
+### Build
+
+
+* (deps): bump OZI-Project/release from 0.7.4 to 0.8.9
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.7.4 to 0.8.9.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/0.7.4...0.8.9)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`268f056`](https://github.com/OZI-Project/ozi-spec/commit/268f0564ec46b9e561a8358b480cc3d42f003b1c))
+
+* (deps): bump OZI-Project/release from 0.7.3 to 0.7.4
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.7.3 to 0.7.4.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/0.7.3...0.7.4)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`cc6207c`](https://github.com/OZI-Project/ozi-spec/commit/cc6207cc12c76bbec4f3f3e18041dd36456d089e))
+
+* (deps): bump OZI-Project/checkpoint from 0.5.0 to 0.5.1
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 0.5.0 to 0.5.1.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/0.5.0...0.5.1)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`7263fec`](https://github.com/OZI-Project/ozi-spec/commit/7263fec1eea67c623fa65c798e0f8e1b1b2df2f3))
+
+* (deps): bump OZI-Project/draft from 0.3.7 to 0.3.8
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.7 to 0.3.8.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/0.3.7...0.3.8)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`821e408`](https://github.com/OZI-Project/ozi-spec/commit/821e4084616885747547bcf332a7adad26f0cd1e))
+
+* (deps): bump step-security/harden-runner from 2.9.0 to 2.9.1
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.9.0 to 2.9.1.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/0d381219ddf674d61a7572ddd19d7941e271515c...5c7944e73c4c2a096b17a9cb74d65b6c2bbafbde)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`4886f1f`](https://github.com/OZI-Project/ozi-spec/commit/4886f1f45ba30e4c61906322c5673bbf7413a25e))
+
+
+### Performance
+
+
+* perf(ci.py): Release version=0.8.9 — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
+([`8d7e85c`](https://github.com/OZI-Project/ozi-spec/commit/8d7e85c67c83c7b6ee92e1b6a166d7785b8b7d6e))
+
 ## 0.5.9 (2024-08-05)
 
 
