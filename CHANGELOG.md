@@ -1,4 +1,21 @@
 # ozi-spec CHANGELOG
+## 0.6.1 (2024-08-16)
+
+
+### 🐛 Fixed Bugs
+
+* Merge pull request #41 from OZI-Project/0.6
+
+0.6
+([`0132861`](https://github.com/OZI-Project/ozi-spec/commit/0132861b435a6a2159ec2c4a63cc786359efc494))
+
+
+### Unknown
+
+
+* :pencil2: OZI 1.18 and spec 0.6 pin versions — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`7992390`](https://github.com/OZI-Project/ozi-spec/commit/79923901da0352a028ffcc010904ed2185caf3f0))
+
 ## 0.6.0 (2024-08-16)
 
 
