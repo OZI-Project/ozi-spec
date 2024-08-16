@@ -1,4 +1,22 @@
 # ozi-spec CHANGELOG
+## 0.6.0 (2024-08-16)
+
+
+### Feature
+
+
+* feat: added ``cibuildwheel`` and ``twine`` as plugins
+
+Also pins pip-tools~=7.4, OZI.build~=1.0.2, tox~=4.18, tox-gh~=1.3 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`02062f1`](https://github.com/OZI-Project/ozi-spec/commit/02062f1fbf2a8d1750bab9e3855152eeb7d118e6))
+
+
+### Unknown
+
+
+* :rotating_light: run black — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`abf9aa2`](https://github.com/OZI-Project/ozi-spec/commit/abf9aa2902c8a77b032a9aa3457226942599f5ec))
+
 ## 0.5.10 (2024-08-12)
 
 
