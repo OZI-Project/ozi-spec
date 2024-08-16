@@ -164,13 +164,22 @@ class ClassicTest(CheckpointSuite):
 
 @dataclass(slots=True, frozen=True, eq=True)
 class ClassicDist(CheckpointSuite):
-    """OZI standard publishing and distribution."""
+    """OZI standard publishing and distribution.
 
+    .. versionchanged:: 0.6
+        Added ``cibuildwheel`` and ``twine`` as plugins.
+    """
     module: tuple[str, ...] = ('python-semantic-release', 'sigstore')
     utility: Mapping[str, str] = field(
         default_factory=lambda: {
             'python-semantic-release': 'python-semantic-release',
             'sigstore': 'sigstore',
+        },
+    )
+    plugin: Mapping[str, str] = field(
+        default_factory=lambda: {
+            'twine': 'twine',
+            'cibuildwheel': 'cibuildwheel',
         },
     )
 
@@ -182,8 +191,8 @@ class Build(Default):
     backend: str = 'ozi_build.buildapi'
     requires: Mapping[str, str] = field(
         default_factory=lambda: {
-            'OZI.build': 'OZI.build>=0.0.27',
-            'pip-tools': 'pip-tools>=7',
+            'OZI.build': 'OZI.build~=1.0.2',
+            'pip-tools': 'pip-tools~=7.4',
             'pipx': 'pipx~=1.5',
             'setuptools_scm': 'setuptools_scm[toml]~=8.0',
         },
@@ -195,7 +204,10 @@ class CI(Default):
     """Provider-agnostic CI information."""
 
     backend: Mapping[str, str] = field(
-        default_factory=lambda: {'tox': 'tox>4', 'tox-gh': 'tox-gh>1.2'},
+        default_factory=lambda: {
+            'tox': 'tox~=4.18',
+            'tox-gh': 'tox-gh~=1.3',
+        },
     )
     checkpoint: Checkpoint = Checkpoint()
     draft: Draft = Draft()
