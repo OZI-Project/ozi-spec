@@ -191,16 +191,15 @@ class Build(Default):
 
     .. versionchanged:: 0.7
        Invoke added to build-system dependencies.
+
+    .. versionchanged:: 0.8
+       All build-system requires moved to OZI.build 1.2 as extra optional_dependencies.
     """
 
     backend: str = 'ozi_build.buildapi'
     requires: Mapping[str, str] = field(
         default_factory=lambda: {
-            'OZI.build': 'OZI.build~=1.0.2',
-            'invoke': 'invoke~=2.2',
-            'pip-tools': 'pip-tools~=7.4',
-            'pipx': 'pipx~=1.5',
-            'setuptools_scm': 'setuptools_scm[toml]~=8.0',
+            'OZI.build': 'OZI.build[core]~=1.2',
         },
     )
 
