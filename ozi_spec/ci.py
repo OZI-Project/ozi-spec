@@ -17,21 +17,21 @@ class Publish(Default):
     """Publishing patterns for packaged project."""
 
     include: tuple[str, ...] = ('*.tar.gz', '*.whl', 'sig/*')
-    version: str = '0.1.9'
+    version: str = '0.1.10'
 
 
 @dataclass(slots=True, frozen=True, eq=True)
 class Draft(Default):
     """Draft release patterns for packaged project."""
 
-    version: str = '0.3.8'
+    version: str = '0.3.9'
 
 
 @dataclass(slots=True, frozen=True, eq=True)
 class Release(Default):
     """Release patterns for packaged project."""
 
-    version: str = '0.8.9'
+    version: str = '0.8.10'
 
 
 @dataclass(slots=True, frozen=True, eq=True)
@@ -39,7 +39,7 @@ class Checkpoint(Default):
     """Checkpoint suites to run."""
 
     suites: tuple[str, ...] = ('dist', 'lint', 'test')
-    version: str = '0.5.1'
+    version: str = '0.5.2'
 
 
 @dataclass(slots=True, frozen=True, eq=True)
@@ -187,12 +187,17 @@ class ClassicDist(CheckpointSuite):
 
 @dataclass(slots=True, frozen=True, eq=True)
 class Build(Default):
-    """Build backend and required packages for OZI."""
+    """Build backend and required packages for OZI.
+
+    .. versionchanged:: 0.7
+       Invoke added to build-system dependencies.
+    """
 
     backend: str = 'ozi_build.buildapi'
     requires: Mapping[str, str] = field(
         default_factory=lambda: {
             'OZI.build': 'OZI.build~=1.0.2',
+            'invoke': 'invoke~=2.2',
             'pip-tools': 'pip-tools~=7.4',
             'pipx': 'pipx~=1.5',
             'setuptools_scm': 'setuptools_scm[toml]~=8.0',
