@@ -1,4 +1,75 @@
 # ozi-spec CHANGELOG
+## 0.7.0 (2024-08-22)
+
+
+### Build
+
+
+* (deps): bump OZI-Project/publish from 0.1.9 to 0.1.10
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 0.1.9 to 0.1.10.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/0.1.9...0.1.10)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`82eec52`](https://github.com/OZI-Project/ozi-spec/commit/82eec52f2529583143254b00b602c1d82fe7ef4d))
+
+* (deps): bump OZI-Project/checkpoint from 0.5.1 to 0.5.2
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 0.5.1 to 0.5.2.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/0.5.1...0.5.2)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`c4926bc`](https://github.com/OZI-Project/ozi-spec/commit/c4926bc1b82a5217c9f0e56fdd5e868962b0e2ed))
+
+* (deps): bump OZI-Project/draft from 0.3.8 to 0.3.9
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.8 to 0.3.9.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/0.3.8...0.3.9)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`1b46763`](https://github.com/OZI-Project/ozi-spec/commit/1b46763411561d769d696ec9fe819c750ccadc92))
+
+* (deps): bump OZI-Project/release from 0.8.9 to 0.8.10
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.8.9 to 0.8.10.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/0.8.9...0.8.10)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`9a18441`](https://github.com/OZI-Project/ozi-spec/commit/9a1844126123239242f7a4af5aab989025ecf02b))
+
+
+### Feature
+
+
+* feat: add invoke to build-system deps
+
+also patches github workflows — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`fa7e9cf`](https://github.com/OZI-Project/ozi-spec/commit/fa7e9cfbaa34d5562d4d1be24f5f12774fc735da))
+
 ## 0.6.1 (2024-08-16)
 
 
