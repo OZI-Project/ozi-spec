@@ -1,4 +1,6 @@
 # ozi-spec CHANGELOG
+## 0.8.0 (2024-08-23)
+
 ## 0.7.0 (2024-08-22)
 
 
@@ -64,6 +66,9 @@ updated-dependencies:
 
 ### Feature
 
+
+* feat: OZI.build renders optional_dependencies — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`f8f5088`](https://github.com/OZI-Project/ozi-spec/commit/f8f50889523cd26362001821d77dbe94df9692f1))
 
 * feat: add invoke to build-system deps
 
