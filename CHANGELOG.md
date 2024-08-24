@@ -1,4 +1,12 @@
 # ozi-spec CHANGELOG
+## 0.8.1 (2024-08-23)
+
+
+### 🐛 Fixed Bugs
+
+* pin spec to 0.8 and OZI to 1.19 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`54718a3`](https://github.com/OZI-Project/ozi-spec/commit/54718a326cffd2e8494d9dea6fc6ae6e91cdc9d2))
+
 ## 0.8.0 (2024-08-23)
 
 ## 0.7.0 (2024-08-22)
