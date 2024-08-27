@@ -29,7 +29,11 @@ class SrcFormat(Default):
 
 @dataclass(slots=True, frozen=True, eq=True)
 class SrcRequired(Default):
-    """Required files for OZI to output with ``ozi-new``."""
+    """Required files for OZI to output with ``ozi-new``.
+
+    .. versionchanged:: 0.9
+        Removed :file:`requirements.in` from `root`.
+    """
 
     root: tuple[str, ...] = (
         'README',
@@ -38,7 +42,6 @@ class SrcRequired(Default):
         'meson.build',
         'meson.options',
         'LICENSE.txt',
-        'requirements.in',
         'CHANGELOG.md',
     )
     source: tuple[str, ...] = (
@@ -76,6 +79,8 @@ class SrcTemplate(Default):
         Added ``templates``, ``subprojects`` and modified ``ci_provider``
         to be a dictionary of tuples.
 
+    .. versionchanged:: 0.9
+        Removed :file:`requirements.in` from `root`.
     """
 
     root: tuple[str, ...] = (
@@ -85,7 +90,6 @@ class SrcTemplate(Default):
         'pyproject.toml',
         'README',
         'LICENSE.txt',
-        'requirements.in',
         'CHANGELOG.md',
     )
     source: tuple[str, ...] = (

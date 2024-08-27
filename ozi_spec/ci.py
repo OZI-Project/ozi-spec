@@ -199,7 +199,7 @@ class Build(Default):
     backend: str = 'ozi_build.buildapi'
     requires: Mapping[str, str] = field(
         default_factory=lambda: {
-            'OZI.build': 'OZI.build[core]~=1.2',
+            'OZI.build': 'OZI.build[core]~=1.3',
         },
     )
 
