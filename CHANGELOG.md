@@ -1,4 +1,13 @@
 # ozi-spec CHANGELOG
+## 0.9.0 (2024-08-27)
+
+
+### Feature
+
+
+* feat: remove requirements.in target OZI.build 1.3 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`7cf50c3`](https://github.com/OZI-Project/ozi-spec/commit/7cf50c36db9266c65a83e7f19d4f93e7e92e732d))
+
 ## 0.8.1 (2024-08-23)
 
 
