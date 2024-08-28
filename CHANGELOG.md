@@ -2,6 +2,18 @@
 ## 0.9.1 (2024-08-28)
 
 
+### 🐛 Fixed Bugs
+
+* correct key typo — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`0805bac`](https://github.com/OZI-Project/ozi-spec/commit/0805bacc3f17c982acc362aee1ce8734f6b04339))
+
+* project-url to project-urls list — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`5871986`](https://github.com/OZI-Project/ozi-spec/commit/58719861cb8cf5f2f27bf35a9d7ced44ffe42c88))
+
+* update pyproject.toml for OZI 1.20 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`881b79a`](https://github.com/OZI-Project/ozi-spec/commit/881b79aa722ba215c60a559cf23cb9886a878d90))
+
+
 ### Performance
 
 
