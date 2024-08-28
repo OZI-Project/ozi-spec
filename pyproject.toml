@@ -1,8 +1,9 @@
 # Part of OZI.spec.
 # See LICENSE.txt in the project root for details.
 [project]
-dynamic = ["dependencies", "version"]
+dynamic = ["version"]
 license = {file = "LICENSE.txt"}
+dependencies = ['setuptools_scm']
 
 [build-system]
 requires = [
@@ -13,11 +14,29 @@ requires = [
 ]
 build-backend = "ozi_build.buildapi"
 
-[tool.setuptools.dynamic]
-dependencies = { file = ["requirements.in"] }
-
 [tool.ozi-build.metadata]
-pkg-info-file = 'PKG-INFO'
+summary = "Versioned specification standard metadata for OZI Project tools."
+home-page = "https://www.oziproject.dev"
+author = "Eden Ross Duff MSc"
+author-email = "help@oziproject.dev"
+license = "Unlicense"
+download-url = "https://github.com/OZI-Project/ozi-spec/archive/refs/tags/{version}.tar.gz"
+project-url = "Documentation, https://docs.oziproject.dev/en/latest/ozi_spec.html"
+keywords = "specification,standard,OZI,mesonbuild"
+classifiers = [
+    'License :: OSI Approved :: The Unlicense (Unlicense)',
+    'Development Status :: 3 - Alpha',
+    'Programming Language :: Python :: 3 :: Only',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Programming Language :: Python :: Implementation :: CPython',
+    'Intended Audience :: Other Audience',
+    'Natural Language :: English',
+    'Typing :: Typed',
+    'Environment :: Other Environment',
+]
+description_file = "README.rst"
 
 [project.optional_dependencies] # also meson test suite names
 # OZI Packaging Dependencies
@@ -71,34 +90,6 @@ test = [
 ]
 
 [tool.setuptools_scm]
-version_file_template = """Metadata-Version: 2.1
-Name: @PROJECT_NAME@
-Version: @SCM_VERSION@
-Summary: Versioned specification standard metadata for OZI Project tools.
-Home-page: https://www.oziproject.dev
-Author: Eden Ross Duff MSc
-Author-email: help@oziproject.dev
-License: @LICENSE@
-Download-URL: https://github.com/OZI-Project/ozi-spec/archive/refs/tags/@SCM_VERSION@.tar.gz
-Project-URL: Documentation, https://docs.oziproject.dev/en/latest/ozi_spec.html
-Requires-Python: >=3.10, <3.13
-Keywords: specification,standard,OZI,mesonbuild
-Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
-Classifier: Development Status :: 3 - Alpha
-Classifier: Programming Language :: Python :: 3 :: Only
-Classifier: Programming Language :: Python :: 3.10
-Classifier: Programming Language :: Python :: 3.11
-Classifier: Programming Language :: Python :: 3.12
-Classifier: Programming Language :: Python :: Implementation :: CPython
-Classifier: Intended Audience :: Other Audience
-Classifier: Natural Language :: English
-Classifier: Typing :: Typed
-Classifier: Environment :: Other Environment
-Description-Content-Type: text/x-rst
-@REQUIREMENTS_IN@
-
-@README_TEXT@"""
-version_file = "PKG-INFO"
 fallback_version = "@VCS_TAG@"
 parentdir_prefix_version = "ozi-spec-"
 tag_regex = "^(?P<prefix>v)?(?P<version>[^\\+]+)(?P<suffix>.*)?$"
