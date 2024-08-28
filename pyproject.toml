@@ -21,7 +21,7 @@ author = "Eden Ross Duff MSc"
 author-email = "help@oziproject.dev"
 license = "Unlicense"
 download-url = "https://github.com/OZI-Project/ozi-spec/archive/refs/tags/{version}.tar.gz"
-project-url = "Documentation, https://docs.oziproject.dev/en/latest/ozi_spec.html"
+project-urls = ["Documentation, https://docs.oziproject.dev/en/latest/ozi_spec.html"]
 keywords = "specification,standard,OZI,mesonbuild"
 classifiers = [
     'License :: OSI Approved :: The Unlicense (Unlicense)',
