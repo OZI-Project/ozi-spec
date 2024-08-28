@@ -1,4 +1,13 @@
 # ozi-spec CHANGELOG
+## 0.9.1 (2024-08-28)
+
+
+### Performance
+
+
+* perf: OZI.build[core]~=1.4.3 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`ed66155`](https://github.com/OZI-Project/ozi-spec/commit/ed66155c592a98b28a31e38de4e7218d2414039e))
+
 ## 0.9.0 (2024-08-27)
 
 
