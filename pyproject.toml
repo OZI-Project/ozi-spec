@@ -36,7 +36,7 @@ classifiers = [
     'Typing :: Typed',
     'Environment :: Other Environment',
 ]
-description_file = "README.rst"
+description-file = "README.rst"
 
 [project.optional_dependencies] # also meson test suite names
 # OZI Packaging Dependencies
