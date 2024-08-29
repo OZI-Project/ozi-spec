@@ -82,7 +82,7 @@ class PkgRequired(Default):
         'CHANGELOG.md',
         'pyproject.toml',
         'LICENSE.txt',
-        'requirements.in',
+        '.gitignore',
     )
 
     source: tuple[str, ...] = ('__init__.py',)
