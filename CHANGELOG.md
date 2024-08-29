@@ -1,4 +1,34 @@
 # ozi-spec CHANGELOG
+## 0.9.1 (2024-08-28)
+
+
+### 🐛 Fixed Bugs
+
+* correct key typo — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`0805bac`](https://github.com/OZI-Project/ozi-spec/commit/0805bacc3f17c982acc362aee1ce8734f6b04339))
+
+* project-url to project-urls list — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`5871986`](https://github.com/OZI-Project/ozi-spec/commit/58719861cb8cf5f2f27bf35a9d7ced44ffe42c88))
+
+* update pyproject.toml for OZI 1.20 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`881b79a`](https://github.com/OZI-Project/ozi-spec/commit/881b79aa722ba215c60a559cf23cb9886a878d90))
+
+
+### Performance
+
+
+* perf: OZI.build[core]~=1.4.3 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`ed66155`](https://github.com/OZI-Project/ozi-spec/commit/ed66155c592a98b28a31e38de4e7218d2414039e))
+
+## 0.9.0 (2024-08-27)
+
+
+### Feature
+
+
+* feat: remove requirements.in target OZI.build 1.3 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`7cf50c3`](https://github.com/OZI-Project/ozi-spec/commit/7cf50c36db9266c65a83e7f19d4f93e7e92e732d))
+
 ## 0.8.1 (2024-08-23)
 
 
