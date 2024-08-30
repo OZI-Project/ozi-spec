@@ -1,4 +1,12 @@
 # ozi-spec CHANGELOG
+## 0.9.2 (2024-08-30)
+
+
+### 🐛 Fixed Bugs
+
+* (pkg.py): remove requirements.in and add .gitignore — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
+([`3f856f9`](https://github.com/OZI-Project/ozi-spec/commit/3f856f9ceb7631c95ba4330fe5ee785e9efb6250))
+
 ## 0.9.1 (2024-08-28)
 
 
