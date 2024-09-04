@@ -1,4 +1,21 @@
 # ozi-spec CHANGELOG
+## 0.9.3 (2024-09-02)
+
+
+### Build
+
+
+* (deps): OZI.~=1.5 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`29f7da6`](https://github.com/OZI-Project/ozi-spec/commit/29f7da69efc5685e2ff22250f0fd0cf241b45c36))
+
+
+### 🐛 Fixed Bugs
+
+* patch release trigger
+
+Merge pull request #58 from OZI-Project/main
+([`10e8ae0`](https://github.com/OZI-Project/ozi-spec/commit/10e8ae0bb90dd8bfad12a152d98a86c2dbc91ded))
+
 ## 0.9.2 (2024-08-30)
 
 
