@@ -1,4 +1,48 @@
 # ozi-spec CHANGELOG
+## 0.9.4 (2024-09-05)
+
+
+### Build
+
+
+* (deps): bump OZI-Project/draft from 0.3.9 to 0.3.10
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.9 to 0.3.10.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/0.3.9...0.3.10)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`e0b459f`](https://github.com/OZI-Project/ozi-spec/commit/e0b459f68771d57b70c9c160e49d526029d8b4b2))
+
+* (deps): bump OZI-Project/publish from 0.1.10 to 0.1.11
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 0.1.10 to 0.1.11.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/0.1.10...0.1.11)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`abed060`](https://github.com/OZI-Project/ozi-spec/commit/abed060ff01055797baf5f50edaac0606aca2a0e))
+
+
+### Performance
+
+
+* perf: OZI-Project/draft@0.3.10 — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
+([`2638fe5`](https://github.com/OZI-Project/ozi-spec/commit/2638fe52f47bf60a12f23bfdc5e06d73fa05d537))
+
+* perf: OZI-Project/publish@0.1.11 — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
+([`10d88fe`](https://github.com/OZI-Project/ozi-spec/commit/10d88fe77084d5fc4034f1c82ddf67f73e179df1))
+
 ## 0.9.3 (2024-09-02)
 
 
