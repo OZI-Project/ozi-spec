@@ -1,9 +1,37 @@
 # ozi-spec CHANGELOG
-## 0.9.4 (2024-09-05)
+## 0.9.4 (2024-09-06)
 
 
 ### Build
 
+
+* (deps): bump OZI-Project/draft from 0.3.10 to 0.3.11
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.10 to 0.3.11.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/0.3.10...0.3.11)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`4295af1`](https://github.com/OZI-Project/ozi-spec/commit/4295af1d55822cbacd0def7759c9d0e9c43e834b))
+
+* (deps): bump OZI-Project/release from 0.8.10 to 0.8.11
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.8.10 to 0.8.11.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/0.8.10...0.8.11)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`4061f90`](https://github.com/OZI-Project/ozi-spec/commit/4061f9066bdb3f59108a66a887ff75bf7a09cfba))
 
 * (deps): bump OZI-Project/draft from 0.3.9 to 0.3.10
 
@@ -34,6 +62,12 @@ updated-dependencies:
 ([`abed060`](https://github.com/OZI-Project/ozi-spec/commit/abed060ff01055797baf5f50edaac0606aca2a0e))
 
 
+### 🐛 Fixed Bugs
+
+* draft@0.3.11 and release@0.8.11 — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
+([`9d81f33`](https://github.com/OZI-Project/ozi-spec/commit/9d81f33f232997ffb914a05dd52a0f80ecdf2c24))
+
+
 ### Performance
 
 
@@ -42,6 +76,13 @@ updated-dependencies:
 
 * perf: OZI-Project/publish@0.1.11 — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
 ([`10d88fe`](https://github.com/OZI-Project/ozi-spec/commit/10d88fe77084d5fc4034f1c82ddf67f73e179df1))
+
+
+### Unknown
+
+
+* Update dependabot.yml — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
+([`6cc96b0`](https://github.com/OZI-Project/ozi-spec/commit/6cc96b03afee014b9a87d1fa9d2b1416e3d97b50))
 
 ## 0.9.3 (2024-09-02)
 
