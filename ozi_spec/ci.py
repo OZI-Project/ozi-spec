@@ -24,14 +24,14 @@ class Publish(Default):
 class Draft(Default):
     """Draft release patterns for packaged project."""
 
-    version: str = '0.3.10'
+    version: str = '0.3.11'
 
 
 @dataclass(slots=True, frozen=True, eq=True)
 class Release(Default):
     """Release patterns for packaged project."""
 
-    version: str = '0.8.10'
+    version: str = '0.8.11'
 
 
 @dataclass(slots=True, frozen=True, eq=True)
