@@ -81,6 +81,7 @@ class RuffLint(CheckpointSuite):
         'RUF009',
         'RUF012',
         'RUF015',
+        'RUF200',
         'SIM',
         'T201',
         'TCH002',
