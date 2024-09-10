@@ -36,7 +36,7 @@ class OZI(Default):
     """OZI distribution metadata."""
 
     version: str = field(
-        default='1.20',
+        default='1.21',
         metadata={'help': 'Currently installed version of the OZI package.'},
     )
     python_support: PythonSupport = PythonSupport()

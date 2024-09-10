@@ -17,21 +17,21 @@ class Publish(Default):
     """Publishing patterns for packaged project."""
 
     include: tuple[str, ...] = ('*.tar.gz', '*.whl', 'sig/*')
-    version: str = '0.1.11'
+    version: str = '1.0.0'
 
 
 @dataclass(slots=True, frozen=True, eq=True)
 class Draft(Default):
     """Draft release patterns for packaged project."""
 
-    version: str = '0.3.11'
+    version: str = '1.0.0'
 
 
 @dataclass(slots=True, frozen=True, eq=True)
 class Release(Default):
     """Release patterns for packaged project."""
 
-    version: str = '0.8.11'
+    version: str = '1.0.0'
 
 
 @dataclass(slots=True, frozen=True, eq=True)
@@ -39,7 +39,7 @@ class Checkpoint(Default):
     """Checkpoint suites to run."""
 
     suites: tuple[str, ...] = ('dist', 'lint', 'test')
-    version: str = '0.5.2'
+    version: str = '1.0.0'
 
 
 @dataclass(slots=True, frozen=True, eq=True)
@@ -81,6 +81,7 @@ class RuffLint(CheckpointSuite):
         'RUF009',
         'RUF012',
         'RUF015',
+        'RUF200',
         'SIM',
         'T201',
         'TCH002',
