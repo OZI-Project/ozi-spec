@@ -169,6 +169,9 @@ class ClassicDist(CheckpointSuite):
 
     .. versionchanged:: 0.6
         Added ``cibuildwheel`` and ``twine`` as plugins.
+
+    .. versionchanged:: 0.10
+        Moved ``cibuildwheel`` and ``twine`` to utility.
     """
 
     module: tuple[str, ...] = ('python-semantic-release', 'sigstore')
@@ -176,13 +179,12 @@ class ClassicDist(CheckpointSuite):
         default_factory=lambda: {
             'python-semantic-release': 'python-semantic-release',
             'sigstore': 'sigstore',
-        },
-    )
-    plugin: Mapping[str, str] = field(
-        default_factory=lambda: {
             'twine': 'twine',
             'cibuildwheel': 'cibuildwheel',
         },
+    )
+    plugin: Mapping[str, str] = field(
+        default_factory=lambda: {},
     )
 
 

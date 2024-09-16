@@ -139,8 +139,13 @@ class PkgInfo(Default):
 
 @dataclass(slots=True, frozen=True, eq=True)
 class License(Default):
-    """Licensing specification metadata."""
+    """Licensing specification metadata.
 
+    .. versionchanged:: 0.10
+       Add ``spdx_version`` key to track SPDX asset version.
+    """
+
+    spdx_version: str = '3.25.0'
     ambiguous: dict[str, Sequence[str]] = field(
         default_factory=lambda: SPDX_LICENSE_MAP,
     )
