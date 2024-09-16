@@ -1,9 +1,27 @@
 # ozi-spec CHANGELOG
+## 0.10.0 (2024-09-16)
+
 ## 0.9.5 (2024-09-10)
+
+## 0.9.4 (2024-09-06)
 
 
 ### Build
 
+
+* (deps): bump step-security/harden-runner from 2.9.1 to 2.10.1
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.9.1 to 2.10.1.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/5c7944e73c4c2a096b17a9cb74d65b6c2bbafbde...91182cccc01eb5e619899d80e4e971d6181294a7)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`892e9ea`](https://github.com/OZI-Project/ozi-spec/commit/892e9eab007fe6fbf486f0b52903348564045a4e))
 
 * (deps): bump OZI-Project/release from 0.8.11 to 1.0.0
 
@@ -60,28 +78,6 @@ updated-dependencies:
   update-type: version-update:semver-major
 ... — dependabot[bot] &lt;support@github.com&gt;
 ([`a0cb42b`](https://github.com/OZI-Project/ozi-spec/commit/a0cb42b98d6030e3966d132a487eb6527e19e620))
-
-
-### 🐛 Fixed Bugs
-
-* add RUF200 to tool.ruff.lint ignores — rjdbcm &lt;rjdbcm@outlook.com&gt;
-([`4a648e3`](https://github.com/OZI-Project/ozi-spec/commit/4a648e3c3660c9e0063bc85cca3d0aa608968d69))
-
-
-### Performance
-
-
-* perf: Python 3.13 support — rjdbcm &lt;rjdbcm@outlook.com&gt;
-([`efb9c24`](https://github.com/OZI-Project/ozi-spec/commit/efb9c2447a33e5346f91387399914327b748bc31))
-
-* perf: pin all github CI workflows to 1.0.0 — rjdbcm &lt;rjdbcm@outlook.com&gt;
-([`c66e60a`](https://github.com/OZI-Project/ozi-spec/commit/c66e60ae88c726b24bdddeb27f209a1a7c6d345f))
-
-## 0.9.4 (2024-09-06)
-
-
-### Build
-
 
 * (deps): bump OZI-Project/draft from 0.3.10 to 0.3.11
 
@@ -140,7 +136,17 @@ updated-dependencies:
 ([`abed060`](https://github.com/OZI-Project/ozi-spec/commit/abed060ff01055797baf5f50edaac0606aca2a0e))
 
 
+### Feature
+
+
+* feat: move cibuildwheel and twine to utility apps — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`e33e5ec`](https://github.com/OZI-Project/ozi-spec/commit/e33e5ecb0ceb9f08c513a0d83e225a5346f9778d))
+
+
 ### 🐛 Fixed Bugs
+
+* add RUF200 to tool.ruff.lint ignores — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`4a648e3`](https://github.com/OZI-Project/ozi-spec/commit/4a648e3c3660c9e0063bc85cca3d0aa608968d69))
 
 * draft@0.3.11 and release@0.8.11 — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
 ([`9d81f33`](https://github.com/OZI-Project/ozi-spec/commit/9d81f33f232997ffb914a05dd52a0f80ecdf2c24))
@@ -148,6 +154,12 @@ updated-dependencies:
 
 ### Performance
 
+
+* perf: Python 3.13 support — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`efb9c24`](https://github.com/OZI-Project/ozi-spec/commit/efb9c2447a33e5346f91387399914327b748bc31))
+
+* perf: pin all github CI workflows to 1.0.0 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`c66e60a`](https://github.com/OZI-Project/ozi-spec/commit/c66e60ae88c726b24bdddeb27f209a1a7c6d345f))
 
 * perf: OZI-Project/draft@0.3.10 — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
 ([`2638fe5`](https://github.com/OZI-Project/ozi-spec/commit/2638fe52f47bf60a12f23bfdc5e06d73fa05d537))
