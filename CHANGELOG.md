@@ -1,4 +1,150 @@
 # ozi-spec CHANGELOG
+## 0.10.1 (2024-09-27)
+
+
+### Build
+
+
+* (deps): bump OZI-Project/publish from 1.0.0 to 1.0.1
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.0.0 to 1.0.1.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/1.0.0...1.0.1)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`e5d05cf`](https://github.com/OZI-Project/ozi-spec/commit/e5d05cf7ba1d7cf66a25642ead9af3ea909960d5))
+
+* (deps): bump OZI-Project/release from 1.0.0 to 1.0.1
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.0.0 to 1.0.1.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/1.0.0...1.0.1)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`d3bdd18`](https://github.com/OZI-Project/ozi-spec/commit/d3bdd18d6fa6e7cf33bbdf8c3b09283faba7bcc4))
+
+* (deps): bump OZI-Project/draft from 1.0.0 to 1.0.1
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.0.0 to 1.0.1.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/1.0.0...1.0.1)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`27355f4`](https://github.com/OZI-Project/ozi-spec/commit/27355f4679ee0eaa2130971eb3b5d81bb4a06b48))
+
+* (deps): bump OZI-Project/checkpoint from 1.0.0 to 1.0.1
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.0.0 to 1.0.1.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/1.0.0...1.0.1)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`8c22a9d`](https://github.com/OZI-Project/ozi-spec/commit/8c22a9dceecf66602b7becef1c9fa703323f07be))
+
+
+### Performance
+
+
+* perf: pin all github CI workflows to 1.0.0 — Eden Ross Duff, MSc, DDiv &lt;rjdbcm@outlook.com&gt;
+([`76d32e5`](https://github.com/OZI-Project/ozi-spec/commit/76d32e5c401ccdd4b15f8ea603abd23aa78139b0))
+
+
+### Unknown
+
+
+* Release (#82)
+
+* build(deps): bump OZI-Project/publish from 1.0.0 to 1.0.1
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.0.0 to 1.0.1.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/1.0.0...1.0.1)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+
+* build(deps): bump OZI-Project/release from 1.0.0 to 1.0.1
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.0.0 to 1.0.1.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/1.0.0...1.0.1)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+
+* build(deps): bump OZI-Project/draft from 1.0.0 to 1.0.1
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.0.0 to 1.0.1.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/1.0.0...1.0.1)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+
+* build(deps): bump OZI-Project/checkpoint from 1.0.0 to 1.0.1
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.0.0 to 1.0.1.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/1.0.0...1.0.1)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+
+* perf: pin all github CI workflows to 1.0.1
+
+Signed-off-by: Eden Ross Duff, MSc, DDiv &lt;rjdbcm@outlook.com&gt;
+
+
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+Signed-off-by: Eden Ross Duff, MSc, DDiv &lt;rjdbcm@outlook.com&gt;
+Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;
+([`7bb2796`](https://github.com/OZI-Project/ozi-spec/commit/7bb27960bd0bfe22742114f0ed24df57d47f6980))
+
 ## 0.10.0 (2024-09-16)
 
 ## 0.9.5 (2024-09-10)
