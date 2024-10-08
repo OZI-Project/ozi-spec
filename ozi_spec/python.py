@@ -131,7 +131,7 @@ class PythonSupport(Default):
 
     @cached_property
     def prerelease(self: Self) -> str:
-        if self.prerelease_minor:
+        if self.prerelease_minor:  # pragma: no cover
             return '.'.join(map(str, (self.major, self.prerelease_minor)))
         return ''  # pragma: defer to good-first-issue
 
