@@ -1,4 +1,77 @@
 # ozi-spec CHANGELOG
+## 0.10.2 (2024-10-08)
+
+
+### Build
+
+
+* double the timeout for lint suite — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`6b084a7`](https://github.com/OZI-Project/ozi-spec/commit/6b084a7a9ad90748c09919478cbc09aa8470c698))
+
+* (deps): bump OZI-Project/publish from 1.0.1 to 1.1.0
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.0.1 to 1.1.0.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/1.0.1...1.1.0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`a2c8d4a`](https://github.com/OZI-Project/ozi-spec/commit/a2c8d4ac76bbb4145bc1c60e93482d3143e22227))
+
+* (deps): bump OZI-Project/draft from 1.0.1 to 1.1.0
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.0.1 to 1.1.0.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/1.0.1...1.1.0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`f9f3931`](https://github.com/OZI-Project/ozi-spec/commit/f9f3931265f547e9e97268e53652bcdc57a163be))
+
+* (deps): bump OZI-Project/release from 1.0.1 to 1.0.3
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.0.1 to 1.0.3.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/1.0.1...1.0.3)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`e40bb18`](https://github.com/OZI-Project/ozi-spec/commit/e40bb183eaac8ad091d70f4762ed09d40f2246c4))
+
+
+### 🐛 Fixed Bugs
+
+* skip flaky 3.13 checkpoint for now — Eden Ross Duff, MSc, DDiv &lt;rjdbcm@outlook.com&gt;
+([`30cae94`](https://github.com/OZI-Project/ozi-spec/commit/30cae94cdab98cb2d4f987ea11e4727898d81902))
+
+* add no cover — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`b16adcc`](https://github.com/OZI-Project/ozi-spec/commit/b16adccc9677ae59443208b220be491844da66a3))
+
+* set default loop scope for async tests — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`4263f39`](https://github.com/OZI-Project/ozi-spec/commit/4263f3947efaeef8de5deca63bab43be76e3e62a))
+
+
+### Performance
+
+
+* perf: deprecate Python 3.10 checkpoint — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`9704e07`](https://github.com/OZI-Project/ozi-spec/commit/9704e07b5f8ff0b55d1d83b276e5784969612c0f))
+
+* perf: release and draft v1.1 - semantic-release 9.9 — Eden Ross Duff, MSc, DDiv &lt;rjdbcm@outlook.com&gt;
+([`37bb25f`](https://github.com/OZI-Project/ozi-spec/commit/37bb25f95de43a4463cfd7e904a9a4b08091df96))
+
 ## 0.10.1 (2024-09-27)
 
 
