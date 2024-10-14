@@ -203,4 +203,4 @@ option(
     value: ['README.rst'],
     yield: false,
 )
-option('lint-timeout-multiplier', type: 'integer', value: 2)
+option('lint-timeout-multiplier', type: 'integer', value: 3)
