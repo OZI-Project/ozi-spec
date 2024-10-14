@@ -1,4 +1,13 @@
 # ozi-spec CHANGELOG
+## 0.10.5 (2024-10-14)
+
+
+### Fixes
+
+
+* fix: missing py.typed — rjdbcm <rjdbcm@outlook.com>
+([`d179e58`](https://github.com/OZI-Project/ozi-spec/commit/d179e58efb33c7755efb98ba80c3e74a71e5e8c3))
+
 ## 0.10.4 (2024-10-14)
 
 
