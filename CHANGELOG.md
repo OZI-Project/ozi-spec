@@ -1,4 +1,13 @@
 # ozi-spec CHANGELOG
+## 0.10.7 (2024-10-14)
+
+
+### Fixes
+
+
+* fix: bump OZI version to 1.23 — rjdbcm <rjdbcm@outlook.com>
+([`24b3055`](https://github.com/OZI-Project/ozi-spec/commit/24b3055b73f8af6d3dafdb84bb3b23a707e5023d))
+
 ## 0.10.6 (2024-10-14)
 
 
