@@ -21,6 +21,7 @@ config_files = [
     'python.pyi',
     'src.py',
     'src.pyi',
+    'py.typed',
 ]
 foreach file: config_files
     if not meson.is_subproject() or get_option('install-subprojects').enabled()
