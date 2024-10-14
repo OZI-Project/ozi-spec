@@ -1,4 +1,20 @@
 # ozi-spec CHANGELOG
+## 0.10.3 (2024-10-14)
+
+
+### Build
+
+
+* increase lint timeout — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`7b5de9e`](https://github.com/OZI-Project/ozi-spec/commit/7b5de9e4037b95ebb745283c1a7eb3a3f15c5c00))
+
+
+### Performance
+
+
+* perf: add typing stubfiles — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`2feefa5`](https://github.com/OZI-Project/ozi-spec/commit/2feefa55a57944b8360141ba6b2a7dd494ab3bd1))
+
 ## 0.10.2 (2024-10-08)
 
 
