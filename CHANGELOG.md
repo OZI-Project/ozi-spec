@@ -1,4 +1,13 @@
 # ozi-spec CHANGELOG
+## 0.10.6 (2024-10-14)
+
+
+### Fixes
+
+
+* fix: stubfile typo — rjdbcm <rjdbcm@outlook.com>
+([`f4d0952`](https://github.com/OZI-Project/ozi-spec/commit/f4d09523e062c448a26d2327ed661a87bbc41651))
+
 ## 0.10.5 (2024-10-14)
 
 
