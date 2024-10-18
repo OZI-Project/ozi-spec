@@ -1,8 +1,79 @@
 # ozi-spec CHANGELOG
+## 0.10.8 (2024-10-18)
+
+
+### Build system
+
+
+* build(deps): bump OZI-Project/draft from 1.3.0 to 1.4.0
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.3.0 to 1.4.0.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/1.3.0...1.4.0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`e4551a9`](https://github.com/OZI-Project/ozi-spec/commit/e4551a92f989d139a2afd0040ec5cb0610bc763f))
+
+* build(deps): bump OZI-Project/publish from 1.3.0 to 1.4.0
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.3.0 to 1.4.0.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/1.3.0...1.4.0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`f51b896`](https://github.com/OZI-Project/ozi-spec/commit/f51b8962216d9d6c9f9d186fc7d055e60cd044d6))
+
+* build(deps): bump OZI-Project/publish from 1.2.2 to 1.3.0
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.2.2 to 1.3.0.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/1.2.2...1.3.0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`b73d3dc`](https://github.com/OZI-Project/ozi-spec/commit/b73d3dc64ab7f1f9a9db3fbc33389e66ee9c83d0))
+
+* build(deps): bump OZI-Project/draft from 1.2.2 to 1.3.0
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.2.2 to 1.3.0.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/1.2.2...1.3.0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`2a2c76d`](https://github.com/OZI-Project/ozi-spec/commit/2a2c76ddec43e93ca5dbb22c66165a63c4872250))
+
+
+### Performance improvements
+
+
+* perf(semantic-release): update draft and publish to 1.4.0
+
+semantic-release 9.12 — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`8c86e97`](https://github.com/OZI-Project/ozi-spec/commit/8c86e97b44be1a4c7fd189562b099b5e7b856927))
+
 ## 0.10.7 (2024-10-14)
 
 
-### Fixes
+### Bug fixes
 
 
 * fix: bump OZI version to 1.23 — rjdbcm <rjdbcm@outlook.com>
@@ -11,7 +82,7 @@
 ## 0.10.6 (2024-10-14)
 
 
-### Fixes
+### Bug fixes
 
 
 * fix: stubfile typo — rjdbcm <rjdbcm@outlook.com>
@@ -20,7 +91,7 @@
 ## 0.10.5 (2024-10-14)
 
 
-### Fixes
+### Bug fixes
 
 
 * fix: missing py.typed — rjdbcm <rjdbcm@outlook.com>
@@ -114,6 +185,19 @@ updated-dependencies:
 ## 0.10.2 (2024-10-08)
 
 
+### Bug fixes
+
+
+* fix: skip flaky 3.13 checkpoint for now — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`30cae94`](https://github.com/OZI-Project/ozi-spec/commit/30cae94cdab98cb2d4f987ea11e4727898d81902))
+
+* fix: add no cover — rjdbcm <rjdbcm@outlook.com>
+([`b16adcc`](https://github.com/OZI-Project/ozi-spec/commit/b16adccc9677ae59443208b220be491844da66a3))
+
+* fix: set default loop scope for async tests — rjdbcm <rjdbcm@outlook.com>
+([`4263f39`](https://github.com/OZI-Project/ozi-spec/commit/4263f3947efaeef8de5deca63bab43be76e3e62a))
+
+
 ### Build system
 
 
@@ -161,19 +245,6 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ... — dependabot[bot] <support@github.com>
 ([`e40bb18`](https://github.com/OZI-Project/ozi-spec/commit/e40bb183eaac8ad091d70f4762ed09d40f2246c4))
-
-
-### Fixes
-
-
-* fix: skip flaky 3.13 checkpoint for now — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
-([`30cae94`](https://github.com/OZI-Project/ozi-spec/commit/30cae94cdab98cb2d4f987ea11e4727898d81902))
-
-* fix: add no cover — rjdbcm <rjdbcm@outlook.com>
-([`b16adcc`](https://github.com/OZI-Project/ozi-spec/commit/b16adccc9677ae59443208b220be491844da66a3))
-
-* fix: set default loop scope for async tests — rjdbcm <rjdbcm@outlook.com>
-([`4263f39`](https://github.com/OZI-Project/ozi-spec/commit/4263f3947efaeef8de5deca63bab43be76e3e62a))
 
 
 ### Performance improvements
@@ -338,6 +409,16 @@ Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.c
 ## 0.9.4 (2024-09-06)
 
 
+### Bug fixes
+
+
+* fix: add RUF200 to tool.ruff.lint ignores — rjdbcm <rjdbcm@outlook.com>
+([`4a648e3`](https://github.com/OZI-Project/ozi-spec/commit/4a648e3c3660c9e0063bc85cca3d0aa608968d69))
+
+* fix: draft@0.3.11 and release@0.8.11 — Eden Ross Duff, MSc <rjdbcm@outlook.com>
+([`9d81f33`](https://github.com/OZI-Project/ozi-spec/commit/9d81f33f232997ffb914a05dd52a0f80ecdf2c24))
+
+
 ### Build system
 
 
@@ -475,16 +556,6 @@ updated-dependencies:
 ([`e33e5ec`](https://github.com/OZI-Project/ozi-spec/commit/e33e5ecb0ceb9f08c513a0d83e225a5346f9778d))
 
 
-### Fixes
-
-
-* fix: add RUF200 to tool.ruff.lint ignores — rjdbcm <rjdbcm@outlook.com>
-([`4a648e3`](https://github.com/OZI-Project/ozi-spec/commit/4a648e3c3660c9e0063bc85cca3d0aa608968d69))
-
-* fix: draft@0.3.11 and release@0.8.11 — Eden Ross Duff, MSc <rjdbcm@outlook.com>
-([`9d81f33`](https://github.com/OZI-Project/ozi-spec/commit/9d81f33f232997ffb914a05dd52a0f80ecdf2c24))
-
-
 ### Performance improvements
 
 
@@ -510,14 +581,7 @@ updated-dependencies:
 ## 0.9.3 (2024-09-02)
 
 
-### Build system
-
-
-* build(deps): OZI.build~=1.5 — rjdbcm <rjdbcm@outlook.com>
-([`29f7da6`](https://github.com/OZI-Project/ozi-spec/commit/29f7da69efc5685e2ff22250f0fd0cf241b45c36))
-
-
-### Fixes
+### Bug fixes
 
 
 * fix: patch release trigger
@@ -525,10 +589,17 @@ updated-dependencies:
 Merge pull request #58 from OZI-Project/main
 ([`10e8ae0`](https://github.com/OZI-Project/ozi-spec/commit/10e8ae0bb90dd8bfad12a152d98a86c2dbc91ded))
 
+
+### Build system
+
+
+* build(deps): OZI.build~=1.5 — rjdbcm <rjdbcm@outlook.com>
+([`29f7da6`](https://github.com/OZI-Project/ozi-spec/commit/29f7da69efc5685e2ff22250f0fd0cf241b45c36))
+
 ## 0.9.2 (2024-08-30)
 
 
-### Fixes
+### Bug fixes
 
 
 * fix(pkg.py): remove requirements.in and add .gitignore — Eden Ross Duff, MSc <rjdbcm@outlook.com>
@@ -537,7 +608,7 @@ Merge pull request #58 from OZI-Project/main
 ## 0.9.1 (2024-08-28)
 
 
-### Fixes
+### Bug fixes
 
 
 * fix: correct key typo — rjdbcm <rjdbcm@outlook.com>
@@ -568,7 +639,7 @@ Merge pull request #58 from OZI-Project/main
 ## 0.8.1 (2024-08-23)
 
 
-### Fixes
+### Bug fixes
 
 
 * fix: pin spec to 0.8 and OZI to 1.19 — rjdbcm <rjdbcm@outlook.com>
@@ -653,7 +724,7 @@ also patches github workflows — rjdbcm <rjdbcm@outlook.com>
 ## 0.6.1 (2024-08-16)
 
 
-### Fixes
+### Bug fixes
 
 
 * fix: Merge pull request #41 from OZI-Project/0.6
@@ -799,6 +870,13 @@ updated-dependencies:
 ## 0.5.7 (2024-07-25)
 
 
+### Bug fixes
+
+
+* fix: OZI default version 1.17 — rjdbcm <rjdbcm@outlook.com>
+([`018880d`](https://github.com/OZI-Project/ozi-spec/commit/018880de8601b6930aef6a26d0e59f8a772700e6))
+
+
 ### Build system
 
 
@@ -830,17 +908,10 @@ updated-dependencies:
 ... — dependabot[bot] <support@github.com>
 ([`731cd8e`](https://github.com/OZI-Project/ozi-spec/commit/731cd8e0fba988578d0017af49140c179262afc2))
 
-
-### Fixes
-
-
-* fix: OZI default version 1.17 — rjdbcm <rjdbcm@outlook.com>
-([`018880d`](https://github.com/OZI-Project/ozi-spec/commit/018880de8601b6930aef6a26d0e59f8a772700e6))
-
 ## 0.5.6 (2024-07-22)
 
 
-### Fixes
+### Bug fixes
 
 
 * fix: correct ``templates/templates/*`` names to include ``.j2`` extension
@@ -849,7 +920,7 @@ updated-dependencies:
 ## 0.5.5 (2024-07-19)
 
 
-### Fixes
+### Bug fixes
 
 
 * fix: use sigstore-v3 actions in github CI — Eden Ross Duff, MSc <rjdbcm@outlook.com>
@@ -953,7 +1024,7 @@ Feature/sigstore v3
 ## 0.5.3 (2024-07-18)
 
 
-### Fixes
+### Bug fixes
 
 
 * fix: OZI.build>=0.0.27 — rjdbcm <rjdbcm@outlook.com>
@@ -980,7 +1051,7 @@ Feature/sigstore v3
 ## 0.5.1 (2024-07-11)
 
 
-### Fixes
+### Bug fixes
 
 
 * fix: update version — rjdbcm <rjdbcm@outlook.com>
@@ -1000,6 +1071,19 @@ Feature/sigstore v3
 ## 0.4.0 (2024-07-01)
 
 
+### Bug fixes
+
+
+* fix: update commit parser templates — rjdbcm <rjdbcm@outlook.com>
+([`4975a1c`](https://github.com/OZI-Project/ozi-spec/commit/4975a1cc3e3e10b38cae41e5584b92649505eb4e))
+
+* fix: individual file license/copyright header corrected to Unlicense
+([`74ff29c`](https://github.com/OZI-Project/ozi-spec/commit/74ff29cc0ea4e991cddffd1da6f553eb1fbb40a8))
+
+* fix: doc and download link metadata — Eden Ross Duff, MSc <rjdbcm@outlook.com>
+([`8c849f6`](https://github.com/OZI-Project/ozi-spec/commit/8c849f692a566ff65499712f38e3b10da86b1dc8))
+
+
 ### Continuous integration
 
 
@@ -1015,19 +1099,6 @@ Feature/sigstore v3
 
 * feat: tag OZI 1.14
 ([`b6cb028`](https://github.com/OZI-Project/ozi-spec/commit/b6cb0285901d95512e7545c06edd7f2c539c4125))
-
-
-### Fixes
-
-
-* fix: update commit parser templates — rjdbcm <rjdbcm@outlook.com>
-([`4975a1c`](https://github.com/OZI-Project/ozi-spec/commit/4975a1cc3e3e10b38cae41e5584b92649505eb4e))
-
-* fix: individual file license/copyright header corrected to Unlicense
-([`74ff29c`](https://github.com/OZI-Project/ozi-spec/commit/74ff29cc0ea4e991cddffd1da6f553eb1fbb40a8))
-
-* fix: doc and download link metadata — Eden Ross Duff, MSc <rjdbcm@outlook.com>
-([`8c849f6`](https://github.com/OZI-Project/ozi-spec/commit/8c849f692a566ff65499712f38e3b10da86b1dc8))
 
 
 ### Performance improvements
