@@ -1,4 +1,13 @@
 # ozi-spec CHANGELOG
+## 0.10.9 (2024-10-23)
+
+
+### Performance improvements
+
+
+* perf: refactor types and remove undocumented requirement on typing_extensions for Python < 3.11 — rjdbcm <rjdbcm@outlook.com>
+([`eb247d6`](https://github.com/OZI-Project/ozi-spec/commit/eb247d69a84b9c2911a7fc21bb685ffa8285b766))
+
 ## 0.10.8 (2024-10-18)
 
 
