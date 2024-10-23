@@ -13,7 +13,6 @@ from ozi_spec._license import SPDX_LICENSE_EXCEPTIONS
 from ozi_spec._license import SPDX_LICENSE_MAP
 from ozi_spec.base import Default
 
-
 @dataclass(slots=True, frozen=True, eq=True, repr=False)
 class PkgVersion(Default):
     """Versioning metadata.
