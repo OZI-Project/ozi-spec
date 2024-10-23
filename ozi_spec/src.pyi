@@ -11,7 +11,6 @@ from typing import Mapping
 
 from ozi_spec.base import Default
 
-
 @dataclass(slots=True, frozen=True, eq=True)
 class SrcFormat(Default):
     """Python source code formatting specification."""

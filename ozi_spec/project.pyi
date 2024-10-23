@@ -17,7 +17,6 @@ from ozi_spec.pkg import Pkg
 from ozi_spec.python import Support
 from ozi_spec.src import Src
 
-
 @dataclass(slots=True, frozen=True, eq=True, repr=False)
 class PythonProject(Default):
     """Base class for Python Project specification metadata."""

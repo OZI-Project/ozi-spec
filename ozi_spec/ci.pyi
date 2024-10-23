@@ -11,7 +11,6 @@ from dataclasses import field
 
 from ozi_spec.base import Default
 
-
 @dataclass(slots=True, frozen=True, eq=True)
 class Publish(Default):
     """Publishing patterns for packaged project."""

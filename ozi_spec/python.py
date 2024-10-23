@@ -14,27 +14,50 @@ from datetime import timedelta
 from datetime import timezone
 from functools import cached_property
 from typing import TYPE_CHECKING
+from typing import Protocol
 from typing import Sequence
 from warnings import warn
 
 from ozi_spec.base import Default
+from ozi_spec.base import _FactoryDataclass
 
 if TYPE_CHECKING:  # pragma: no cover
-    import sys
     from collections.abc import Mapping
-
-    if sys.version_info >= (3, 11):
-        from typing import Self
-    elif sys.version_info < (3, 11):
-        from typing_extensions import Self
 
 pymajor, pyminor, pypatch = map(int, platform.python_version_tuple())
 DATE_FORMAT = '%Y-%m-%d'
 DEPRECATION_DELTA_WEEKS = 104
 
 
+class _PythonSupport(_FactoryDataclass, Protocol):  # noqa: DC101
+    deprecation_schedule: dict[int, str]
+    major: str
+    current_date: str
+
+    @cached_property
+    def _minor_versions(self: _PythonSupport) -> list[int]: ...  # noqa: DC103
+    @property
+    def bugfix_minor(self: _PythonSupport) -> int: ...  # noqa: DC102
+    @property
+    def bugfix(self: _PythonSupport) -> str: ...  # noqa: DC102
+    @property
+    def security1_minor(self: _PythonSupport) -> int: ...  # noqa: DC102
+    @property
+    def security1(self: _PythonSupport) -> str: ...  # noqa: DC102
+    @property
+    def security2_minor(self: _PythonSupport) -> int: ...  # noqa: DC102
+    @property
+    def security2(self: _PythonSupport) -> str: ...  # noqa: DC102
+    @property
+    def prerelease_minor(self: _PythonSupport) -> int | None: ...  # noqa: DC102
+    @property
+    def prerelease(self: _PythonSupport) -> str: ...  # noqa: DC102
+    @property
+    def classifiers(self: _PythonSupport) -> Sequence[tuple[str, str]]: ...  # noqa: DC102
+
+
 @dataclass(frozen=True, slots=True, eq=True)
-class PythonSupport(Default):
+class PythonSupport(Default, _PythonSupport):
     """Python version support for the OZI toolchain."""
 
     deprecation_schedule: dict[int, str] = field(
@@ -54,7 +77,7 @@ class PythonSupport(Default):
         default_factory=lambda: datetime.now(tz=timezone.utc).date().strftime(DATE_FORMAT),
     )
 
-    def __post_init__(self: Self) -> None:
+    def __post_init__(self: _PythonSupport) -> None:
         """Warn the user if the python version is deprecated or pending deprecation.
 
         :raises: FutureWarning
@@ -84,7 +107,8 @@ class PythonSupport(Default):
             )
 
     @cached_property
-    def _minor_versions(self: Self) -> list[int]:
+    def _minor_versions(self: _PythonSupport) -> list[int]:
+        """List of currently supported Python minor version integers."""
         return sorted(
             [
                 k
@@ -97,46 +121,55 @@ class PythonSupport(Default):
             ],
         )[:4]
 
-    @cached_property
-    def bugfix_minor(self: Self) -> int:
+    @property
+    def bugfix_minor(self: _PythonSupport) -> int:
+        """Minor version integer for current bugfix Python release."""
         _, _, bugfix, *_ = self._minor_versions
         return bugfix
 
-    @cached_property
-    def bugfix(self: Self) -> str:
+    @property
+    def bugfix(self: _PythonSupport) -> str:
+        """Version string for current bugfix Python release."""
         return '.'.join(map(str, (self.major, self.bugfix_minor)))
 
-    @cached_property
-    def security1_minor(self: Self) -> int:
+    @property
+    def security1_minor(self: _PythonSupport) -> int:
+        """Minor version integer for the most current security Python release."""
         _, security1, *_ = self._minor_versions
         return security1
 
-    @cached_property
-    def security1(self: Self) -> str:
+    @property
+    def security1(self: _PythonSupport) -> str:
+        """Version string for the most current security Python release."""
         return '.'.join(map(str, (self.major, self.security1_minor)))
 
-    @cached_property
-    def security2_minor(self: Self) -> int:
+    @property
+    def security2_minor(self: _PythonSupport) -> int:
+        """Minor version integer for the second most current security Python release."""
         security2, *_ = self._minor_versions
         return security2
 
-    @cached_property
-    def security2(self: Self) -> str:
+    @property
+    def security2(self: _PythonSupport) -> str:
+        """Version string for the second most current security Python release."""
         return '.'.join(map(str, (self.major, self.security2_minor)))
 
-    @cached_property
-    def prerelease_minor(self: Self) -> int | None:
+    @property
+    def prerelease_minor(self: _PythonSupport) -> int | None:
+        """Minor version integer for current prerelease Python release."""
         _, _, _, *prerelease = self._minor_versions
         return prerelease[0] if prerelease else None
 
-    @cached_property
-    def prerelease(self: Self) -> str:
+    @property
+    def prerelease(self: _PythonSupport) -> str:
+        """Version string for current prerelease Python release."""
         if self.prerelease_minor:  # pragma: no cover
             return '.'.join(map(str, (self.major, self.prerelease_minor)))
         return ''  # pragma: defer to good-first-issue
 
-    @cached_property
-    def classifiers(self: Self) -> Sequence[tuple[str, str]]:  # pragma: no cover
+    @property
+    def classifiers(self: _PythonSupport) -> Sequence[tuple[str, str]]:  # pragma: no cover
+        """Version classifiers for all currently supported Python releases."""
         classifiers = [
             ('Classifier', f'Programming Language :: Python :: {self.major} :: Only'),
             (

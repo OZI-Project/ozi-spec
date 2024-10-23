@@ -12,7 +12,6 @@ from ozi_spec.project import ClassicProject
 from ozi_spec.project import PythonProject
 from ozi_spec.python import PythonSupport
 
-
 @dataclass(slots=True, frozen=True, eq=True)
 class Spec(Default):
     """OZI Specification metadata."""

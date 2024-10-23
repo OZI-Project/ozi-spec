@@ -20,37 +20,50 @@ from typing import TypeAlias
 from typing import TypeVar
 
 if TYPE_CHECKING:  # pragma: no cover
-    import sys
     from collections.abc import Callable
     from collections.abc import Mapping
 
-    VT = TypeVar('VT', str, int, float, None)
+    VT = TypeVar(
+        'VT',
+        str,
+        int,
+        float,
+        bytes,
+        None,
+    )
     _Val: TypeAlias = list['_Key[VT]'] | Mapping['_Key[VT]', VT] | VT
     _Key: TypeAlias = VT | _Val[VT]
     _Lambda: TypeAlias = Callable[[], '_FactoryMethod']
     _FactoryMethod: TypeAlias = Callable[[], _Lambda]
 
-    if sys.version_info >= (3, 11):
-        from typing import Self
-    elif sys.version_info < (3, 11):
-        from typing_extensions import Self
-
 
 class _FactoryDataclass(Protocol):
     """A dataclass that, when called, returns a factory method."""
 
-    __dataclass_fields__: ClassVar[dict[str, _Val[Any]]]
+    ...
+    __dataclass_fields__: ClassVar[dict[str, Field[Any]]]
 
-    def asdict(self: Self) -> dict[str, _Val[str]]: ...
+    def asdict(self: _FactoryDataclass) -> Mapping[str, _Val[str]]: ...  # noqa: DC102
 
-    def __call__(self: Self) -> _FactoryMethod: ...
+    def __call__(self: _FactoryDataclass) -> Field[_FactoryMethod]: ...  # noqa: DC104
+
+    def __iter__(  # noqa: DC104
+        self: _FactoryDataclass,
+    ) -> Iterator[tuple[str, _Val[VT]]]: ...
 
 
 @dataclass(frozen=True, repr=False)
 class Default(_FactoryDataclass):
     """A dataclass that, when called, returns it's own default factory field."""
 
-    def __call__(self: Self) -> _FactoryMethod:  # pragma: defer to python
+    def __call__(
+        self: _FactoryDataclass,
+    ) -> Field[_FactoryMethod]:  # pragma: defer to python
+        """Returns this dataclass as a Field.
+
+        :return: A Field initialized with a factory method.
+        :rtype: Field[_FactoryMethod]
+        """
         return Field(
             default=MISSING,
             default_factory=self,  # type: ignore
@@ -62,7 +75,12 @@ class Default(_FactoryDataclass):
             kw_only=MISSING,  # type: ignore
         )
 
-    def __iter__(self: Self) -> Iterator[tuple[str, _Val[Any]]]:
+    def __iter__(self: _FactoryDataclass) -> Iterator[tuple[str, _Val[VT]]]:
+        """Iterate through all fields.
+
+        :yield: Fields as a tuple of name and values
+        :rtype: Iterator[tuple[str, _Val[VT]]]
+        """
         for f in fields(self):  # pragma: no cover
             if f.repr:
                 yield (
@@ -74,7 +92,9 @@ class Default(_FactoryDataclass):
                     ),
                 )
 
-    def asdict(self: Self) -> dict[str, _Val[str]]:  # pragma: no cover
+    def asdict(
+        self: _FactoryDataclass,
+    ) -> Mapping[str, _Val[str]]:  # pragma: no cover
         """Return a dictionary of all fields where repr=True.
         Hide a variable from the dict by setting repr to False and using
         a Default subclass as the default_factory.
@@ -88,8 +108,10 @@ class Default(_FactoryDataclass):
             'help': str(self.__class__.__doc__).replace('\n   ', ''),
         }
 
-    def __repr__(self: Self) -> str:
+    def __repr__(self: _FactoryDataclass) -> str:
+        """Uses reprlib.repr with the default limits."""
         return reprlib.repr(self)
 
-    def __len__(self: Self) -> int:  # pragma: defer to python
+    def __len__(self: _FactoryDataclass) -> int:  # pragma: defer to python
+        """Get the total number of keys, including the class docstring."""
         return len(list(iter(asdict(self))))
