@@ -1,4 +1,15 @@
 # ozi-spec CHANGELOG
+## 0.11.1 (2024-10-25)
+
+
+### Bug fixes
+
+
+* fix: OZI-Project/checkpoint 1.1.1
+
+only build wheel if cibuildwheel passes — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`4cbd408`](https://github.com/OZI-Project/ozi-spec/commit/4cbd408afb280371f43b417bee6fafd864dac05c))
+
 ## 0.11.0 (2024-10-25)
 
 
