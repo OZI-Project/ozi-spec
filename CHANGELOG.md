@@ -1,4 +1,13 @@
 # ozi-spec CHANGELOG
+## 0.11.0 (2024-10-25)
+
+
+### Features
+
+
+* feat: OZI-Project/checkpoint 1.1.0 - build is checkpointed as well — rjdbcm <rjdbcm@outlook.com>
+([`4b69eee`](https://github.com/OZI-Project/ozi-spec/commit/4b69eee05015be1d11ccf8b3df6033685e82c9b6))
+
 ## 0.10.9 (2024-10-23)
 
 
