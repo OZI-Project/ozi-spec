@@ -1,4 +1,31 @@
 # ozi-spec CHANGELOG
+## 0.11.2 (2024-10-28)
+
+
+### Bug fixes
+
+
+* fix: update spec target version to 1.24 — rjdbcm <rjdbcm@outlook.com>
+([`e22297d`](https://github.com/OZI-Project/ozi-spec/commit/e22297d2441d173f1b3348ad4e5769f3d977b1f6))
+
+
+### Build system
+
+
+* build(deps): bump OZI-Project/checkpoint from 1.0.2 to 1.1.1
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.0.2 to 1.1.1.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/1.0.2...1.1.1)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`667f0b1`](https://github.com/OZI-Project/ozi-spec/commit/667f0b191e42db2e817628608cf1d2409d0e7b22))
+
 ## 0.11.1 (2024-10-25)
 
 
