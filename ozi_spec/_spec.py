@@ -18,7 +18,7 @@ class Spec(Default):
     """OZI Specification metadata."""
 
     version: str = field(
-        default='0.10',
+        default='0.11',
         metadata={'help': 'OZI specification standard version.'},
     )
     python: PythonProject = ClassicProject()
@@ -36,7 +36,7 @@ class OZI(Default):
     """OZI distribution metadata."""
 
     version: str = field(
-        default='1.23',
+        default='1.24',
         metadata={'help': 'Currently installed version of the OZI package.'},
     )
     python_support: PythonSupport = PythonSupport()
