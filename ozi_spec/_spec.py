@@ -26,7 +26,11 @@ def _current_version() -> str:
 
 def _ozi_version() -> str:
     """Returns the current OZI release branch."""
-    major, minor, *_, = _current_version().split('.')
+    (
+        major,
+        minor,
+        *_,
+    ) = _current_version().split('.')
     return str(float(f'{major}.{minor}') + 1.13)
 
 
