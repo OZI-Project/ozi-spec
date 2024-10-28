@@ -23,9 +23,9 @@ class PythonProject(Default):
 
     ci: CI = CI()
     support: Support = Support()
-    dist: CheckpointSuite = ClassicDist()
-    lint: CheckpointSuite = ClassicLint()
-    test: CheckpointSuite = ClassicTest()
+    dist: ClassicDist = ClassicDist()
+    lint: ClassicLint = ClassicLint()
+    test: ClassicTest = ClassicTest()
     build: Build = Build()
     pkg: Pkg = Pkg()
     src: Src = Src()
@@ -40,4 +40,39 @@ class ClassicProject(PythonProject):
 class RuffProject(PythonProject):
     """Alternative to classic project using ruff for linting and formatting."""
 
-    lint: RuffLint = RuffLint()
+    lint: ClassicLint = ClassicLint(
+        exclude=('meson-private',),
+        module=('ruff', 'mypy', 'pyright'),
+        plugin={},
+        utility={'ruff': 'ruff>=0.1.6', 'mypy': 'mypy', 'pyright': 'pyright'},
+        ignore=(
+            'A003',
+            'ARG',
+            'ANN401',
+            'TRY003',
+            'B028',
+            'B905',
+            'D1',
+            'D2',
+            'D101',
+            'D4',
+            'FLY',
+            'FBT',
+            'PGH003',
+            'PLR',
+            'RET',
+            'EM',
+            'PLW',
+            'PTH',
+            'RUF009',
+            'RUF012',
+            'RUF015',
+            'RUF200',
+            'SIM',
+            'T201',
+            'TCH002',
+            'TCH004',
+            'UP',
+            'PERF203',
+        ),
+    )
