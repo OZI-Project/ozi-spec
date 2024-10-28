@@ -33,7 +33,7 @@ def _ozi_version() -> str:
     ) = _current_version().split('.')
     if int(major) == 0:
         return f'{int(major) + 1}.{int(minor) + 13}'
-    return f'{int(major) + 1}.{int(minor)}'
+    return f'{int(major) + 1}.{int(minor)}'  # pragma: defer to 1.0
 
 
 @dataclass(slots=True, frozen=True, eq=True)
