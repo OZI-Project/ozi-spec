@@ -1,4 +1,16 @@
 # ozi-spec CHANGELOG
+## 0.11.3 (2024-10-28)
+
+
+### Bug fixes
+
+
+* fix: run black — rjdbcm <rjdbcm@outlook.com>
+([`e7cae93`](https://github.com/OZI-Project/ozi-spec/commit/e7cae93c4a7c52f03c5ca908ac465c444492e36c))
+
+* fix: remove hardcoded version string, OZI version now a set interval ahead of ozi-spec version — rjdbcm <rjdbcm@outlook.com>
+([`d304976`](https://github.com/OZI-Project/ozi-spec/commit/d304976a24c0df92c7f49aa4890a152abaccc7c7))
+
 ## 0.11.2 (2024-10-28)
 
 
