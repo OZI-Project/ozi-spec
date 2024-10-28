@@ -1,4 +1,19 @@
 # ozi-spec CHANGELOG
+## 0.11.4 (2024-10-28)
+
+
+### Bug fixes
+
+
+* fix: add coverage deferall — rjdbcm <rjdbcm@outlook.com>
+([`fc1ff36`](https://github.com/OZI-Project/ozi-spec/commit/fc1ff36e9e869290053255d1a4c187703ace939a))
+
+* fix: Liskov substition violation — rjdbcm <rjdbcm@outlook.com>
+([`03ee532`](https://github.com/OZI-Project/ozi-spec/commit/03ee532cb7646be7e17e95d29a0e60d8633e40ad))
+
+* fix: use int to calculate ozi version from spec — rjdbcm <rjdbcm@outlook.com>
+([`c48b18d`](https://github.com/OZI-Project/ozi-spec/commit/c48b18d6d33876a545d200f64a4c49164bebe9af))
+
 ## 0.11.3 (2024-10-28)
 
 
