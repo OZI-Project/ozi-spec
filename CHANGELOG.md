@@ -26,6 +26,13 @@ updated-dependencies:
 ... — dependabot[bot] <support@github.com>
 ([`f9c42b2`](https://github.com/OZI-Project/ozi-spec/commit/f9c42b2f9dc0e9e07bfde1d38fedc894ec9a1345))
 
+
+### Unknown
+
+
+* :lock: update publish workflow endpoints — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`acab398`](https://github.com/OZI-Project/ozi-spec/commit/acab398e8c6544a16c6bbffc813b966899364496))
+
 ## 0.11.4 (2024-10-28)
 
 
