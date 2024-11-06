@@ -1,4 +1,38 @@
 # ozi-spec CHANGELOG
+## 0.11.5 (2024-11-06)
+
+
+### Bug fixes
+
+
+* fix: pin OZI-Project/publish to 1.4.1 — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`8a01455`](https://github.com/OZI-Project/ozi-spec/commit/8a01455597abde3a4fa729504f36923b6d9998a4))
+
+
+### Build system
+
+
+* build(deps): bump OZI-Project/publish from 1.4.0 to 1.4.1
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.4.0 to 1.4.1.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/1.4.0...1.4.1)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`f9c42b2`](https://github.com/OZI-Project/ozi-spec/commit/f9c42b2f9dc0e9e07bfde1d38fedc894ec9a1345))
+
+
+### Unknown
+
+
+* :lock: update publish workflow endpoints — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`acab398`](https://github.com/OZI-Project/ozi-spec/commit/acab398e8c6544a16c6bbffc813b966899364496))
+
 ## 0.11.4 (2024-10-28)
 
 
