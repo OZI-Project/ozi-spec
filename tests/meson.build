@@ -10,7 +10,13 @@ foreach file: test_files
         python.install_sources(file, subdir: 'ozi_spec' / 'tests')
     endif
 endforeach
-test_children = []
+test_children = ['ozi.phony']
 foreach child: test_children
-    subdir(child)
+    if child != 'ozi.phony'
+        subdir(child)
+    endif
 endforeach
+if false
+    executable('test_files', test_files)
+    executable('test_children', test_children)
+endif
