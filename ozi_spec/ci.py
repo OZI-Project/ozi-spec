@@ -1,4 +1,4 @@
-# ozi/spec/ci.py
+# ozi_spec/ci.py
 # Part of the OZI Project.
 # See LICENSE.txt for license information.
 # SPDX-License-Identifier: Unlicense
@@ -10,36 +10,10 @@ from dataclasses import dataclass
 from dataclasses import field
 
 from ozi_spec.base import Default
-
-
-@dataclass(slots=True, frozen=True, eq=True)
-class Publish(Default):
-    """Publishing patterns for packaged project."""
-
-    include: tuple[str, ...] = ('*.tar.gz', '*.whl', 'sig/*')
-    version: str = '1.4.1'
-
-
-@dataclass(slots=True, frozen=True, eq=True)
-class Draft(Default):
-    """Draft release patterns for packaged project."""
-
-    version: str = '1.4.0'
-
-
-@dataclass(slots=True, frozen=True, eq=True)
-class Release(Default):
-    """Release patterns for packaged project."""
-
-    version: str = '1.0.4'
-
-
-@dataclass(slots=True, frozen=True, eq=True)
-class Checkpoint(Default):
-    """Checkpoint suites to run."""
-
-    suites: tuple[str, ...] = ('dist', 'lint', 'test')
-    version: str = '1.1.1'
+from ozi_spec.github_ci import Checkpoint
+from ozi_spec.github_ci import Draft
+from ozi_spec.github_ci import Publish
+from ozi_spec.github_ci import Release
 
 
 @dataclass(slots=True, frozen=True, eq=True)

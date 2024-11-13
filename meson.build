@@ -74,12 +74,7 @@ foreach child: root_children
 endforeach
 if false
     executable('root_files', root_files)
-    executable('source_files', source_files)
-    executable('ext_files', ext_files)
-    executable('test_files', test_files)
     executable('root_children', root_children)
-    executable('source_children', source_children)
-    executable('test_children', test_children)
 endif
 if not meson.is_subproject()
     dev = subproject('ozi')
@@ -89,4 +84,8 @@ if not meson.is_subproject()
     endforeach
     meson.add_dist_script(dev.get_variable('pip'), 'install', 'tomli>=2.0.0')
     meson.add_dist_script(python, '-c', dev.get_variable('meson_dist_setuptools_scm'))
+    deps = run_command(python, '-c', dev.get_variable('install_dependencies'), check: true).stdout().strip().split('$$')
+    if deps[0] != ''
+        meson.add_postconf_script(dev.get_variable('pip'), 'install', deps)
+    endif
 endif
