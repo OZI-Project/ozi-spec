@@ -34,7 +34,10 @@ class Release(Default):
 
 @dataclass(slots=True, frozen=True, eq=True)
 class GenerateProvenance(Default):
-    """SLSA provenance generator metadata."""
+    """SLSA provenance generator metadata.
+
+    .. versionadded:: 0.11.7
+    """
 
     version: str = '@github_slsa_version@'
 
