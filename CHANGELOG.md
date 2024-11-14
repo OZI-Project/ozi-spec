@@ -1,4 +1,13 @@
 # ozi-spec CHANGELOG
+## 0.11.7 (2024-11-14)
+
+
+### Performance improvements
+
+
+* perf: add provenance key to ci — rjdbcm <rjdbcm@outlook.com>
+([`a669e0e`](https://github.com/OZI-Project/ozi-spec/commit/a669e0edb36bce5229d445c537abbfef64eceed1))
+
 ## 0.11.6 (2024-11-14)
 
 
