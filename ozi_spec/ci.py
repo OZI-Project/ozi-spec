@@ -12,6 +12,7 @@ from dataclasses import field
 from ozi_spec.base import Default
 from ozi_spec.github_ci import Checkpoint
 from ozi_spec.github_ci import Draft
+from ozi_spec.github_ci import GenerateProvenance
 from ozi_spec.github_ci import Publish
 from ozi_spec.github_ci import Release
 
@@ -195,4 +196,5 @@ class CI(Default):
     draft: Draft = Draft()
     release: Release = Release()
     publish: Publish = Publish()
+    provenance: GenerateProvenance = GenerateProvenance()
     providers: tuple[str, ...] = ('github',)
