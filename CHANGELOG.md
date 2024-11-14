@@ -1,4 +1,54 @@
 # ozi-spec CHANGELOG
+## 0.11.7 (2024-11-14)
+
+
+### Performance improvements
+
+
+* perf: add provenance key to ci — rjdbcm <rjdbcm@outlook.com>
+([`a669e0e`](https://github.com/OZI-Project/ozi-spec/commit/a669e0edb36bce5229d445c537abbfef64eceed1))
+
+## 0.11.6 (2024-11-14)
+
+
+### Build system
+
+
+* build(deps): bump OZI-Project/checkpoint from 1.1.1 to 1.2.1
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.1.1 to 1.2.1.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/1.1.1...1.2.1)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`876aeed`](https://github.com/OZI-Project/ozi-spec/commit/876aeed60bec1c28eaa162b9a2a7f327cf4b4d39))
+
+* build(deps): bump OZI-Project/draft from 1.4.0 to 1.4.1
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.4.0 to 1.4.1.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/1.4.0...1.4.1)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`f634155`](https://github.com/OZI-Project/ozi-spec/commit/f634155c25ee0d95e78fbb5103a1dd655aaff2cd))
+
+
+### Performance improvements
+
+
+* perf: always use the same workflow versions as build — rjdbcm <rjdbcm@outlook.com>
+([`8692e01`](https://github.com/OZI-Project/ozi-spec/commit/8692e018ea2933048b861a927e4ece248bb38562))
+
 ## 0.11.5 (2024-11-06)
 
 
