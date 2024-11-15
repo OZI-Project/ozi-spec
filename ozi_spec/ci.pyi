@@ -150,7 +150,7 @@ class ClassicDist(CheckpointSuite):
     module: tuple[str, ...] = ('python-semantic-release', 'sigstore')
     utility: Mapping[str, str] = field(
         default_factory=lambda: {
-            'python-semantic-release': 'python-semantic-release',
+            'python-semantic-release': 'python-semantic-release~=9.14.0',
             'sigstore': 'sigstore',
             'twine': 'twine',
             'cibuildwheel': 'cibuildwheel',
