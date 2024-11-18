@@ -12,6 +12,8 @@ foreach file : ['github_ci.py', 'github_ci.pyi']
             'github_publish_version': run_command(python, ['get_github_publish_version.py'], check: true).stdout().strip(),
             'github_release_version': run_command(python, ['get_github_release_version.py'], check: true).stdout().strip(),
             'github_slsa_version': run_command(python, ['get_github_slsa_version.py'], check: true).stdout().strip(),
+            'github_harden_runner_version': run_command(python, ['get_github_harden_runner_version.py'], check: true).stdout().strip(),
+        
         }),
         install: true,
         install_dir: python.get_install_dir() / 'ozi_spec',
