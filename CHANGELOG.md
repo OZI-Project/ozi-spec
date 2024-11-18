@@ -1,4 +1,27 @@
 # ozi-spec CHANGELOG
+## 0.12.1 (2024-11-18)
+
+
+### Bug fixes
+
+
+* fix: typing of default value getter — rjdbcm <rjdbcm@outlook.com>
+([`9b8ad40`](https://github.com/OZI-Project/ozi-spec/commit/9b8ad4041cb109205fe90ed70babdbbbdd640b0b))
+
+
+### Performance improvements
+
+
+* perf: add harden_runner version info to metadata — rjdbcm <rjdbcm@outlook.com>
+([`7d77b7d`](https://github.com/OZI-Project/ozi-spec/commit/7d77b7d6e432552c998502e20bfcdce368393527))
+
+
+### Unknown
+
+
+* run black — rjdbcm <rjdbcm@outlook.com>
+([`39a5288`](https://github.com/OZI-Project/ozi-spec/commit/39a5288545ed05acf49fa0abfd3d2e53e8b48123))
+
 ## 0.12.0 (2024-11-15)
 
 
