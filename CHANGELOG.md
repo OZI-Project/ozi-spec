@@ -1,4 +1,80 @@
 # ozi-spec CHANGELOG
+## 0.12.0 (2024-11-15)
+
+
+### Bug fixes
+
+
+* fix: comment out nested dependencies incompatible with dependabot — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`1436e82`](https://github.com/OZI-Project/ozi-spec/commit/1436e82fdbb93dc6fb0bf7d91f13bdb56fcd7d9e))
+
+
+### Build system
+
+
+* build(deps): bump OZI-Project/draft from 1.4.1 to 1.5.0
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.4.1 to 1.5.0.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/1.4.1...1.5.0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`742bccf`](https://github.com/OZI-Project/ozi-spec/commit/742bccf26a4f66651e33a0360167d4b7e1bcb3e8))
+
+* build(deps): bump OZI-Project/release from 1.0.4 to 1.0.5
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.0.4 to 1.0.5.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/1.0.4...1.0.5)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`9367667`](https://github.com/OZI-Project/ozi-spec/commit/9367667155f16a91996053c52865d17f471e7a16))
+
+* build(deps): bump OZI-Project/publish from 1.4.1 to 1.5.0
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.4.1 to 1.5.0.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/1.4.1...1.5.0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`b28f25f`](https://github.com/OZI-Project/ozi-spec/commit/b28f25f1daa8f7d3f850107a08a6f00170a3baf7))
+
+
+### Features
+
+
+* feat: python-semantic-release~=9.14.0 — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`533aa27`](https://github.com/OZI-Project/ozi-spec/commit/533aa27a9db840b70b7b63e0c6974eba8a91c2c0))
+
+
+### Performance improvements
+
+
+* perf: OZI 1.24  — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`9cd3fc8`](https://github.com/OZI-Project/ozi-spec/commit/9cd3fc86c6837bcbf1f8435fcca1f31004e06d89))
+
+
+### Unknown
+
+
+* Update dependabot.yml — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`1afb475`](https://github.com/OZI-Project/ozi-spec/commit/1afb4750d118b99ae0991a0e33ddcc82d5d27841))
+
 ## 0.11.7 (2024-11-14)
 
 
