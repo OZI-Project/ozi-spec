@@ -53,4 +53,5 @@ class Checkpoint(Default):
 @dataclass(slots=True, frozen=True, eq=True)
 class HardenRunner(Default):
     """Github Step-Security harden runner."""
+
     version: str = '@github_harden_runner_version@'
