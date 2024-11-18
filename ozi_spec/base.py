@@ -52,6 +52,23 @@ class _FactoryDataclass(Protocol):
     ) -> Iterator[tuple[str, _Val[VT]]]: ...
 
 
+def get_default(obj: _FactoryDataclass, name: str) -> _Val[VT]:
+    """Get a field from a Default by name.
+
+    :param obj: a target object
+    :type obj: _FactoryDataclass
+    :param name: an attribute name
+    :type name: str
+    :return: attribute value
+    :rtype: _Val[VT]
+    """
+    default = getattr(obj, name)
+    if not isinstance(default, Default):
+        return default
+    else:
+        return default.asdict()
+
+
 @dataclass(frozen=True, repr=False)
 class Default(_FactoryDataclass):
     """A dataclass that, when called, returns it's own default factory field."""
@@ -83,14 +100,7 @@ class Default(_FactoryDataclass):
         """
         for f in fields(self):  # pragma: no cover
             if f.repr:
-                yield (
-                    f.name,
-                    (
-                        getattr(self, f.name)
-                        if not isinstance(getattr(self, f.name), Default)
-                        else getattr(self, f.name).asdict()
-                    ),
-                )
+                yield (f.name, get_default(self, f.name))
 
     def asdict(
         self: _FactoryDataclass,

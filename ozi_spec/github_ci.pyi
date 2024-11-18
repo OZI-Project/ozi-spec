@@ -50,3 +50,8 @@ class Checkpoint(Default):
     suites: tuple[str, ...] = ('dist', 'lint', 'test')
     version: str = '@github_checkpoint_version@'
 
+
+@dataclass(slots=True, frozen=True, eq=True)
+class HardenRunner(Default):
+    """Github Step-Security harden runner."""
+    version: str = '@github_harden_runner_version@'
