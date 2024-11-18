@@ -31,6 +31,17 @@ class _FactoryDataclass(Protocol):
     def __call__(self) -> Field[_FactoryMethod]: ...
     def __iter__(self: _FactoryDataclass) -> Iterator[tuple[str, _Val[VT]]]: ...
 
+def get_default(obj: _FactoryDataclass, name: str) -> _Val[VT] | Mapping[str, _Val[str]]:
+    """Get a field from a Default by name.
+
+    :param obj: a target object
+    :type obj: _FactoryDataclass
+    :param name: an attribute name
+    :type name: str
+    :return: attribute value
+    :rtype: _Val[VT] | Mapping[str, _Val[str]]
+    """
+
 @dataclass(frozen=True, repr=False)
 class Default(_FactoryDataclass):
     """A dataclass that, when called, returns it's own default factory field."""

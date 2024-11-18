@@ -52,7 +52,7 @@ class _FactoryDataclass(Protocol):
     ) -> Iterator[tuple[str, _Val[VT]]]: ...
 
 
-def get_default(obj: _FactoryDataclass, name: str) -> _Val[VT]:
+def get_default(obj: _FactoryDataclass, name: str) -> _Val[VT] | Mapping[str, _Val[str]]:
     """Get a field from a Default by name.
 
     :param obj: a target object
@@ -60,7 +60,7 @@ def get_default(obj: _FactoryDataclass, name: str) -> _Val[VT]:
     :param name: an attribute name
     :type name: str
     :return: attribute value
-    :rtype: _Val[VT]
+    :rtype: _Val[VT] | Mapping[str, _Val[str]]
     """
     default = getattr(obj, name)
     if not isinstance(default, Default):
