@@ -252,6 +252,20 @@ prerelease_token = "alpha"
 prerelease = false
 
 [tool.semantic_release.commit_parser_options]
+allowed_tags = [
+    "build",
+    "chore",
+    "ci",
+    "docs",
+    "feat",
+    "fix",
+    "perf",
+    "style",
+    "refactor",
+    "test",
+]
+minor_tags = ["feat"]
+patch_tags = ["fix", "perf", "build"]
 
 [tool.semantic_release.changelog]
 changelog_file = "CHANGELOG.md"
