@@ -1,4 +1,27 @@
 # ozi-spec CHANGELOG
+## 0.12.2 (2024-11-20)
+
+
+### Build system
+
+
+* build: allow build patch tag — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`a943072`](https://github.com/OZI-Project/ozi-spec/commit/a943072e3f09f6616dc1c59f10c5128301ce69ba))
+
+* build(deps): bump step-security/harden-runner from 2.10.1 to 2.10.2
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.10.1 to 2.10.2.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/91182cccc01eb5e619899d80e4e971d6181294a7...0080882f6c36860b6ba35c610c98ce87d4e2f26f)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`48d7243`](https://github.com/OZI-Project/ozi-spec/commit/48d72433f714df7f910541d3bbec4af7047336d1))
+
 ## 0.12.1 (2024-11-18)
 
 
