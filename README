@@ -1,6 +1,6 @@
 
 .. OZI
-  Classifier: License-Expression :: Unlicense
+  Classifier: License-Expression :: MIT-0
   Classifier: License-File :: LICENSE.txt
 
 ..
@@ -11,7 +11,7 @@
 ozi-spec
 ========
 
-This is free and unencumbered software released into the public domain.
+This is free and unencumbered software released with minimal copyright restrictions.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
 distribute this software, either in source code form or as a compiled
