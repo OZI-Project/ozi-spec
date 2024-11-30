@@ -1,4 +1,19 @@
 # ozi-spec CHANGELOG
+## 0.12.3 (2024-11-28)
+
+
+### Build system
+
+
+* build(ozi.wrap): OZI 1.25 subproject — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`aad551a`](https://github.com/OZI-Project/ozi-spec/commit/aad551abbb8a05e278bfdcfdf65565ba8865d9b5))
+
+* build: update license metadata — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`f11aa58`](https://github.com/OZI-Project/ozi-spec/commit/f11aa589d80700fed2389d6dc26a610126d16fa3))
+
+* build: update license to MIT-0 — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`4c1c8c1`](https://github.com/OZI-Project/ozi-spec/commit/4c1c8c14450c5e01fd8ae982011cd3155df10cb0))
+
 ## 0.12.2 (2024-11-20)
 
 
