@@ -1,4 +1,20 @@
 # ozi-spec CHANGELOG
+## 0.13.0 (2024-11-30)
+
+
+### Features
+
+
+* feat: bump to workaround CI issues — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`e8862ca`](https://github.com/OZI-Project/ozi-spec/commit/e8862ca24287b23d3e8dcac191d7c71ed42f7488))
+
+
+### Unknown
+
+
+* Update ozi.wrap — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`8729fc2`](https://github.com/OZI-Project/ozi-spec/commit/8729fc2567d65eebf324f557faccdc0f2a2c7257))
+
 ## 0.12.3 (2024-11-28)
 
 
