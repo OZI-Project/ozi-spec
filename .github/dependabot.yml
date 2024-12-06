@@ -14,7 +14,3 @@ updates:
     directory: /
     schedule:
       interval: daily
-    groups:
-      python-packages:
-       patterns:
-        - "*"
