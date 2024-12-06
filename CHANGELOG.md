@@ -1,4 +1,23 @@
 # ozi-spec CHANGELOG
+## 0.13.1 (2024-12-06)
+
+
+### Performance improvements
+
+
+* perf: OZI.build~=1.7.2 — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`c3658fc`](https://github.com/OZI-Project/ozi-spec/commit/c3658fc00802c7c3f964800fc66d99680ddf1767))
+
+
+### Unknown
+
+
+* Update pyproject.toml — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`c26965c`](https://github.com/OZI-Project/ozi-spec/commit/c26965c7db7452cce5c1f7d4446647704cdf2c88))
+
+* Update dependabot.yml — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`28b6486`](https://github.com/OZI-Project/ozi-spec/commit/28b64864809351d08e5273954c93feed80448e44))
+
 ## 0.13.0 (2024-11-30)
 
 
