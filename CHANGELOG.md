@@ -1,4 +1,30 @@
 # ozi-spec CHANGELOG
+## 0.14.1 (2024-12-10)
+
+
+### Build system
+
+
+* build(deps): update ozi-build[core,uv] requirement
+
+Updates the requirements on [ozi-build[core,uv]](https://github.com/OZI-Project/OZI.build) to permit the latest version.
+- [Release notes](https://github.com/OZI-Project/OZI.build/releases)
+- [Commits](https://github.com/OZI-Project/OZI.build/compare/1.7.2...1.8.0)
+
+
+updated-dependencies:
+- dependency-name: ozi-build[core,uv]
+  dependency-type: direct:production
+... — dependabot[bot] <support@github.com>
+([`2042c6b`](https://github.com/OZI-Project/ozi-spec/commit/2042c6bc4ae8ba754e82f4aa774da0a6fac9149e))
+
+
+### Performance improvements
+
+
+* perf: OZI.build~=1.8.0 in ``ci.py`` — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`2209653`](https://github.com/OZI-Project/ozi-spec/commit/2209653bd3d270064d4df072a739894112e2f54e))
+
 ## 0.14.0 (2024-12-09)
 
 
