@@ -223,6 +223,6 @@ jobs:
             fulcio.sigstore.dev:443
             rekor.sigstore.dev:443
 
-    - uses: OZI-Project/publish@1.6.0
+    - uses: OZI-Project/publish@1.6.1
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
