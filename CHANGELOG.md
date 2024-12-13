@@ -1,9 +1,27 @@
 # ozi-spec CHANGELOG
+## 0.14.2 (2024-12-13)
+
 ## 0.14.1 (2024-12-10)
+
+## 0.14.0 (2024-12-09)
 
 
 ### Build system
 
+
+* build(deps): bump OZI-Project/publish from 1.6.0 to 1.6.1
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.6.0 to 1.6.1.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/1.6.0...1.6.1)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`fb018b0`](https://github.com/OZI-Project/ozi-spec/commit/fb018b059bbaa30fcea75ed1c7367a4432696bb1))
 
 * build(deps): update ozi-build[core,uv] requirement
 
@@ -17,19 +35,6 @@ updated-dependencies:
   dependency-type: direct:production
 ... — dependabot[bot] <support@github.com>
 ([`2042c6b`](https://github.com/OZI-Project/ozi-spec/commit/2042c6bc4ae8ba754e82f4aa774da0a6fac9149e))
-
-
-### Performance improvements
-
-
-* perf: OZI.build~=1.8.0 in ``ci.py`` — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
-([`2209653`](https://github.com/OZI-Project/ozi-spec/commit/2209653bd3d270064d4df072a739894112e2f54e))
-
-## 0.14.0 (2024-12-09)
-
-
-### Build system
-
 
 * build(deps): bump OZI-Project/draft from 1.5.0 to 1.6.0
 
@@ -67,6 +72,13 @@ updated-dependencies:
 
 build(deps): bump OZI-Project/draft from 1.5.0 to 1.6.0
 ([`6a76fbe`](https://github.com/OZI-Project/ozi-spec/commit/6a76fbe97f9e207739f26163facd2cc2a8b8f7c4))
+
+
+### Performance improvements
+
+
+* perf: OZI.build~=1.8.0 in ``ci.py`` — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`2209653`](https://github.com/OZI-Project/ozi-spec/commit/2209653bd3d270064d4df072a739894112e2f54e))
 
 ## 0.13.1 (2024-12-06)
 
