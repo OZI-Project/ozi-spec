@@ -191,6 +191,7 @@ class CI(Default):
         default_factory=lambda: {
             'tox': 'tox~=4.18',
             'tox-gh': 'tox-gh~=1.3',
+            'pipx': 'pipx~=1.7',
         },
     )
     checkpoint: Checkpoint = Checkpoint()
