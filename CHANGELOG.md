@@ -5,6 +5,9 @@
 ### Bug fixes
 
 
+* fix: add ghcr endpoint
+([`1535c2d`](https://github.com/OZI-Project/ozi-spec/commit/1535c2d82614b77ae1011258eced46d882d6a706))
+
 * fix: run isort — rjdbcm <rjdbcm@outlook.com>
 ([`4b977ff`](https://github.com/OZI-Project/ozi-spec/commit/4b977ff0593d0b7cc59890bc116ee27cc5d6f7fd))
 
