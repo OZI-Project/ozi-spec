@@ -2,8 +2,29 @@
 ## 0.15.1 (2024-12-16)
 
 
+### Bug fixes
+
+
+* fix: add pkg-containers.githubusercontent.com:443 to publish endpoints — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`11c3ade`](https://github.com/OZI-Project/ozi-spec/commit/11c3adee3113d1d4b3a2f7b82735f1612cbeea51))
+
+
 ### Build system
 
+
+* build(deps): bump OZI-Project/release from 1.1.1 to 1.1.2
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.1.1 to 1.1.2.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/1.1.1...1.1.2)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`df32964`](https://github.com/OZI-Project/ozi-spec/commit/df329642de097c812d31854df7148dfdcaf83af0))
 
 * build(deps): bump OZI-Project/checkpoint from 1.3.0 to 1.4.0
 
