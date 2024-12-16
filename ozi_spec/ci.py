@@ -10,9 +10,10 @@ from dataclasses import dataclass
 from dataclasses import field
 
 from ozi_spec.base import Default
-from ozi_spec.github_ci import Checkpoint, GithubActionPyPI
+from ozi_spec.github_ci import Checkpoint
 from ozi_spec.github_ci import Draft
 from ozi_spec.github_ci import GenerateProvenance
+from ozi_spec.github_ci import GithubActionPyPI
 from ozi_spec.github_ci import HardenRunner
 from ozi_spec.github_ci import Publish
 from ozi_spec.github_ci import Release
