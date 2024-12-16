@@ -5,6 +5,34 @@
 ### Build system
 
 
+* build(deps): bump OZI-Project/checkpoint from 1.3.0 to 1.4.0
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.3.0 to 1.4.0.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/1.3.0...1.4.0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`29a4a69`](https://github.com/OZI-Project/ozi-spec/commit/29a4a6903e9a9596bddd81d0ffc469965a7118db))
+
+* build(deps): bump OZI-Project/release from 1.1.0 to 1.1.1
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.1.0 to 1.1.1.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/1.1.0...1.1.1)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`c556432`](https://github.com/OZI-Project/ozi-spec/commit/c5564329890fcad66700ac455a25232f54fe8ea2))
+
 * build(deps): bump OZI-Project/publish from 1.6.0 to 1.7.0
 
 Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.6.0 to 1.7.0.
@@ -46,6 +74,19 @@ updated-dependencies:
   update-type: version-update:semver-minor
 ... — dependabot[bot] <support@github.com>
 ([`8289373`](https://github.com/OZI-Project/ozi-spec/commit/828937334878c6f511c64f9c1ae49ccb497da5e6))
+
+
+### Unknown
+
+
+* Update ozi.yml — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`5cfe14e`](https://github.com/OZI-Project/ozi-spec/commit/5cfe14e5ce3fe7fc61ed0e6f0991b1ef53ebb91a))
+
+* Update dev.yml — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`5dceddf`](https://github.com/OZI-Project/ozi-spec/commit/5dceddf7b0628afcc36d200e4d542c342d749c38))
+
+* Update dev.yml — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`5813c88`](https://github.com/OZI-Project/ozi-spec/commit/5813c882a085145fe4422c2758c534779f8a28d1))
 
 ## 0.15.0 (2024-12-16)
 
