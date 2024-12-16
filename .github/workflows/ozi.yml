@@ -180,7 +180,7 @@ jobs:
             www.oziproject.dev:443
             objects.githubusercontent.com:443
 
-      - uses: OZI-Project/release@1.1.1
+      - uses: OZI-Project/release@1.1.2
         id: release
         with:
           python-dist: ${{ matrix.py }}
@@ -226,6 +226,7 @@ jobs:
             fulcio.sigstore.dev:443
             rekor.sigstore.dev:443
             ghcr.io:443
+            pkg-containers.githubusercontent.com:443
 
     - uses: OZI-Project/publish@1.7.0
       with:
