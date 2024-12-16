@@ -1,9 +1,85 @@
 # ozi-spec CHANGELOG
-## 0.14.1 (2024-12-10)
+## 0.15.0 (2024-12-16)
+
+
+### Bug fixes
+
+
+* fix: run isort — rjdbcm <rjdbcm@outlook.com>
+([`4b977ff`](https://github.com/OZI-Project/ozi-spec/commit/4b977ff0593d0b7cc59890bc116ee27cc5d6f7fd))
+
+* fix: script name typo — rjdbcm <rjdbcm@outlook.com>
+([`7883351`](https://github.com/OZI-Project/ozi-spec/commit/78833511e1632ebcfb665c6728db8bb93a9660af))
+
+* fix: add pypi-publish version getter script — rjdbcm <rjdbcm@outlook.com>
+([`61f15e9`](https://github.com/OZI-Project/ozi-spec/commit/61f15e92e7ed9c48ac9f1f4f5cadfbda05f1f1e8))
 
 
 ### Build system
 
+
+* build(deps): bump OZI-Project/checkpoint from 1.2.1 to 1.3.0
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.2.1 to 1.3.0.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/1.2.1...1.3.0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`10874dd`](https://github.com/OZI-Project/ozi-spec/commit/10874dd06387c8973c66ad23d62024b14a60afb8))
+
+
+### Features
+
+
+* feat: add checkpoint workflows and separate gh-action-pypi-publish metadata — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`091ac8b`](https://github.com/OZI-Project/ozi-spec/commit/091ac8bbbb3db3594b635606ca513bfd742e3623))
+
+
+### Performance improvements
+
+
+* perf: add pipx to ci backend requirements — rjdbcm <rjdbcm@outlook.com>
+([`caa7aae`](https://github.com/OZI-Project/ozi-spec/commit/caa7aaebd49271cf73065e2c72a574a6beb17721))
+
+* perf: add gh_action_pypi_publish key to ci for compatibility with gh-action-pypi-publish>1.12.x — rjdbcm <rjdbcm@outlook.com>
+([`bba2664`](https://github.com/OZI-Project/ozi-spec/commit/bba26646fdf06121526b6eac56be1504bf8596f3))
+
+
+### Unknown
+
+
+* Create dev.yml — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`6b2edf8`](https://github.com/OZI-Project/ozi-spec/commit/6b2edf865428bfad3c4649083de523ec70c255e9))
+
+* Update ozi.yml — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`68ef656`](https://github.com/OZI-Project/ozi-spec/commit/68ef656681b831acf48c63bfead95ad173458417))
+
+## 0.14.1 (2024-12-10)
+
+## 0.14.0 (2024-12-09)
+
+
+### Build system
+
+
+* build(deps): bump OZI-Project/publish from 1.6.0 to 1.6.1
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.6.0 to 1.6.1.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/1.6.0...1.6.1)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`fb018b0`](https://github.com/OZI-Project/ozi-spec/commit/fb018b059bbaa30fcea75ed1c7367a4432696bb1))
 
 * build(deps): update ozi-build[core,uv] requirement
 
@@ -17,19 +93,6 @@ updated-dependencies:
   dependency-type: direct:production
 ... — dependabot[bot] <support@github.com>
 ([`2042c6b`](https://github.com/OZI-Project/ozi-spec/commit/2042c6bc4ae8ba754e82f4aa774da0a6fac9149e))
-
-
-### Performance improvements
-
-
-* perf: OZI.build~=1.8.0 in ``ci.py`` — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
-([`2209653`](https://github.com/OZI-Project/ozi-spec/commit/2209653bd3d270064d4df072a739894112e2f54e))
-
-## 0.14.0 (2024-12-09)
-
-
-### Build system
-
 
 * build(deps): bump OZI-Project/draft from 1.5.0 to 1.6.0
 
@@ -67,6 +130,13 @@ updated-dependencies:
 
 build(deps): bump OZI-Project/draft from 1.5.0 to 1.6.0
 ([`6a76fbe`](https://github.com/OZI-Project/ozi-spec/commit/6a76fbe97f9e207739f26163facd2cc2a8b8f7c4))
+
+
+### Performance improvements
+
+
+* perf: OZI.build~=1.8.0 in ``ci.py`` — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`2209653`](https://github.com/OZI-Project/ozi-spec/commit/2209653bd3d270064d4df072a739894112e2f54e))
 
 ## 0.13.1 (2024-12-06)
 
