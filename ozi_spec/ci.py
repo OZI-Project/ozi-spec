@@ -10,7 +10,7 @@ from dataclasses import dataclass
 from dataclasses import field
 
 from ozi_spec.base import Default
-from ozi_spec.github_ci import Checkpoint
+from ozi_spec.github_ci import Checkpoint, GithubActionPyPI
 from ozi_spec.github_ci import Draft
 from ozi_spec.github_ci import GenerateProvenance
 from ozi_spec.github_ci import HardenRunner
@@ -199,4 +199,5 @@ class CI(Default):
     publish: Publish = Publish()
     provenance: GenerateProvenance = GenerateProvenance()
     harden_runner: HardenRunner = HardenRunner()
+    gh_action_pypi_publish: GithubActionPyPI = GithubActionPyPI()
     providers: tuple[str, ...] = ('github',)

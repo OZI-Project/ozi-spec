@@ -55,3 +55,9 @@ class Checkpoint(Default):
 class HardenRunner(Default):
     """Github Step-Security harden runner."""
     version: str = '@github_harden_runner_version@'
+
+
+@dataclass(slots=True, frozen=True, eq=True)
+class GithubActionPyPI(Default):
+    """pypa/gh-action-pypi-publish"""
+    version: str = '@github_action_pypi_publish_version@'
