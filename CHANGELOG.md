@@ -5,6 +5,20 @@
 ### Build system
 
 
+* build(deps): bump OZI-Project/draft from 1.6.2 to 1.6.3
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.6.2 to 1.6.3.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/1.6.2...1.6.3)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`cb2fc76`](https://github.com/OZI-Project/ozi-spec/commit/cb2fc76fef586a5dc91b4f9d1008f11e27469e7f))
+
 * build(deps): bump OZI-Project/draft from 1.6.1 to 1.6.2
 
 Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.6.1 to 1.6.2.
