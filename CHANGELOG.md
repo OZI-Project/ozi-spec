@@ -1,4 +1,24 @@
 # ozi-spec CHANGELOG
+## 0.15.3 (2024-12-17)
+
+
+### Build system
+
+
+* build(deps): bump OZI-Project/draft from 1.6.1 to 1.6.2
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.6.1 to 1.6.2.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/1.6.1...1.6.2)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`fc9cd28`](https://github.com/OZI-Project/ozi-spec/commit/fc9cd28818f69b72f28bd0967b7c7f2cd9207c04))
+
 ## 0.15.2 (2024-12-16)
 
 
