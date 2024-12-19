@@ -1,4 +1,48 @@
 # ozi-spec CHANGELOG
+## 0.15.4 (2024-12-19)
+
+
+### Build system
+
+
+* build(deps): bump OZI-Project/publish from 1.7.1 to 1.7.2
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.7.1 to 1.7.2.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/1.7.1...1.7.2)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`1437e97`](https://github.com/OZI-Project/ozi-spec/commit/1437e972501680c7e807239041104bd0662978c3))
+
+* build(deps): bump OZI-Project/draft from 1.6.3 to 1.7.0
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.6.3 to 1.7.0.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/1.6.3...1.7.0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`753312c`](https://github.com/OZI-Project/ozi-spec/commit/753312c33ce4d56eafd2683535e6d0114e84ee40))
+
+
+### Unknown
+
+
+* Officially support Python 3.13 — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`6e64153`](https://github.com/OZI-Project/ozi-spec/commit/6e64153d0171cbfcf08308a403632c33e2ee45e2))
+
+* Create purge-artifacts.yml — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`561c762`](https://github.com/OZI-Project/ozi-spec/commit/561c7622066dc153861317f0e30dd883411818e9))
+
 ## 0.15.3 (2024-12-17)
 
 
