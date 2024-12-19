@@ -1,4 +1,13 @@
 # ozi-spec CHANGELOG
+## 0.16.0 (2024-12-19)
+
+
+### Features
+
+
+* feat: move provider specific CI config into its own key — rjdbcm <rjdbcm@outlook.com>
+([`37cb363`](https://github.com/OZI-Project/ozi-spec/commit/37cb363010a169e687522b34484ddf3bba8a8fc2))
+
 ## 0.15.4 (2024-12-19)
 
 
