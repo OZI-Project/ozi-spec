@@ -51,10 +51,23 @@ class Checkpoint(Default):
 
 
 @dataclass(slots=True, frozen=True, eq=True)
+class HardenRunnerEndpoints(Default):
+    """Endpoints used in the GitHub CI workflow."""
+
+    # fmt: off
+    checkpoint: str = '@github_checkpoint_endpoints@'  # noqa: B950
+    draft: str = '@github_draft_endpoints@'  # noqa: B950
+    release: str = '@github_release_endpoints@'  # noqa: B950
+    publish: str = '@github_publish_endpoints@'  # noqa: B950
+    # fmt: on
+
+
+@dataclass(slots=True, frozen=True, eq=True)
 class HardenRunner(Default):
     """Github Step-Security harden runner."""
 
     version: str = '@github_harden_runner_version@'
+    endpoints: HardenRunnerEndpoints = HardenRunnerEndpoints()
 
 
 @dataclass(slots=True, frozen=True, eq=True)
@@ -62,3 +75,12 @@ class GithubActionPyPI(Default):
     """pypa/gh-action-pypi-publish"""
 
     version: str = '@github_action_pypi_publish_version@'
+
+
+@dataclass(slots=True, frozen=True, eq=True)
+class GithubMetadata(Default):
+    """Github specific CI metadata"""
+
+    harden_runner: HardenRunner = HardenRunner()
+    gh_action_pypi_publish: GithubActionPyPI = GithubActionPyPI()
+    provenance: GenerateProvenance = GenerateProvenance()
