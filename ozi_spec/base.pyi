@@ -16,9 +16,7 @@ from typing import TypeVar
 
 """Base dataclasses for OZI Metadata."""
 if TYPE_CHECKING:
-    VT = TypeVar(
-        'VT', str, int, float, bytes, None, tuple[str, ...]
-    )
+    VT = TypeVar('VT', str, int, float, bytes, None, tuple[str, ...])
     _Val: TypeAlias = list['_Key[VT]'] | Mapping['_Key[VT]', VT] | VT
     _Key: TypeAlias = VT | _Val[VT]
     _Lambda: TypeAlias = Callable[[], '_FactoryMethod']
@@ -26,6 +24,7 @@ if TYPE_CHECKING:
 
 class _FactoryDataclass(Protocol):
     """A dataclass that, when called, returns a factory method."""
+
     __dataclass_fields__: ClassVar[dict[str, Field[Any]]]
     def asdict(self) -> Mapping[str, _Val[str]]: ...
     def __call__(self) -> Field[_FactoryMethod]: ...
@@ -45,6 +44,7 @@ def get_default(obj: _FactoryDataclass, name: str) -> _Val[VT] | Mapping[str, _V
 @dataclass(frozen=True, repr=False)
 class Default(_FactoryDataclass):
     """A dataclass that, when called, returns it's own default factory field."""
+
     def __call__(self) -> Field[_FactoryMethod]:
         """Returns this dataclass as a Field.
 
@@ -52,6 +52,7 @@ class Default(_FactoryDataclass):
         :rtype: Field[_FactoryMethod]
         """
         ...
+
     def __iter__(self) -> Iterator[tuple[str, _Val[VT]]]:
         """Iterate through all fields.
 
@@ -59,6 +60,7 @@ class Default(_FactoryDataclass):
         :rtype: Iterator[tuple[str, _Val[VT]]]
         """
         ...
+
     def asdict(self) -> Mapping[str, _Val[str]]:
         """Return a dictionary of all fields where repr=True.
         Hide a variable from the dict by setting repr to False and using
@@ -70,9 +72,11 @@ class Default(_FactoryDataclass):
            :std:ref:`jinja2:global-namespace`
         """
         ...
+
     def __repr__(self) -> str:
         """Uses reprlib.repr with the default limits."""
         ...
+
     def __len__(self) -> int:
         """Get the total number of keys, including the class docstring."""
         ...

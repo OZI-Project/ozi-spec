@@ -12,9 +12,7 @@ from dataclasses import field
 from ozi_spec.base import Default
 from ozi_spec.github_ci import Checkpoint
 from ozi_spec.github_ci import Draft
-from ozi_spec.github_ci import GenerateProvenance
-from ozi_spec.github_ci import GithubActionPyPI
-from ozi_spec.github_ci import HardenRunner
+from ozi_spec.github_ci import GithubMetadata
 from ozi_spec.github_ci import Publish
 from ozi_spec.github_ci import Release
 
@@ -186,7 +184,12 @@ class Build(Default):
 
 @dataclass(slots=True, frozen=True, eq=True)
 class CI(Default):
-    """Provider-agnostic CI information."""
+    """Provider-agnostic CI information.
+
+    .. versionchanged:: 0.16
+       Moved provenance, gh_action_pypi_publish, and harden_runner to ``github``.
+
+    """
 
     backend: Mapping[str, str] = field(
         default_factory=lambda: {
@@ -199,7 +202,5 @@ class CI(Default):
     draft: Draft = Draft()
     release: Release = Release()
     publish: Publish = Publish()
-    provenance: GenerateProvenance = GenerateProvenance()
-    harden_runner: HardenRunner = HardenRunner()
-    gh_action_pypi_publish: GithubActionPyPI = GithubActionPyPI()
     providers: tuple[str, ...] = ('github',)
+    github: GithubMetadata = GithubMetadata()

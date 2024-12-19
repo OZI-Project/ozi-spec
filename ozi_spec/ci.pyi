@@ -25,7 +25,6 @@ class CheckpointSuite(Default):
     utility: Mapping[str, str] = field(default_factory=dict)
     ignore: tuple[str, ...] = field(default_factory=tuple)
 
-
 @dataclass(slots=True, frozen=True, eq=True)
 class RuffLint(CheckpointSuite):
     """OZI experimental linting and formatting with ruff.
@@ -72,7 +71,6 @@ class RuffLint(CheckpointSuite):
         },
     )
 
-
 @dataclass(slots=True, frozen=True, eq=True)
 class ClassicLint(CheckpointSuite):
     """OZI standard linting and formatting suite."""
@@ -112,7 +110,6 @@ class ClassicLint(CheckpointSuite):
         },
     )
 
-
 @dataclass(slots=True, frozen=True, eq=True)
 class ClassicTest(CheckpointSuite):
     """OZI standard testing and coverage."""
@@ -134,7 +131,6 @@ class ClassicTest(CheckpointSuite):
             'pytest': 'pytest',
         },
     )
-
 
 @dataclass(slots=True, frozen=True, eq=True)
 class ClassicDist(CheckpointSuite):
@@ -160,7 +156,6 @@ class ClassicDist(CheckpointSuite):
         default_factory=lambda: {},
     )
 
-
 @dataclass(slots=True, frozen=True, eq=True)
 class Build(Default):
     """Build backend and required packages for OZI.
@@ -179,10 +174,14 @@ class Build(Default):
         },
     )
 
-
 @dataclass(slots=True, frozen=True, eq=True)
 class CI(Default):
-    """Provider-agnostic CI information."""
+    """Provider-agnostic CI information.
+
+    .. versionchanged:: 0.16
+       Moved provenance, gh_action_pypi_publish, and harden_runner to ``github``.
+
+    """
 
     backend: Mapping[str, str] = field(
         default_factory=lambda: {

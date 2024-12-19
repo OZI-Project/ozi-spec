@@ -81,50 +81,58 @@ class PythonSupport(Default, _PythonSupport):
         :raises: FutureWarning
         """
         ...
+
     @cached_property
     def _minor_versions(self: _PythonSupport) -> list[int]:
         """List of currently supported Python minor version integers."""
         ...
+
     @property
     def bugfix_minor(self: _PythonSupport) -> int:
         """Minor version integer for current bugfix Python release."""
         ...
+
     @property
     def bugfix(self: _PythonSupport) -> str:
         """Version string for current bugfix Python release."""
         ...
+
     @property
     def security1_minor(self: _PythonSupport) -> int:
         """Minor version integer for the most current security Python release."""
         ...
+
     @property
     def security1(self: _PythonSupport) -> str:
         """Version string for the most current security Python release."""
         ...
+
     @property
     def security2_minor(self: _PythonSupport) -> int:
         """Minor version integer for the second most current security Python release."""
         ...
+
     @property
     def security2(self: _PythonSupport) -> str:
         """Version string for the second most current security Python release."""
         ...
+
     @property
     def prerelease_minor(self: _PythonSupport) -> int | None:
         """Minor version integer for current prerelease Python release."""
         ...
+
     @property
     def prerelease(self: _PythonSupport) -> str:
         """Version string for current prerelease Python release."""
         ...
+
     @property
     def classifiers(self: _PythonSupport) -> Sequence[tuple[str, str]]:  # pragma: no cover
         """Version classifiers for all currently supported Python releases."""
         ...
 
-
 _python_support = PythonSupport()
-
 
 @dataclass(slots=True, frozen=True, eq=True)
 class Support(Default):

@@ -25,7 +25,6 @@ class SrcFormat(Default):
     min_coverage: float = 100.0
     single_line_imports: bool = True
 
-
 @dataclass(slots=True, frozen=True, eq=True)
 class SrcRequired(Default):
     """Required files for OZI to output with ``ozi-new``.
@@ -50,7 +49,6 @@ class SrcRequired(Default):
     )
     test: tuple[str, ...] = ('meson.build',)
 
-
 @dataclass(slots=True, frozen=True, eq=True)
 class SrcRepo(Default):
     """An OZI source repository."""
@@ -64,7 +62,6 @@ class SrcRepo(Default):
         '.tox',
         '__pycache__',
     )
-
 
 @dataclass(slots=True, frozen=True, eq=True)
 class SrcTemplate(Default):
@@ -112,7 +109,6 @@ class SrcTemplate(Default):
     add_source: str = field(default='project.name/new_module.py.j2')
     add_test: str = field(default='tests/new_test.py.j2')
 
-
 @dataclass(slots=True, frozen=True, eq=True)
 class CommentPatterns(Default):
     """Search patterns for source comments."""
@@ -140,7 +136,6 @@ class CommentPatterns(Default):
     pragma_no_cover: str = r'^.*#\\s*(pragma|PRAGMA)[:\\s]?\\s*(no|NO)\\s*(cover|COVER)'
     pyright_ignore: str = r'^.*#\\s*(pyright|PYRIGHT)[:\\s]?\\s(ignore|IGNORE)'
     type_ignore: str = r'^.*#\\s*(type|TYPE)[:\\s]?\\s(ignore|IGNORE)'
-
 
 @dataclass(slots=True, frozen=True, eq=True)
 class Src(Default):

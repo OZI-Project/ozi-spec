@@ -30,11 +30,9 @@ class PythonProject(Default):
     pkg: Pkg = Pkg()
     src: Src = Src()
 
-
 @dataclass(slots=True, frozen=True, eq=True, repr=False)
 class ClassicProject(PythonProject):
     """OZI project using classic Python checkpoint toolchains."""
-
 
 @dataclass(slots=True, frozen=True, eq=True, repr=False)
 class RuffProject(PythonProject):

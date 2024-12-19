@@ -19,13 +19,11 @@ class Spec(Default):
     version: str = '0.x'
     python: PythonProject = ClassicProject()
 
-
 @dataclass(slots=True, frozen=True, eq=True)
 class Experimental(Default):
     """Experimental OZI specifications."""
 
     ruff: RuffLint = RuffLint()
-
 
 @dataclass(slots=True, frozen=True, eq=True)
 class OZI(Default):
@@ -34,7 +32,6 @@ class OZI(Default):
     version: str = '1.x'
     python_support: PythonSupport = PythonSupport()
     experimental: Experimental = Experimental()
-
 
 @dataclass(slots=True, frozen=True, eq=True)
 class Metadata(Default):

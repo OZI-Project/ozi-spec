@@ -71,7 +71,6 @@ class PkgVersion(Default):
         ':zap:',
     )
 
-
 @dataclass(slots=True, frozen=True, eq=True)
 class PkgRequired(Default):
     """Required files for OZI project publishing."""
@@ -87,7 +86,6 @@ class PkgRequired(Default):
     source: tuple[str, ...] = ('__init__.py',)
 
     test: tuple[str, ...] = ()
-
 
 @dataclass(slots=True, frozen=True, eq=True)
 class PkgPattern(Default):
@@ -106,7 +104,6 @@ class PkgPattern(Default):
     copyright_head: str = r'^((?\s).*){1,255}$'
     classifiers: str = r'^([\w\s]*\s\:\:\s)?'
 
-
 @dataclass(slots=True, frozen=True, eq=True)
 class PkgClassifiers(Default):
     """PKG-INFO default classifier metadata."""
@@ -116,7 +113,6 @@ class PkgClassifiers(Default):
     environment: list[str] = field(default_factory=lambda: ['Other Environment'])
     language: list[str] = field(default_factory=lambda: ['English'])
     development_status: tuple[str] = ('1 - Planning',)
-
 
 @dataclass(slots=True, frozen=True, eq=True)
 class PkgInfo(Default):
@@ -135,7 +131,6 @@ class PkgInfo(Default):
     )
     classifiers: PkgClassifiers = PkgClassifiers()
 
-
 @dataclass(slots=True, frozen=True, eq=True)
 class License(Default):
     """Licensing specification metadata.
@@ -147,7 +142,6 @@ class License(Default):
     spdx_version: str = '3.25.0'
     ambiguous: dict[str, Sequence[str]] = SPDX_LICENSE_MAP
     exceptions: tuple[str, ...] = SPDX_LICENSE_EXCEPTIONS
-
 
 @dataclass(slots=True, frozen=True, eq=True, repr=False)
 class Pkg(Default):
