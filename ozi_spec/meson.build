@@ -29,7 +29,9 @@ foreach file : ['ci.py', 'ci.pyi']
         output: file,
         configuration: configuration_data({
             'pyproject_ozi_build_version': run_command(python, ['get_pyproject_ozi_build_version.py'], check: true).stdout().strip(),
-        })
+        }),
+        install: true,
+        install_dir: python.get_install_dir() / 'ozi_spec',
     )
 endforeach
 source_files = [
