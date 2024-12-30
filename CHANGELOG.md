@@ -1,4 +1,13 @@
 # ozi-spec CHANGELOG
+## 0.17.1 (2024-12-30)
+
+
+### Bug fixes
+
+
+* fix: ci module missing from build — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`9115a15`](https://github.com/OZI-Project/ozi-spec/commit/9115a1540ad9db9ad27471f2680831cf0bc343bd))
+
 ## 0.17.0 (2024-12-30)
 
 
