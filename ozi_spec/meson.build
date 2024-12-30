@@ -23,6 +23,15 @@ foreach file : ['github_ci.py', 'github_ci.pyi']
         install_dir: python.get_install_dir() / 'ozi_spec',
     )
 endforeach
+foreach file : ['ci.py', 'ci.pyi']
+    configure_file(
+        input: file,
+        output: file,
+        configuration: configuration_data({
+            'pyproject_ozi_build_version': run_command(python, ['get_pyproject_ozi_build_version.py'], check: true).stdout().strip(),
+        })
+    )
+endforeach
 source_files = [
     '__init__.py',
     '__init__.pyi',
@@ -32,8 +41,6 @@ source_files = [
     '_spec.pyi',
     'base.py',
     'base.pyi',
-    'ci.py',
-    'ci.pyi',
     'pkg.py',
     'pkg.pyi',
     'project.py',
