@@ -1,4 +1,38 @@
 # ozi-spec CHANGELOG
+## 0.17.0 (2024-12-30)
+
+
+### Bug fixes
+
+
+* fix: remove duplicate license data — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`6a49f7a`](https://github.com/OZI-Project/ozi-spec/commit/6a49f7a5769be287241d3d891c52a1eb7bdf4adf))
+
+
+### Build system
+
+
+* build: use pyproject build version in API — rjdbcm <rjdbcm@outlook.com>
+([`88f5c39`](https://github.com/OZI-Project/ozi-spec/commit/88f5c398151f4a630842d17daacc5578e352fa38))
+
+* build(deps): update ozi-build[core,uv] requirement
+
+
+updated-dependencies:
+- dependency-name: ozi-build[core,uv]
+  dependency-type: direct:production
+... — dependabot[bot] <support@github.com>
+([`2386aa2`](https://github.com/OZI-Project/ozi-spec/commit/2386aa2b8403cd229637c06112ad89f7a564bf7f))
+
+
+### Features
+
+
+* feat: OZI.build 1.9
+
+build(deps): update ozi-build[core,uv] requirement from ~=1.8.0 to ~=1.9.2
+([`9a36558`](https://github.com/OZI-Project/ozi-spec/commit/9a3655876248d62296340cfd12ad4ab4e8de9c2a))
+
 ## 0.16.0 (2024-12-19)
 
 
