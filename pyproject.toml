@@ -14,7 +14,6 @@ summary = "Versioned specification standard metadata for OZI Project tools."
 home-page = "https://www.oziproject.dev"
 author = "Eden Ross Duff MSc"
 author-email = "help@oziproject.dev"
-license = "MIT-0"
 requires-python = '>=3.10, <3.14'
 download-url = "https://github.com/OZI-Project/ozi-spec/archive/refs/tags/{version}.tar.gz"
 project-urls = ["Documentation, https://docs.oziproject.dev/en/latest/ozi_spec.html"]
