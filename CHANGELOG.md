@@ -1,5 +1,9 @@
 # ozi-spec CHANGELOG
+## 0.18.0 (2025-01-01)
+
 ## 0.17.1 (2024-12-30)
+
+## 0.17.0 (2024-12-30)
 
 
 ### Bug fixes
@@ -8,18 +12,21 @@
 * fix: ci module missing from build — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
 ([`9115a15`](https://github.com/OZI-Project/ozi-spec/commit/9115a1540ad9db9ad27471f2680831cf0bc343bd))
 
-## 0.17.0 (2024-12-30)
-
-
-### Bug fixes
-
-
 * fix: remove duplicate license data — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
 ([`6a49f7a`](https://github.com/OZI-Project/ozi-spec/commit/6a49f7a5769be287241d3d891c52a1eb7bdf4adf))
 
 
 ### Build system
 
+
+* build(deps): update ozi-build[core,uv] requirement
+
+
+updated-dependencies:
+- dependency-name: ozi-build[core,uv]
+  dependency-type: direct:production
+... — dependabot[bot] <support@github.com>
+([`8688a4c`](https://github.com/OZI-Project/ozi-spec/commit/8688a4c31584b90eb26f39564f0100f18d22eec4))
 
 * build: use pyproject build version in API — rjdbcm <rjdbcm@outlook.com>
 ([`88f5c39`](https://github.com/OZI-Project/ozi-spec/commit/88f5c398151f4a630842d17daacc5578e352fa38))
@@ -36,6 +43,9 @@ updated-dependencies:
 
 ### Features
 
+
+* feat: OZI.build 1.10 — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`a6fed56`](https://github.com/OZI-Project/ozi-spec/commit/a6fed563ebb1afde3d9831a2b1d7a38aa68e8d93))
 
 * feat: OZI.build 1.9
 
