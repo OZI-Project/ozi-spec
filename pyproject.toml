@@ -1,5 +1,6 @@
 # Part of OZI.spec.
 # See LICENSE.txt in the project root for details.
+
 [project]
 dynamic = ["version"]
 license = {file = "LICENSE.txt"}
