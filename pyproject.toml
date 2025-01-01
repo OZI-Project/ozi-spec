@@ -6,7 +6,7 @@ license = {file = "LICENSE.txt"}
 dependencies = ['setuptools_scm']
 
 [build-system]
-requires = ['OZI.build[core,uv]~=1.9.2', 'PyYAML']
+requires = ['OZI.build[core,uv]~=1.10.0', 'PyYAML']
 build-backend = "ozi_build.buildapi"
 
 [tool.ozi-build.metadata]
@@ -303,7 +303,7 @@ package = wheel
 deps =
      uv
 commands_pre =
-     python -m uv pip install OZI.build[core,uv]~=1.9.2 PyYAML
+     python -m uv pip install OZI.build[core,uv]~=1.10.0 PyYAML
      pipx install --python=python meson
 commands =
      meson setup {env_tmp_dir} -Dozi:dist=disabled -Dozi:tox-env-dir={env_dir}
