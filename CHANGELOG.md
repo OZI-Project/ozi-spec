@@ -1,4 +1,66 @@
 # ozi-spec CHANGELOG
+## 0.18.1 (2025-01-05)
+
+
+### Build system
+
+
+* build(deps): bump OZI-Project/draft from 1.7.0 to 1.8.0
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.7.0 to 1.8.0.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/1.7.0...1.8.0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`015290e`](https://github.com/OZI-Project/ozi-spec/commit/015290e9484ce451dbe52f552528c49e4a0cb52f))
+
+* build(deps): bump OZI-Project/publish from 1.7.2 to 1.7.3
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.7.2 to 1.7.3.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/1.7.2...1.7.3)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`6b28e95`](https://github.com/OZI-Project/ozi-spec/commit/6b28e9554cfa3ec74bf8f0c6daf27f8fe47c91a5))
+
+* build(deps): bump OZI-Project/release from 1.1.2 to 1.2.1
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.1.2 to 1.2.1.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/1.1.2...1.2.1)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`e4c1b2f`](https://github.com/OZI-Project/ozi-spec/commit/e4c1b2f621df539b2a52801a9ea12c09b1dd5d7a))
+
+* build(deps): bump OZI-Project/checkpoint from 1.4.0 to 1.5.1
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.4.0 to 1.5.1.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/1.4.0...1.5.1)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`c02dd9a`](https://github.com/OZI-Project/ozi-spec/commit/c02dd9a7dcf4bfcd58a9c78fafa832000402432a))
+
 ## 0.18.0 (2025-01-01)
 
 ## 0.17.1 (2024-12-30)
