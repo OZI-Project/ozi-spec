@@ -1,4 +1,24 @@
 # ozi-spec CHANGELOG
+## 0.18.2 (2025-01-09)
+
+
+### Build system
+
+
+* build(deps): bump OZI-Project/checkpoint from 1.5.1 to 1.5.3
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.5.1 to 1.5.3.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/1.5.1...1.5.3)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`677be40`](https://github.com/OZI-Project/ozi-spec/commit/677be40f7ca8355f78fae5b8bb9ee160741a3652))
+
 ## 0.18.1 (2025-01-05)
 
 
@@ -60,6 +80,13 @@ updated-dependencies:
   update-type: version-update:semver-minor
 ... — dependabot[bot] <support@github.com>
 ([`c02dd9a`](https://github.com/OZI-Project/ozi-spec/commit/c02dd9a7dcf4bfcd58a9c78fafa832000402432a))
+
+
+### Unknown
+
+
+* Update dependabot.yml — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`bcc91c2`](https://github.com/OZI-Project/ozi-spec/commit/bcc91c246ca0e2c75a222d7091eaf519a8331de4))
 
 ## 0.18.0 (2025-01-01)
 
