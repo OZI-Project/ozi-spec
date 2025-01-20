@@ -1,4 +1,61 @@
 # ozi-spec CHANGELOG
+## 0.20.0 (2025-01-15)
+
+
+### Build system
+
+
+* build(deps): bump OZI-Project/checkpoint from 1.5.3 to 1.5.4
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.5.3 to 1.5.4.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/1.5.3...1.5.4)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`ac3db6a`](https://github.com/OZI-Project/ozi-spec/commit/ac3db6abeca81346ead221c9a3bd879dac28c419))
+
+* build(deps): bump OZI-Project/draft from 1.8.0 to 1.9.0
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.8.0 to 1.9.0.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/1.8.0...1.9.0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`1848b8a`](https://github.com/OZI-Project/ozi-spec/commit/1848b8adc0a29b9a6c210df2d1e484a60bdf0a55))
+
+* build(deps): bump OZI-Project/publish from 1.7.3 to 1.8.0
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.7.3 to 1.8.0.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/1.7.3...1.8.0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`0e4d2a5`](https://github.com/OZI-Project/ozi-spec/commit/0e4d2a597a4319660382a8d6462d1ab825196c11))
+
+
+### Features
+
+
+* feat: semantic-release~=9.16
+
+build(deps): bump OZI-Project/draft from 1.8.0 to 1.9.0
+([`e262f82`](https://github.com/OZI-Project/ozi-spec/commit/e262f82f0c9963bd3813b395114290ecb153ec34))
+
 ## 0.19.0 (2025-01-13)
 
 ## 0.18.2 (2025-01-09)
