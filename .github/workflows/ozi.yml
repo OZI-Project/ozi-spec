@@ -179,6 +179,12 @@ jobs:
             oziproject.dev:443
             www.oziproject.dev:443
             objects.githubusercontent.com:443
+            quay.io:443
+            cdn01.quay.io:443
+            cdn02.quay.io:443
+            cdn03.quay.io:443
+            downloads.python.org:443
+
 
       - uses: OZI-Project/release@1.3.1
         id: release
