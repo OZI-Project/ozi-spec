@@ -1,4 +1,27 @@
 # ozi-spec CHANGELOG
+## 0.20.1 (2025-01-26)
+
+
+### Build system
+
+
+* build(deps): bump step-security/harden-runner from 2.10.3 to 2.10.4
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.10.3 to 2.10.4.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/c95a14d0e5bab51a9f56296a4eb0e416910cd350...cb605e52c26070c328afc4562f0b4ada7618a84e)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`698a8d0`](https://github.com/OZI-Project/ozi-spec/commit/698a8d00f42e6f09f7714a670373a86ac5432c90))
+
+* build: update release endpoints to support cibuildwheel — rjdbcm <rjdbcm@outlook.com>
+([`242103f`](https://github.com/OZI-Project/ozi-spec/commit/242103f5c91663cf03a0d07bc7d65807c0f5850d))
+
 ## 0.20.0 (2025-01-15)
 
 
