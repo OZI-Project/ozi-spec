@@ -1,9 +1,25 @@
 # ozi-spec CHANGELOG
+## 0.20.2 (2025-01-27)
+
 ## 0.20.1 (2025-01-26)
 
 
 ### Build system
 
+
+* build(deps): bump pypa/gh-action-pypi-publish from 1.12.3 to 1.12.4
+
+Bumps [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish) from 1.12.3 to 1.12.4.
+- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)
+- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/67339c736fd9354cd4f8cb0b744f2b82a74b5c70...76f52bc884231f62b9a034ebfe128415bbaabdfc)
+
+
+updated-dependencies:
+- dependency-name: pypa/gh-action-pypi-publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`8ff34fb`](https://github.com/OZI-Project/ozi-spec/commit/8ff34fb7a012661ad41bf78ca287e8a8c0fab049))
 
 * build(deps): bump step-security/harden-runner from 2.10.3 to 2.10.4
 
