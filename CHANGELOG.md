@@ -1,5 +1,48 @@
 # ozi-spec CHANGELOG
+## 0.21.0 (2025-01-28)
+
 ## 0.20.2 (2025-01-27)
+
+
+### Build system
+
+
+* build(deps): bump OZI-Project/publish from 1.8.0 to 1.9.0
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.8.0 to 1.9.0.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/1.8.0...1.9.0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`1f276f9`](https://github.com/OZI-Project/ozi-spec/commit/1f276f9e55e9551be6d7760b3b5606fdeb2191c5))
+
+* build(deps): bump OZI-Project/draft from 1.9.0 to 1.10.0
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.9.0 to 1.10.0.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/1.9.0...1.10.0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`c6289d1`](https://github.com/OZI-Project/ozi-spec/commit/c6289d1a4c5c2dbfe35c5a382776f246eddfe864))
+
+
+### Features
+
+
+* feat: semantic-release~=9.17.0
+
+build(deps): bump OZI-Project/draft from 1.9.0 to 1.10.0
+([`e2d6490`](https://github.com/OZI-Project/ozi-spec/commit/e2d64900b9efb1ebb04a1cca52cca0b2b1363ad0))
 
 ## 0.20.1 (2025-01-26)
 
