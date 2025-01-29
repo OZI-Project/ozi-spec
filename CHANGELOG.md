@@ -1,4 +1,66 @@
 # ozi-spec CHANGELOG
+## 0.21.1 (2025-01-29)
+
+
+### Build system
+
+
+* build(deps): bump OZI-Project/checkpoint from 1.5.4 to 1.5.5
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.5.4 to 1.5.5.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/1.5.4...1.5.5)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`f9f3714`](https://github.com/OZI-Project/ozi-spec/commit/f9f3714d04efa9969c5dcf9daab189c39c6be6f2))
+
+* build(deps): bump OZI-Project/release from 1.3.1 to 1.3.3
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.3.1 to 1.3.3.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/1.3.1...1.3.3)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`f4bb562`](https://github.com/OZI-Project/ozi-spec/commit/f4bb562b86b8023f1976c362628ae9ab7cffb777))
+
+* build(deps): bump OZI-Project/publish from 1.9.0 to 1.9.3
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.9.0 to 1.9.3.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/1.9.0...1.9.3)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`502eb1b`](https://github.com/OZI-Project/ozi-spec/commit/502eb1b8bfd8546e042bea6d989e12972887a701))
+
+* build(deps): bump OZI-Project/draft from 1.10.0 to 1.10.1
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.10.0 to 1.10.1.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/1.10.0...1.10.1)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`459e613`](https://github.com/OZI-Project/ozi-spec/commit/459e613586ba5b462cf0a881450f4621427bf3fc))
+
 ## 0.21.0 (2025-01-28)
 
 ## 0.20.2 (2025-01-27)
