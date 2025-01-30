@@ -6,7 +6,12 @@ jobs:
   delete-artifacts:
     runs-on: ubuntu-latest
     steps:
-      - uses: kolpav/purge-artifacts-action@v1
+      - name: Harden Runner
+        uses: step-security/harden-runner@cb605e52c26070c328afc4562f0b4ada7618a84e # v2.10.4
+        with:
+          egress-policy: audit
+
+      - uses: kolpav/purge-artifacts-action@04c636a505f26ebc82f8d070b202fb87ff572b10 # v1.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           expire-in: 0 # Setting this to 0 will delete all artifacts
