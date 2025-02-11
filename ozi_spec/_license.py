@@ -51,6 +51,7 @@ NOT_SUPPORTED = {
 }
 
 SPDX_LICENSE_MAP: dict[str, Sequence[str]] = {
+    'CC0 1.0 Universal (CC0 1.0) Public Domain Dedication': ('CC0-1.0',),
     'Private': ('LicenseRef-Proprietary',),
     'CeCILL-B Free Software License Agreement (CECILL-B)': ('CECILL-B',),
     'CeCILL-C Free Software License Agreement (CECILL-C)': ('CECILL-C',),
@@ -144,6 +145,7 @@ SPDX_LICENSE_MAP: dict[str, Sequence[str]] = {
         'BSD-3-Clause-Clear',
         'BSD-4-Clause',
     ),
+    'OSI Approved :: Blue Oak Model License (BlueOak-1.0.0)': ('BlueOak-1.0.0',),
     'OSI Approved :: Boost Software License 1.0 (BSL-1.0)': ('BSL-1.0',),
     'OSI Approved :: CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)': (
         'CECILL-2.1',
