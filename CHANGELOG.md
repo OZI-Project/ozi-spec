@@ -1,4 +1,13 @@
 # ozi-spec CHANGELOG
+## 0.22.2 (2025-02-12)
+
+
+### Bug fixes
+
+
+* fix: missing OSI Approved :: CMU License (MIT-CMU) — rjdbcm <rjdbcm@outlook.com>
+([`f34f6c0`](https://github.com/OZI-Project/ozi-spec/commit/f34f6c0300d0455eabae1e1b8fa62061aa8dce5b))
+
 ## 0.22.1 (2025-02-12)
 
 
