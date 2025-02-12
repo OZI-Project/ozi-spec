@@ -1,4 +1,164 @@
 # ozi-spec CHANGELOG
+## 0.22.2 (2025-02-12)
+
+
+### Bug fixes
+
+
+* fix: missing OSI Approved :: CMU License (MIT-CMU) — rjdbcm <rjdbcm@outlook.com>
+([`f34f6c0`](https://github.com/OZI-Project/ozi-spec/commit/f34f6c0300d0455eabae1e1b8fa62061aa8dce5b))
+
+## 0.22.1 (2025-02-12)
+
+
+### Build system
+
+
+* build(deps): bump OZI-Project/publish from 1.10.0 to 1.10.1
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.10.0 to 1.10.1.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/c409525ed951ad88365aefffdb117c7a762a7f3b...9d10868569d8cf25647f221a223d27cfe545ffb2)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`00756d4`](https://github.com/OZI-Project/ozi-spec/commit/00756d4ba339f9c48a7c3097256a9eabd523246f))
+
+* build(deps): bump OZI-Project/draft from 1.11.0 to 1.11.1
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.11.0 to 1.11.1.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/93ae8d5e9fd8092aa54474ecaeac12c964260599...d593fa1d1df726466bd156d239ed36986d1c2ab9)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`d3d892b`](https://github.com/OZI-Project/ozi-spec/commit/d3d892b1aca6fb21fb2d6d9226b7148a4a9de396))
+
+## 0.22.0 (2025-02-12)
+
+
+### Bug fixes
+
+
+* fix: missing MIT license refs — rjdbcm <rjdbcm@outlook.com>
+([`0ff6c10`](https://github.com/OZI-Project/ozi-spec/commit/0ff6c10c6cdb87aa86792537f1fb99cc1ed5fc25))
+
+* fix: update license map to match trove-classifiers~=2025.1 — rjdbcm <rjdbcm@outlook.com>
+([`0d9fa0f`](https://github.com/OZI-Project/ozi-spec/commit/0d9fa0f7c1a438c879deb10fd8f90dd26bd5fa27))
+
+
+### Build system
+
+
+* build(deps): bump OZI-Project/draft from 1.10.1 to 1.11.0
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.10.1 to 1.11.0.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/d3c4167df5ea92adf74006a4406ae85bbf8926e5...93ae8d5e9fd8092aa54474ecaeac12c964260599)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`f1d8563`](https://github.com/OZI-Project/ozi-spec/commit/f1d8563ebb207c939ec2a5f60237334edd695d67))
+
+* build(deps): bump OZI-Project/publish from 1.9.3 to 1.10.0
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.9.3 to 1.10.0.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/c35059a13b64575387092e163fa91c2a9f5019da...c409525ed951ad88365aefffdb117c7a762a7f3b)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`ac7dd13`](https://github.com/OZI-Project/ozi-spec/commit/ac7dd1378c16ba70ee4e683b1febb980cb7308c6))
+
+* build(deps): bump github/codeql-action from 3.28.8 to 3.28.9
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.28.8 to 3.28.9.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/dd746615b3b9d728a6a37ca2045b68ca76d4841a...9e8d0789d4a0fa9ceb6b1738f7e269594bdd67f0)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`8d32027`](https://github.com/OZI-Project/ozi-spec/commit/8d320276072191821e68cad8740a29a8e8fd4561))
+
+* build(deps): update ozi-build[core,uv] requirement
+
+
+updated-dependencies:
+- dependency-name: ozi-build[core,uv]
+  dependency-type: direct:production
+... — dependabot[bot] <support@github.com>
+([`665d710`](https://github.com/OZI-Project/ozi-spec/commit/665d710b602b651c91cdf0a42a9712d290d3a5f3))
+
+* build(deps): bump github/codeql-action from 3.28.6 to 3.28.8
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.28.6 to 3.28.8.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/17a820bf2e43b47be2c72b39cc905417bc1ab6d0...dd746615b3b9d728a6a37ca2045b68ca76d4841a)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`e3ffd1d`](https://github.com/OZI-Project/ozi-spec/commit/e3ffd1ddeb1e8c64b3ef5b528f4368412814f604))
+
+* build(deps): bump ossf/scorecard-action from 2.3.3 to 2.4.0
+
+Bumps [ossf/scorecard-action](https://github.com/ossf/scorecard-action) from 2.3.3 to 2.4.0.
+- [Release notes](https://github.com/ossf/scorecard-action/releases)
+- [Changelog](https://github.com/ossf/scorecard-action/blob/main/RELEASE.md)
+- [Commits](https://github.com/ossf/scorecard-action/compare/dc50aa9510b46c811795eb24b2f1ba02a914e534...62b2cac7ed8198b15735ed49ab1e5cf35480ba46)
+
+
+updated-dependencies:
+- dependency-name: ossf/scorecard-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`1d46168`](https://github.com/OZI-Project/ozi-spec/commit/1d461683ccf0b973fa5c7898c6dd952ccab2ae36))
+
+* build: [StepSecurity] Apply security best practices — StepSecurity Bot <bot@stepsecurity.io>
+([`962bd63`](https://github.com/OZI-Project/ozi-spec/commit/962bd63a356a0fae5d091fac06cf1bcc8339af71))
+
+
+### Features
+
+
+* feat: semantic-release~=9.19.0
+
+build(deps): bump OZI-Project/draft from 1.10.1 to 1.11.0
+([`6162ac1`](https://github.com/OZI-Project/ozi-spec/commit/6162ac15b5a73d8f198075f6183a67123413c1db))
+
+
+### Unknown
+
+
+* Delete .github/workflows/purge-artifacts.yml — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`f18cc63`](https://github.com/OZI-Project/ozi-spec/commit/f18cc63ebe3482bbf5539965b27ef2142e9d07ec))
+
 ## 0.21.1 (2025-01-29)
 
 
