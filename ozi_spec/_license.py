@@ -193,6 +193,7 @@ SPDX_LICENSE_MAP: dict[str, Sequence[str]] = {
     ),
     'OSI Approved :: ISC License (ISCL)': ('ISC',),
     'OSI Approved :: MIT License': ('MIT', 'MIT-CMU', 'MIT-0'),
+    'OSI Approved :: CMU License (MIT-CMU)': ('MIT-CMU'),
     'OSI Approved :: MIT No Attribution License (MIT-0)': ('MIT-0',),
     'OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)': ('MPL-2.0',),
     'OSI Approved :: Mulan Permissive Software License v2 (MulanPSL-2.0)': ('MulanPSL-2.0',),
