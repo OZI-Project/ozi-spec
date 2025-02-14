@@ -10,4 +10,4 @@ if TYPE_CHECKING:
     ...
 NOT_SUPPORTED: set[str]
 SPDX_LICENSE_MAP: dict[str, Sequence[str]]
-SPDX_LICENSE_EXCEPTIONS: tuple[str]
+SPDX_LICENSE_EXCEPTIONS: dict[str, tuple[str, ...]]
