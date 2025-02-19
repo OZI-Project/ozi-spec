@@ -17,59 +17,29 @@ from ozi_spec.base import Default
 class PkgVersion(Default):
     """Versioning metadata.
 
-    .. versionchanged:: 1.5
-       default to `angular` semantic instead of `emoji`
+    .. versionchanged:: OZI 1.5
+       Default to `angular` semantic instead of `emoji`.
+
+    .. versionchanged:: 0.23
+       Default to `conventional` commit semantic, remove ``major_tags`` key.
     """
 
-    semantic: str = 'angular'
-    major_tags: tuple[str] = (':boom:',)
-    minor_tags: tuple[str] = (':sparkles:',)
-    patch_tags: tuple[str, ...] = (
-        ':adhesive_bandage:',
-        ':alembic:',
-        ':alien:',
-        ':ambulance:',
-        ':apple:',
-        ':arrow_down:',
-        ':arrow_up:',
-        ':bento:',
-        ':bug:',
-        ':bulb:',
-        ':card_file_box:',
-        ':chart_with_upwards_trend:',
-        ':checkered_flag:',
-        ':children_crossing:',
-        ':dizzy:',
-        ':egg:',
-        ':fire:',
-        ':globe_with_meridians:',
-        ':goal_net:',
-        ':green_apple:',
-        ':green_heart:',
-        ':hammer:',
-        ':heavy_minus_sign:',
-        ':heavy_plus_sign:',
-        ':iphone:',
-        ':label:',
-        ':lipstick:',
-        ':lock:',
-        ':mag:',
-        ':necktie:',
-        ':package:',
-        ':passport_control:',
-        ':pencil2:',
-        ':penguin:',
-        ':pushpin:',
-        ':recycle:',
-        ':rewind:',
-        ':robot:',
-        ':speech_balloon:',
-        ':triangular_flag_on_post:',
-        ':wastebasket:',
-        ':wheelchair:',
-        ':wrench:',
-        ':zap:',
+    semantic: str = 'conventional'
+    allowed_tags: tuple[str, ...] = (
+        'build',
+        'chore',
+        'ci',
+        'docs',
+        'feat',
+        'fix',
+        'perf',
+        'style',
+        'refactor',
+        'test',
     )
+    minor_tags: tuple[str, ...] = ('feat',)
+    patch_tags: tuple[str, ...] = ('fix', 'perf', 'build')
+
 
 @dataclass(slots=True, frozen=True, eq=True)
 class PkgRequired(Default):
@@ -86,6 +56,7 @@ class PkgRequired(Default):
     source: tuple[str, ...] = ('__init__.py',)
 
     test: tuple[str, ...] = ()
+
 
 @dataclass(slots=True, frozen=True, eq=True)
 class PkgPattern(Default):
@@ -104,6 +75,7 @@ class PkgPattern(Default):
     copyright_head: str = r'^((?\s).*){1,255}$'
     classifiers: str = r'^([\w\s]*\s\:\:\s)?'
 
+
 @dataclass(slots=True, frozen=True, eq=True)
 class PkgClassifiers(Default):
     """PKG-INFO default classifier metadata."""
@@ -114,15 +86,20 @@ class PkgClassifiers(Default):
     language: list[str] = field(default_factory=lambda: ['English'])
     development_status: tuple[str] = ('1 - Planning',)
 
+
 @dataclass(slots=True, frozen=True, eq=True)
 class PkgInfo(Default):
-    """PKG-INFO defaults metadata."""
+    """PKG-INFO defaults metadata.
+
+    .. versionchanged:: 0.23
+       Remove deprecated required value ``Home-page``.
+
+    """
 
     required: tuple[str, ...] = (
         'Author',
         'Author-email',
         'Description-Content-Type',
-        'Home-page',
         'License',
         'Metadata-Version',
         'Name',
@@ -131,17 +108,20 @@ class PkgInfo(Default):
     )
     classifiers: PkgClassifiers = PkgClassifiers()
 
+
 @dataclass(slots=True, frozen=True, eq=True)
 class License(Default):
     """Licensing specification metadata.
 
     .. versionchanged:: 0.10
        Add ``spdx_version`` key to track SPDX asset version.
-    """
 
-    spdx_version: str = '3.25.0'
+    .. versionchanged:: 0.23
+       Key ``exceptions`` is now a mapping from exception name to applicable licenses.
+    """
+    spdx_version: str = '3.26.0'
     ambiguous: dict[str, Sequence[str]] = SPDX_LICENSE_MAP
-    exceptions: tuple[str, ...] = tuple(SPDX_LICENSE_EXCEPTIONS.keys())
+    exceptions: dict[str, tuple[str, ...]] = SPDX_LICENSE_EXCEPTIONS
 
 @dataclass(slots=True, frozen=True, eq=True, repr=False)
 class Pkg(Default):
