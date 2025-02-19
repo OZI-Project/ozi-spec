@@ -1,4 +1,24 @@
 # ozi-spec CHANGELOG
+## 0.22.4 (2025-02-14)
+
+
+### Bug fixes
+
+
+* fix: fill in missing license disambiguation targets
+
+Also makes SPDX_LICENSE_EXCEPTIONS a mapping without changing the current metadata schema. — rjdbcm <rjdbcm@outlook.com>
+([`8efc053`](https://github.com/OZI-Project/ozi-spec/commit/8efc053d67931022711752ee9171c58fcd9a5829))
+
+## 0.22.3 (2025-02-12)
+
+
+### Bug fixes
+
+
+* fix: license map tuple value — rjdbcm <rjdbcm@outlook.com>
+([`18a43d5`](https://github.com/OZI-Project/ozi-spec/commit/18a43d5ccd21b2d2eae44b9b7c651ad0f11b0427))
+
 ## 0.22.2 (2025-02-12)
 
 
