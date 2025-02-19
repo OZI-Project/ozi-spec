@@ -90,7 +90,12 @@ class PkgClassifiers(Default):
 
 @dataclass(slots=True, frozen=True, eq=True)
 class PkgInfo(Default):
-    """PKG-INFO defaults metadata."""
+    """PKG-INFO defaults metadata.
+
+    .. versionchanged:: 0.23
+       Remove deprecated required value ``Home-page``.
+
+    """
 
     required: tuple[str, ...] = (
         'Author',
@@ -111,9 +116,12 @@ class License(Default):
 
     .. versionchanged:: 0.10
        Add ``spdx_version`` key to track SPDX asset version.
+
+    .. versionchanged:: 0.23
+       Key ``exceptions`` is now a mapping from exception name to applicable licenses.
     """
 
-    spdx_version: str = '3.25.0'
+    spdx_version: str = '3.26.0'
     ambiguous: dict[str, Sequence[str]] = field(
         default_factory=lambda: SPDX_LICENSE_MAP,
     )
