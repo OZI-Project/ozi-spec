@@ -148,7 +148,7 @@ class License(Default):
     ambiguous: dict[str, Sequence[str]] = field(
         default_factory=lambda: SPDX_LICENSE_MAP,
     )
-    exceptions: tuple[str, ...] = tuple(SPDX_LICENSE_EXCEPTIONS.keys())
+    exceptions: dict[str, tuple[str, ...]] = SPDX_LICENSE_EXCEPTIONS
 
 
 @dataclass(slots=True, frozen=True, eq=True, repr=False)
