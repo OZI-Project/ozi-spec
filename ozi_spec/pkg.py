@@ -127,7 +127,6 @@ class PkgInfo(Default):
         'Author',
         'Author-email',
         'Description-Content-Type',
-        'Home-page',
         'License',
         'Metadata-Version',
         'Name',
