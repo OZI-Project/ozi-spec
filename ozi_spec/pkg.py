@@ -72,8 +72,8 @@ class PkgPattern(Default):
     license_exception_id = 'defer to SPDX'
     url: str = 'defer to IDNA'
     author: str = r'^((.+?)(?:,\s*|$)){1,128}$'
-    summary: str = r'^((?\s).*){1,255}$'
-    copyright_head: str = r'^((?\s).*){1,255}$'
+    summary: str = r'^(.*){1,255}$'
+    copyright_head: str = r'^(.*){1,255}$'
     classifiers: str = r'^([\w\s]*\s\:\:\s)?'
 
 
