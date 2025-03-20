@@ -1,5 +1,57 @@
 # ozi-spec CHANGELOG
+## 0.23.0 (2025-02-19)
+
+
+### Build system
+
+
+* build(deps): semantic-release 9.20 workflows
+
+build(deps): semantic-release 9.20 workflows
+([`ddc4393`](https://github.com/OZI-Project/ozi-spec/commit/ddc439367fa8d7a90d22e5ad9cac900b79075e4f))
+
+* build(deps): OZI-Project/publish 1.12.0 — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`9370e8b`](https://github.com/OZI-Project/ozi-spec/commit/9370e8bdeb81f91336223e352271e9ff5eb69e74))
+
+* build(deps): OZI-Project/draft 1.12.0 — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`bd6e336`](https://github.com/OZI-Project/ozi-spec/commit/bd6e33625ecc6b93ff16c343de308df78262a528))
+
+* build(deps): OZI.build[core,uv]~=1.12.0 — rjdbcm <rjdbcm@outlook.com>
+([`e85cb95`](https://github.com/OZI-Project/ozi-spec/commit/e85cb954e15a5a500ce0c37e7c750e90a8d31e8d))
+
+* build: use conventional commit parsing — rjdbcm <rjdbcm@outlook.com>
+([`c9c4f44`](https://github.com/OZI-Project/ozi-spec/commit/c9c4f44c4bdff0565a43d2577866050395a648d0))
+
+
+### Chores
+
+
+* chore: clean up stubs — rjdbcm <rjdbcm@outlook.com>
+([`e91ddfa`](https://github.com/OZI-Project/ozi-spec/commit/e91ddfa7e961cc7ab395990ac5b5a22ec7ff1f8e))
+
+
+### Features
+
+
+* feat: switch to coventional commit parsing for semantic-release 9.20+ — rjdbcm <rjdbcm@outlook.com>
+([`235eb5a`](https://github.com/OZI-Project/ozi-spec/commit/235eb5a9a0015433f00e6ce22080b8bb80c77ed5))
+
+* feat: spec.python.pkg.license.exceptions type now ``dict[str, tuple[str, ...]]`` — rjdbcm <rjdbcm@outlook.com>
+([`1524b5e`](https://github.com/OZI-Project/ozi-spec/commit/1524b5ef6c0921d4beb63651a3b06a0884e71363))
+
+* feat: ``Home-page`` removed from spec.python.pkg.info.required — rjdbcm <rjdbcm@outlook.com>
+([`ed571eb`](https://github.com/OZI-Project/ozi-spec/commit/ed571eb4791f5b3186fc312e1cf8d7b2a2446041))
+
+
+### Performance improvements
+
+
+* perf: spdx_version 3.26.0 — rjdbcm <rjdbcm@outlook.com>
+([`2b6a219`](https://github.com/OZI-Project/ozi-spec/commit/2b6a219ba1836e169b59f9ea7c9503b7762f0d3a))
+
 ## 0.22.4 (2025-02-14)
+
+## 0.22.3 (2025-02-12)
 
 
 ### Bug fixes
@@ -10,14 +62,26 @@
 Also makes SPDX_LICENSE_EXCEPTIONS a mapping without changing the current metadata schema. — rjdbcm <rjdbcm@outlook.com>
 ([`8efc053`](https://github.com/OZI-Project/ozi-spec/commit/8efc053d67931022711752ee9171c58fcd9a5829))
 
-## 0.22.3 (2025-02-12)
-
-
-### Bug fixes
-
-
 * fix: license map tuple value — rjdbcm <rjdbcm@outlook.com>
 ([`18a43d5`](https://github.com/OZI-Project/ozi-spec/commit/18a43d5ccd21b2d2eae44b9b7c651ad0f11b0427))
+
+
+### Build system
+
+
+* build(deps): bump step-security/harden-runner from 2.10.4 to 2.11.0
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.10.4 to 2.11.0.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/cb605e52c26070c328afc4562f0b4ada7618a84e...4d991eb9b905ef189e4c376166672c3f2f230481)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`36bdaba`](https://github.com/OZI-Project/ozi-spec/commit/36bdabac29406d60c35b11bef17d5c795ff516d8))
 
 ## 0.22.2 (2025-02-12)
 
