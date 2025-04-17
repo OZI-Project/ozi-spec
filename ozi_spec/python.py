@@ -68,6 +68,7 @@ class PythonSupport(Default, _PythonSupport):
             11: date(2027, 10, 1).strftime(DATE_FORMAT),
             12: date(2028, 10, 1).strftime(DATE_FORMAT),
             13: date(2029, 10, 1).strftime(DATE_FORMAT),
+            14: date(2030, 10, 1).strftime(DATE_FORMAT),
         },
     )
     major: str = field(init=False, default='3')
