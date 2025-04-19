@@ -1,9 +1,106 @@
 # ozi-spec CHANGELOG
+## 0.26.0 (2025-04-19)
+
+
+### Build system
+
+
+* build: automatic PR creation on publish — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`24872df`](https://github.com/OZI-Project/ozi-spec/commit/24872df4bd7d4df43f6e602e2b171089167757b9))
+
+* build: catch warning for pending deprecation python versions — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`7b3d927`](https://github.com/OZI-Project/ozi-spec/commit/7b3d9274631c62bf1c6612002a2dab1e80af80c5))
+
+* build: add freethreaded 3.13 checkpoint — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`72543b2`](https://github.com/OZI-Project/ozi-spec/commit/72543b2690e68f2d33c5ded2a8ecb3050ef8c65e))
+
+* build(deps): update ozi-build[core,uv] requirement
+
+Updates the requirements on [ozi-build[core,uv]](https://github.com/OZI-Project/OZI.build) to permit the latest version.
+- [Release notes](https://github.com/OZI-Project/OZI.build/releases)
+- [Changelog](https://github.com/OZI-Project/OZI.build/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/OZI-Project/OZI.build/compare/1.13.0...1.14.0)
+
+
+updated-dependencies:
+- dependency-name: ozi-build[core,uv]
+  dependency-version: 1.14.0
+  dependency-type: direct:production
+... — dependabot[bot] <support@github.com>
+([`146e17d`](https://github.com/OZI-Project/ozi-spec/commit/146e17d18aef438bb142ba42c100c74150a0ad80))
+
+* build(deps): bump OZI-Project/checkpoint from 1.7.0 to 1.7.1
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.7.0 to 1.7.1.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/bec3d96cd1cb3bbce358fbeabc70eb25482bd3bf...dbe6f38e4bb6ed375129d0cf718b6d6968340a13)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-version: 1.7.1
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`003fb89`](https://github.com/OZI-Project/ozi-spec/commit/003fb89b5df63538e179e03089cb6fb001d07632))
+
+* build(deps): bump OZI-Project/publish from 1.13.1 to 1.13.2
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.13.1 to 1.13.2.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/26f38aa55610d51537ae92c1e89464a18959ba90...32e7c7b76d44a458dc7538ddc1645520185aa391)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-version: 1.13.2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`3a2085a`](https://github.com/OZI-Project/ozi-spec/commit/3a2085a303a28f236f8536cb3fa28c133dd90974))
+
+* build(deps): bump OZI-Project/release from 1.5.0 to 1.6.0
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.5.0 to 1.6.0.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/924761bcd1ad9c77bbc34363118b2cee4334b8a5...afbdfe0866a7b046820c232d2a8c3256d2d70ed7)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-version: 1.6.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`d0c11a5`](https://github.com/OZI-Project/ozi-spec/commit/d0c11a5e473d92c84b9f4574d997cfeeab78cb84))
+
+
+### Chores
+
+
+* chore: run lint — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`9ec74ea`](https://github.com/OZI-Project/ozi-spec/commit/9ec74eae1822669711e6f201bbc1831f804d0fd4))
+
+* chore: update dev.yml to include freethreaded build — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`71370d1`](https://github.com/OZI-Project/ozi-spec/commit/71370d137caf56efdb069c6fcb02296e0822dd5b))
+
+
+### Features
+
+
+* feat: add support for freethreaded python builds
+
+build(deps): bump OZI-Project/release from 1.5.0 to 1.6.0
+([`5b0face`](https://github.com/OZI-Project/ozi-spec/commit/5b0facecb9f600301822c664cded3bfdd1f641aa))
+
 ## 0.25.0 (2025-04-03)
 
 
 ### Build system
 
+
+* build: add spec support for 3.14 — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`393f831`](https://github.com/OZI-Project/ozi-spec/commit/393f831cc7968b1d895cb1eee501dd6424abcdd3))
 
 * build(deps): bump OZI-Project/checkpoint from 1.6.0 to 1.7.0
 
