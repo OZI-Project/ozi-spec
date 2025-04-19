@@ -1,6 +1,8 @@
 # noqa: INP001
 import sys
 
+import pytest
+
 
 def test_metadata() -> None:
     if sys.version_info < (3, 11):
