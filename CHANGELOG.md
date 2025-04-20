@@ -93,6 +93,9 @@ updated-dependencies:
 ### Chores
 
 
+* chore: update publish permissions — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`8ecc572`](https://github.com/OZI-Project/ozi-spec/commit/8ecc572e22f17c33d19c37cca7011a215d39caa8))
+
 * chore: run lint — Eden Ross Duff MSc <rjdbcm@outlook.com>
 ([`9ec74ea`](https://github.com/OZI-Project/ozi-spec/commit/9ec74eae1822669711e6f201bbc1831f804d0fd4))
 
