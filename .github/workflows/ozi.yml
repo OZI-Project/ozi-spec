@@ -248,6 +248,7 @@ jobs:
     permissions:
       contents: write
       id-token: write
+      pull-requests: write
     steps:
     - name: Harden Runner
       uses: step-security/harden-runner@c6295a65d1254861815972266d5933fd6e532bdf # v2.11.1
