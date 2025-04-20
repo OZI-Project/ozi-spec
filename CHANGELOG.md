@@ -1,9 +1,24 @@
 # ozi-spec CHANGELOG
-## 0.26.0 (2025-04-19)
+## 0.26.0 (2025-04-20)
 
 
 ### Build system
 
+
+* build(deps): bump OZI-Project/publish from 1.13.2 to 1.13.3
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.13.2 to 1.13.3.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/32e7c7b76d44a458dc7538ddc1645520185aa391...df67e9c0f38d22c078568807d2eefed313340e2d)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-version: 1.13.3
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`b0191e1`](https://github.com/OZI-Project/ozi-spec/commit/b0191e13b4a56b56bdf4e198f63adc7dcc44de5e))
 
 * build: automatic PR creation on publish — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
 ([`24872df`](https://github.com/OZI-Project/ozi-spec/commit/24872df4bd7d4df43f6e602e2b171089167757b9))
