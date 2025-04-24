@@ -21,6 +21,21 @@
 ### Build system
 
 
+* build(deps): bump OZI-Project/release from 1.6.0 to 1.6.1
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.6.0 to 1.6.1.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/afbdfe0866a7b046820c232d2a8c3256d2d70ed7...20ec154dfaf0436e1a2498a21d9e4983b0805a4f)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-version: 1.6.1
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`e69f451`](https://github.com/OZI-Project/ozi-spec/commit/e69f4519c442d93e49e18662ad5a17e68a4aa4ea))
+
 * build(deps): bump step-security/harden-runner from 2.11.1 to 2.12.0
 
 Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.11.1 to 2.12.0.
