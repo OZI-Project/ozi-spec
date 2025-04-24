@@ -217,7 +217,7 @@ jobs:
             downloads.python.org:443
 
 
-      - uses: OZI-Project/release@3e592628a9ca610fde525ebd15cfa2fe1289f0cb # 1.6.2
+      - uses: OZI-Project/release@8a741f2f740faf147852a35ec27820f9c7ed5ca5 # 1.6.3
         id: release
         with:
           python-dist: ${{ matrix.py }}
