@@ -5,6 +5,9 @@
 ### Bug fixes
 
 
+* fix: remove version from dynamic field — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`fffefdd`](https://github.com/OZI-Project/ozi-spec/commit/fffefdd9b21789eb30212cc8a9e024feda9b948f))
+
 * fix: ignore FutureWarning in pre 3.11 test env — Eden Ross Duff MSc <rjdbcm@outlook.com>
 ([`2e8ba29`](https://github.com/OZI-Project/ozi-spec/commit/2e8ba29991ad7d25049dbd9cbc6e371e5009dbcb))
 
