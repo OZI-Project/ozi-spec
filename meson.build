@@ -31,23 +31,6 @@ root_files = [
     'pyproject.toml',
     '.gitignore',
 ]
-custom_target(
-    'requirements-ozi-spec',
-    input: root_files[3],
-    output: 'requirements.txt',
-    build_always_stale: true,
-    build_by_default: true,
-    command: [
-        'pip-compile',
-        '--allow-unsafe',
-        '--strip-extras',
-        '-q',
-        '--generate-hashes',
-        '-o',
-        '@OUTPUT@',
-        '@INPUT@'
-    ]
-)
 pyproject_config = configuration_data()
 pyproject_config.set(
     'PYTHON_VERSION_DIST',
