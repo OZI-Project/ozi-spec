@@ -81,7 +81,7 @@ Documentation = "https://docs.oziproject.dev/en/latest/ozi_spec.html"
 Homepage = "https://www.oziproject.dev"
 
 [build-system]
-requires = ['OZI.build[core,pip,uv]~=2.0.3', 'PyYAML']
+requires = ['OZI.build[core,pip,uv]~=2.0.5', 'PyYAML']
 build-backend = "ozi_build.buildapi"
 
 [tool.setuptools_scm]
@@ -302,7 +302,7 @@ package = wheel
 deps =
      uv
 commands_pre =
-     python -m uv pip install OZI.build[core,pip,uv]~=2.0.3 PyYAML
+     python -m uv pip install OZI.build[core,pip,uv]~=2.0.5 PyYAML
      pipx install --python=python meson
 commands =
      meson setup {env_tmp_dir} -Dozi:dist=disabled -Dozi:tox-env-dir={env_dir}
@@ -333,7 +333,6 @@ commands =
      pipx run --python {env_python} black -S .
      pipx run --python {env_python} isort .
      pipx run --python {env_python} autoflake -i -r .
-     pipx run --python {env_python} ruff check . --fix
 commands_post =
 
 [testenv:scm]
