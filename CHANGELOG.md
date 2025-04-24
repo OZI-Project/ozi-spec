@@ -21,6 +21,21 @@
 ### Build system
 
 
+* build(deps): bump OZI-Project/release from 1.6.1 to 1.6.2
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.6.1 to 1.6.2.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/20ec154dfaf0436e1a2498a21d9e4983b0805a4f...3e592628a9ca610fde525ebd15cfa2fe1289f0cb)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-version: 1.6.2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`f3ad006`](https://github.com/OZI-Project/ozi-spec/commit/f3ad0066d1008568361285efe3d1ef4dbfa14e54))
+
 * build(deps): bump OZI-Project/release from 1.6.0 to 1.6.1
 
 Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.6.0 to 1.6.1.
