@@ -5,7 +5,6 @@
 name = "ozi-spec"
 authors = [{name="Eden Ross Duff MSc", email="help@oziproject.dev"}]
 description = "Versioned specification standard metadata for OZI Project tools."
-dynamic = ["version"]
 keywords = "specification,standard,OZI,mesonbuild"
 license = {file = "LICENSE.txt"}
 readme = "README.rst"
