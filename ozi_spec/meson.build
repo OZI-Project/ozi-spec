@@ -21,6 +21,7 @@ foreach file : ['github_ci.py', 'github_ci.pyi']
         }),
         install: true,
         install_dir: python.get_install_dir() / 'ozi_spec',
+        install_tag: 'python-runtime',
     )
 endforeach
 foreach file : ['ci.py', 'ci.pyi']
@@ -32,6 +33,7 @@ foreach file : ['ci.py', 'ci.pyi']
         }),
         install: true,
         install_dir: python.get_install_dir() / 'ozi_spec',
+        install_tag: 'python-runtime',
     )
 endforeach
 source_files = [
