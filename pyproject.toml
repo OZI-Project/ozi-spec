@@ -2,25 +2,16 @@
 # See LICENSE.txt in the project root for details.
 
 [project]
+name = "ozi-spec"
+authors = [{name="Eden Ross Duff MSc", email="help@oziproject.dev"}]
+description = "Versioned specification standard metadata for OZI Project tools."
 dynamic = ["version"]
-license = {file = "LICENSE.txt"}
-dependencies = ['setuptools_scm']
-
-[build-system]
-requires = ['OZI.build[core,pip,uv]~=2.0.2', 'PyYAML']
-build-backend = "ozi_build.buildapi"
-
-[tool.ozi-build.metadata]
-summary = "Versioned specification standard metadata for OZI Project tools."
-home-page = "https://www.oziproject.dev"
-author = "Eden Ross Duff MSc"
-author-email = "help@oziproject.dev"
-requires-python = '>=3.10, <3.14'
-download-url = "https://github.com/OZI-Project/ozi-spec/archive/refs/tags/{version}.tar.gz"
-project-urls = ["Documentation, https://docs.oziproject.dev/en/latest/ozi_spec.html"]
 keywords = "specification,standard,OZI,mesonbuild"
+license = {file = "LICENSE.txt"}
+readme = "README.rst"
+dependencies = ['setuptools_scm']
+requires-python = '>=3.10, <3.14'
 classifiers = [
-    'License :: OSI Approved :: MIT No Attribution License (MIT-0)',
     'Development Status :: 3 - Alpha',
     'Programming Language :: Python :: 3 :: Only',
     'Programming Language :: Python :: 3.10',
@@ -33,7 +24,6 @@ classifiers = [
     'Typing :: Typed',
     'Environment :: Other Environment',
 ]
-description-file = "README.rst"
 
 [project.optional-dependencies] # also meson test suite names
 # OZI Packaging Dependencies
@@ -85,6 +75,14 @@ test = [
     "pytest-tcpclient",
     "pytest-xdist",
 ]
+
+[project.urls]
+Documentation = "https://docs.oziproject.dev/en/latest/ozi_spec.html"
+Homepage = "https://www.oziproject.dev"
+
+[build-system]
+requires = ['OZI.build[core,pip,uv]~=2.0.2', 'PyYAML']
+build-backend = "ozi_build.buildapi"
 
 [tool.setuptools_scm]
 fallback_version = "@VCS_TAG@"
