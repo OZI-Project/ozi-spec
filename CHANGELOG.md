@@ -1,4 +1,15 @@
 # ozi-spec CHANGELOG
+## 0.27.1 (2025-04-25)
+
+
+### Bug fixes
+
+
+* fix: set requires-python to >=3.9
+
+This fixes dependabot compatibility — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`8bec709`](https://github.com/OZI-Project/ozi-spec/commit/8bec709fb596490348563882a6d961c8e7a30159))
+
 ## 0.27.0 (2025-04-24)
 
 
