@@ -1,4 +1,16 @@
 # ozi-spec CHANGELOG
+## 0.27.2 (2025-04-26)
+
+
+### Bug fixes
+
+
+* fix: update OZI.build to 2.0.7 — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`896ce12`](https://github.com/OZI-Project/ozi-spec/commit/896ce12c192e976ba54ae3d9b276b4bb9fd43191))
+
+* fix: add index.crates.io endpoint to freethreaded checkpoint — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`f567960`](https://github.com/OZI-Project/ozi-spec/commit/f567960d7de95c5c10d2a9afa3067030c08b20bd))
+
 ## 0.27.1 (2025-04-25)
 
 
