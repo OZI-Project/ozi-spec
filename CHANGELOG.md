@@ -1,4 +1,168 @@
 # ozi-spec CHANGELOG
+## 0.27.1 (2025-04-25)
+
+
+### Bug fixes
+
+
+* fix: set requires-python to >=3.9
+
+This fixes dependabot compatibility — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`8bec709`](https://github.com/OZI-Project/ozi-spec/commit/8bec709fb596490348563882a6d961c8e7a30159))
+
+## 0.27.0 (2025-04-24)
+
+
+### Bug fixes
+
+
+* fix: remove version from dynamic field — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`fffefdd`](https://github.com/OZI-Project/ozi-spec/commit/fffefdd9b21789eb30212cc8a9e024feda9b948f))
+
+* fix: ignore FutureWarning in pre 3.11 test env — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`2e8ba29`](https://github.com/OZI-Project/ozi-spec/commit/2e8ba29991ad7d25049dbd9cbc6e371e5009dbcb))
+
+* fix: suppress FutureWarning in pre 3.11 test env — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`fcfb07a`](https://github.com/OZI-Project/ozi-spec/commit/fcfb07a5a08f974a393344916dd128657749df22))
+
+* fix: OZI.build~=2.0.5 — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`8f5496c`](https://github.com/OZI-Project/ozi-spec/commit/8f5496ca1495f82b7933332213f51564275747fa))
+
+* fix: correct install tag for configured python files with templates — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`44fe178`](https://github.com/OZI-Project/ozi-spec/commit/44fe178f5157ecc9d2197d555d5bb7530e8c9d67))
+
+
+### Build system
+
+
+* build(deps): bump OZI-Project/release from 1.6.3 to 1.6.4
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.6.3 to 1.6.4.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/8a741f2f740faf147852a35ec27820f9c7ed5ca5...0b2ba9981ee9eea47a358c0d70c5b3764a61b88c)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-version: 1.6.4
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`9dd9b2e`](https://github.com/OZI-Project/ozi-spec/commit/9dd9b2ecd524c0fbdb6e8d3e913009fd486daf73))
+
+* build(deps): bump OZI-Project/release from 1.6.2 to 1.6.3
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.6.2 to 1.6.3.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/3e592628a9ca610fde525ebd15cfa2fe1289f0cb...8a741f2f740faf147852a35ec27820f9c7ed5ca5)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-version: 1.6.3
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`cf6bb20`](https://github.com/OZI-Project/ozi-spec/commit/cf6bb2078bf823eddb78748a9e25d18b276628ff))
+
+* build(deps): bump OZI-Project/release from 1.6.1 to 1.6.2
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.6.1 to 1.6.2.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/20ec154dfaf0436e1a2498a21d9e4983b0805a4f...3e592628a9ca610fde525ebd15cfa2fe1289f0cb)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-version: 1.6.2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`f3ad006`](https://github.com/OZI-Project/ozi-spec/commit/f3ad0066d1008568361285efe3d1ef4dbfa14e54))
+
+* build(deps): bump OZI-Project/release from 1.6.0 to 1.6.1
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.6.0 to 1.6.1.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/afbdfe0866a7b046820c232d2a8c3256d2d70ed7...20ec154dfaf0436e1a2498a21d9e4983b0805a4f)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-version: 1.6.1
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`e69f451`](https://github.com/OZI-Project/ozi-spec/commit/e69f4519c442d93e49e18662ad5a17e68a4aa4ea))
+
+* build(deps): bump step-security/harden-runner from 2.11.1 to 2.12.0
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.11.1 to 2.12.0.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/c6295a65d1254861815972266d5933fd6e532bdf...0634a2670c59f64b4a01f0f96f84700a4088b9f0)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-version: 2.12.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`dadd356`](https://github.com/OZI-Project/ozi-spec/commit/dadd35671206e39885f6c854e0dd45391b634e37))
+
+* build(deps): bump github/codeql-action from 3.28.12 to 3.28.16
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.28.12 to 3.28.16.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/5f8171a638ada777af81d42b55959a643bb29017...28deaeda66b76a05916b6923827895f2b14ab387)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-version: 3.28.16
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`cfcfc4c`](https://github.com/OZI-Project/ozi-spec/commit/cfcfc4c8f203a7f4bc48d6fc8fa79d8d8f33024d))
+
+* build(deps): update ozi-build[core,uv] requirement
+
+Updates the requirements on [ozi-build[core,uv]](https://github.com/OZI-Project/OZI.build) to permit the latest version.
+- [Release notes](https://github.com/OZI-Project/OZI.build/releases)
+- [Changelog](https://github.com/OZI-Project/OZI.build/blob/2.0.2/CHANGELOG.md)
+- [Commits](https://github.com/OZI-Project/OZI.build/compare/1.14.0...2.0.2)
+
+
+updated-dependencies:
+- dependency-name: ozi-build[core,uv]
+  dependency-version: 2.0.2
+  dependency-type: direct:production
+... — dependabot[bot] <support@github.com>
+([`df9d176`](https://github.com/OZI-Project/ozi-spec/commit/df9d1764dc883c5407a5be52c5bf4aa62470899c))
+
+
+### Chores
+
+
+* chore: update OZI.build to latest patch — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`9007b91`](https://github.com/OZI-Project/ozi-spec/commit/9007b917275d49e2c461ff4bc4a5771a37d8757f))
+
+* chore: add pip extra for OZI.build 2.0 — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`35d02f5`](https://github.com/OZI-Project/ozi-spec/commit/35d02f5f997f018b3256d69637f6aad1d9eeeb2f))
+
+* chore: update OZI wrapfile to 1.38.4 — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`c0cf36e`](https://github.com/OZI-Project/ozi-spec/commit/c0cf36eef5a40e26674ac7386a1a4e900d80cf24))
+
+
+### Features
+
+
+* feat: default to OZI.build~=2.0.3
+
+Project metadata moved to standard project table in pyproject — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`f4fd08c`](https://github.com/OZI-Project/ozi-spec/commit/f4fd08c880b3d1e1b51177bb47e0fdc7c0efcbc1))
+
 ## 0.26.0 (2025-04-20)
 
 
