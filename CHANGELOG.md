@@ -1,4 +1,13 @@
 # ozi-spec CHANGELOG
+## 0.27.3 (2025-04-26)
+
+
+### Bug fixes
+
+
+* fix: OZI.build~=2.0.8 - overwrite sdist version with supply-chain provisioned version — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`c9cd1e0`](https://github.com/OZI-Project/ozi-spec/commit/c9cd1e0fe110c30b36849607a663713e7fa5bf7a))
+
 ## 0.27.2 (2025-04-26)
 
 
