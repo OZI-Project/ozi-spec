@@ -165,9 +165,13 @@ class Build(Default):
 
     .. versionchanged:: 0.8
        All build-system requires moved to OZI.build 1.2 as extra optional_dependencies.
+
+    .. versionchanged:: 0.28
+       Add meson key with meson version constraint.
     """
 
     backend: str = 'ozi_build.buildapi'
+    meson: str = '@pyproject_meson_version@'
     requires: Mapping[str, str] = field(
         default_factory=lambda: {
             'OZI.build': 'OZI.build[core]~=@pyproject_ozi_build_version@',

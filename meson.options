@@ -29,7 +29,6 @@ option(
     type: 'array',
     value: [
         'scm-version-snip', 
-        'core-metadata',
         'python',
         'metadata-version',
         'namespace',
@@ -41,6 +40,24 @@ option(
         'lint-exclude-suites',
         'test-exclude-suites'
     ]
+)
+option(
+    'compile-requirements-command',
+    type: 'array',
+    value: ['uv', 'pip', 'compile'],
+    yield: true,
+)
+option(
+    'install-requirements-command',
+    type: 'array',
+    value: ['uv', 'pip'],
+    yield: true,
+)
+option(
+    'install-tools-command',
+    type: 'array',
+    value: ['uv', 'pip', 'install'],
+    yield: true,
 )
 option(
     'dist-suite',
