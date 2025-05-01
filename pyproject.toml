@@ -81,7 +81,7 @@ Documentation = "https://docs.oziproject.dev/en/latest/ozi_spec.html"
 Homepage = "https://www.oziproject.dev"
 
 [build-system]
-requires = ['OZI.build[core,pip,uv]~=2.0.5', 'PyYAML']
+requires = ['OZI.build[core,uv]~=2.0.7', 'PyYAML']
 build-backend = "ozi_build.buildapi"
 
 [tool.setuptools_scm]
@@ -295,17 +295,16 @@ python =
 [testenv]
 allowlist_externals =
    rm
-   pipx
    python
    meson
 package = wheel
 deps =
      uv
 commands_pre =
-     python -m uv pip install OZI.build[core,pip,uv]~=2.0.5 PyYAML
-     pipx install --python=python meson
+     python -m uv pip install OZI.build[core,uv]~=2.0.7 PyYAML
+     uv tool install --python={env_python} --force "meson~=1.2,<1.9"
 commands =
-     meson setup {env_tmp_dir} -Dozi:dist=disabled -Dozi:tox-env-dir={env_dir}
+     meson setup {env_tmp_dir} -Dozi:{env_name}=enabled -Dozi:tox-env-dir={env_dir}
      meson compile -C {env_tmp_dir}
      rm -rf {env_tmp_dir}/.gitignore
 commands_post =
@@ -319,20 +318,16 @@ description = OZI format/lint checkpoint
 
 [testenv:test]
 description = OZI unit tests checkpoint
-commands =
-     meson setup {env_tmp_dir} -Dozi:ozi-blastpipe=disabled -Dozi:dist=disabled -Dozi:tox-env-dir={env_dir}
-     meson compile -C {env_tmp_dir}
-     rm -rf {env_tmp_dir}/.gitignore
 
 [testenv:fix]
 description = quickly fix minor source issues 
-deps = pipx
+deps = uv
 skip_install = true
 commands_pre =
 commands =
-     pipx run --python {env_python} black -S .
-     pipx run --python {env_python} isort .
-     pipx run --python {env_python} autoflake -i -r .
+     uv tool run --python {env_python} black -S .
+     uv tool run --python {env_python} isort .
+     uv tool run --python {env_python} autoflake -i -r .
 commands_post =
 
 [testenv:scm]
