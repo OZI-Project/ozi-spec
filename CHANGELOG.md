@@ -1,4 +1,6 @@
 # ozi-spec CHANGELOG
+## 0.28.0 (2025-05-01)
+
 ## 0.27.3 (2025-04-26)
 
 
@@ -178,6 +180,9 @@ updated-dependencies:
 
 ### Features
 
+
+* feat: add meson key to build — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`f8b895e`](https://github.com/OZI-Project/ozi-spec/commit/f8b895e2b96e18f7d60a9e8ba9a116b98ad72739))
 
 * feat: default to OZI.build~=2.0.3
 
