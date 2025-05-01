@@ -3,6 +3,7 @@
 
 [project]
 name = "ozi-spec"
+version = '0.28'
 authors = [{name="Eden Ross Duff MSc", email="help@oziproject.dev"}]
 description = "Versioned specification standard metadata for OZI Project tools."
 keywords = "specification,standard,OZI,mesonbuild"
