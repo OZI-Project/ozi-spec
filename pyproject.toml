@@ -5,15 +5,15 @@
 name = "ozi-spec"
 authors = [{name="Eden Ross Duff MSc", email="help@oziproject.dev"}]
 description = "Versioned specification standard metadata for OZI Project tools."
-dynamic = ["version"]
 keywords = "specification,standard,OZI,mesonbuild"
 license = {file = "LICENSE.txt"}
 readme = "README.rst"
 dependencies = ['setuptools_scm']
-requires-python = '>=3.10, <3.14'
+requires-python = '>=3.9, <3.14'
 classifiers = [
     'Development Status :: 3 - Alpha',
     'Programming Language :: Python :: 3 :: Only',
+    'Programming Language :: Python :: 3.9',
     'Programming Language :: Python :: 3.10',
     'Programming Language :: Python :: 3.11',
     'Programming Language :: Python :: 3.12',
@@ -81,7 +81,7 @@ Documentation = "https://docs.oziproject.dev/en/latest/ozi_spec.html"
 Homepage = "https://www.oziproject.dev"
 
 [build-system]
-requires = ['OZI.build[core,uv]~=2.0.7', 'PyYAML']
+requires = ['OZI.build[core,uv]~=2.0.8', 'PyYAML']
 build-backend = "ozi_build.buildapi"
 
 [tool.setuptools_scm]
@@ -301,7 +301,7 @@ package = wheel
 deps =
      uv
 commands_pre =
-     python -m uv pip install OZI.build[core,uv]~=2.0.7 PyYAML
+     uv pip install OZI.build[core,pip,uv]~=2.0.8 PyYAML
      uv tool install --python={env_python} --force "meson~=1.2,<1.9"
 commands =
      meson setup {env_tmp_dir} -Dozi:{env_name}=enabled -Dozi:tox-env-dir={env_dir}
