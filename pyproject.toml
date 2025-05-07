@@ -82,7 +82,7 @@ Documentation = "https://docs.oziproject.dev/en/latest/ozi_spec.html"
 Homepage = "https://www.oziproject.dev"
 
 [build-system]
-requires = ['OZI.build[core,uv]~=2.0.9', 'PyYAML']
+requires = ['OZI.build[core,uv]>=2.0.9,<2.2.0', 'PyYAML']
 build-backend = "ozi_build.buildapi"
 
 [tool.setuptools_scm]
@@ -302,7 +302,7 @@ package = wheel
 deps =
      uv
 commands_pre =
-     uv pip install OZI.build[core,uv]~=2.0.9 PyYAML
+     uv pip install OZI.build[core,uv]>=2.0.9,<2.2.0 PyYAML
      uv tool install --python={env_python} --force "meson~=1.2,<1.9"
 commands =
      meson setup {env_tmp_dir} -Dozi:{env_name}=enabled -Dozi:tox-env-dir={env_dir}
