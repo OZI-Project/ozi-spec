@@ -41,7 +41,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@ac9e45ece7eecacce1a9acb44ae4443985fe310b # 1.7.2
+      - uses: OZI-Project/checkpoint@1b0b165711dca7c852f4c30fbebea96de3747617 # 1.7.3
         with:
           python-version: "3.11"
 
@@ -71,7 +71,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@ac9e45ece7eecacce1a9acb44ae4443985fe310b # 1.7.2
+      - uses: OZI-Project/checkpoint@1b0b165711dca7c852f4c30fbebea96de3747617 # 1.7.3
         with:
           python-version: "3.12"
 
@@ -101,7 +101,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@ac9e45ece7eecacce1a9acb44ae4443985fe310b # 1.7.2
+      - uses: OZI-Project/checkpoint@1b0b165711dca7c852f4c30fbebea96de3747617 # 1.7.3
         with:
           python-version: "3.13"
 
@@ -131,7 +131,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@ac9e45ece7eecacce1a9acb44ae4443985fe310b # 1.7.2
+      - uses: OZI-Project/checkpoint@1b0b165711dca7c852f4c30fbebea96de3747617 # 1.7.3
         with:
           python-version: "3.13"
           freethreaded: true
@@ -169,7 +169,7 @@ jobs:
             api.github.com:443
             github.com:443
 
-      - uses: OZI-Project/draft@92712f8a95c9cb1fa00731f9a29edeb1cd9799b8 # 1.13.2
+      - uses: OZI-Project/draft@84f054f0398fe815ac68f4243f6aafb9f5b85e4a # 1.13.4
         id: draft
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -217,7 +217,7 @@ jobs:
             downloads.python.org:443
 
 
-      - uses: OZI-Project/release@36fe15c47185192e9cf5df744a8d1eb679676e22 # 1.6.5
+      - uses: OZI-Project/release@c2763a6a1958b2eca8679748d58a09f9819dff74 # 1.6.6
         id: release
         with:
           python-dist: ${{ matrix.py }}
@@ -266,7 +266,7 @@ jobs:
             ghcr.io:443
             pkg-containers.githubusercontent.com:443
 
-    - uses: OZI-Project/publish@8297bf52054be7cae27ab2770e08d96676fd3162 # 1.13.4
+    - uses: OZI-Project/publish@d1763d63541169af7572fbe3c3b6ea9ffc2d355c # 1.13.6
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         create-pull-request: true
