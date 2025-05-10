@@ -266,7 +266,7 @@ jobs:
             ghcr.io:443
             pkg-containers.githubusercontent.com:443
 
-    - uses: OZI-Project/publish@8297bf52054be7cae27ab2770e08d96676fd3162 # 1.13.4
+    - uses: OZI-Project/publish@d1763d63541169af7572fbe3c3b6ea9ffc2d355c # 1.13.6
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         create-pull-request: true
