@@ -5,6 +5,9 @@
 ### Build system
 
 
+* build: ozi.wrap 1.41.9 — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`abb9d54`](https://github.com/OZI-Project/ozi-spec/commit/abb9d547a10f8adf9293f8331fafdfc092f61de8))
+
 * build(deps): bump OZI-Project/release from 1.7.0 to 1.7.1
 
 Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.7.0 to 1.7.1.
