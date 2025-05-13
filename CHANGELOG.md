@@ -5,6 +5,21 @@
 ### Build system
 
 
+* build(deps): bump OZI-Project/release from 1.7.1 to 1.7.2
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.7.1 to 1.7.2.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/cc342b5a9127bac0d35e19df985e508d3e2970d9...1a96f575984b14a83263245632390143af65fc7c)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-version: 1.7.2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`5168477`](https://github.com/OZI-Project/ozi-spec/commit/516847760068f62883acdaf9eb5f86505ed78181))
+
 * build: ozi.wrap 1.41.9 — Eden Ross Duff MSc <rjdbcm@outlook.com>
 ([`abb9d54`](https://github.com/OZI-Project/ozi-spec/commit/abb9d547a10f8adf9293f8331fafdfc092f61de8))
 
