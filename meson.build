@@ -23,7 +23,6 @@ pymod = import('python')
 python_dependencies = get_option('python-dependencies')
 python = pymod.find_installation()
 project_name = meson.project_name()
-pip_compile = find_program('pip-compile', required: true)
 root_files = [
     'README',
     'CHANGELOG.md',
