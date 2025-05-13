@@ -217,7 +217,7 @@ jobs:
             downloads.python.org:443
 
 
-      - uses: OZI-Project/release@10a57d8906c4969547cfaa3395eb53facb8a5041 # 1.6.7
+      - uses: OZI-Project/release@f1ee8e62757fbe1f21b773ff39636ab296a0a5be # 1.7.0
         id: release
         with:
           python-dist: ${{ matrix.py }}
@@ -266,7 +266,7 @@ jobs:
             ghcr.io:443
             pkg-containers.githubusercontent.com:443
 
-    - uses: OZI-Project/publish@d1763d63541169af7572fbe3c3b6ea9ffc2d355c # 1.13.6
+    - uses: OZI-Project/publish@621f1f7d2691300b8a66b0aaa62a4853359daa89 # 1.13.7
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         create-pull-request: true
