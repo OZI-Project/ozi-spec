@@ -5,6 +5,21 @@
 ### Build system
 
 
+* build(deps): bump OZI-Project/release from 1.7.2 to 1.7.3
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.7.2 to 1.7.3.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/1a96f575984b14a83263245632390143af65fc7c...da01e3a2105d7c014ba240b23b97f19a9f3cdd95)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-version: 1.7.3
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`800b2a0`](https://github.com/OZI-Project/ozi-spec/commit/800b2a0393e99bed1a5434fbe9f1d549ee20d21a))
+
 * build(deps): bump OZI-Project/release from 1.7.1 to 1.7.2
 
 Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.7.1 to 1.7.2.
@@ -67,6 +82,13 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ... — dependabot[bot] <support@github.com>
 ([`1b2e1dd`](https://github.com/OZI-Project/ozi-spec/commit/1b2e1dded3b87e9e3e3b7f83ff4dcb04b286fa63))
+
+
+### Unknown
+
+
+* Update meson.build — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`3d535c6`](https://github.com/OZI-Project/ozi-spec/commit/3d535c6dc9fe95e2652750f1240e8d1b65df543e))
 
 ## 0.28.2 (2025-05-10)
 
