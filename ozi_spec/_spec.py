@@ -20,7 +20,7 @@ def _current_version() -> str:
     try:
         version_ = version('ozi-spec')
     except PackageNotFoundError:  # pragma: no cover
-        version_ = '0.11'
+        version_ = '1.0'
     return version_
 
 
