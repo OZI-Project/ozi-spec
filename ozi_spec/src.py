@@ -81,6 +81,10 @@ class SrcTemplate(Default):
 
     .. versionchanged:: 0.9
         Removed :file:`requirements.in` from `root`.
+
+    .. versionchanged:: 1.0
+        Removed templates for changelog and release notes.
+
     """
 
     root: tuple[str, ...] = (
@@ -103,11 +107,7 @@ class SrcTemplate(Default):
             'github': ('github_workflows/ozi.yml', 'github_workflows/cleanup.yml'),
         },
     )
-    templates: tuple[str, ...] = (
-        'templates/.release_notes.md.j2',
-        'templates/CHANGELOG.md.j2',
-        'templates/.parsed_commit_heading.j2',
-    )
+    templates: tuple[str, ...] = ()
     subprojects: tuple[str, ...] = ('subprojects/ozi.wrap',)
     add_root: str = field(default='tests/new_test.py.j2')
     add_source: str = field(default='project.name/new_module.py.j2')
