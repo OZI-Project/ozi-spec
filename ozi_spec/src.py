@@ -107,7 +107,7 @@ class SrcTemplate(Default):
             'github': ('github_workflows/ozi.yml', 'github_workflows/cleanup.yml'),
         },
     )
-    templates: tuple[str, ...] = tuple()
+    templates: tuple[str, ...] = ()
     subprojects: tuple[str, ...] = ('subprojects/ozi.wrap',)
     add_root: str = field(default='tests/new_test.py.j2')
     add_source: str = field(default='project.name/new_module.py.j2')

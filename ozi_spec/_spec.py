@@ -31,9 +31,9 @@ def _ozi_version() -> str:
         minor,
         *_,
     ) = _current_version().split('.')
-    if int(major) == 0:
+    if int(major) == 0:  # pragma: no cover
         return f'{int(major) + 1}.{int(minor) + 13}'
-    return f'{int(major) + 1}.{int(minor)}'  # pragma: defer to 1.0
+    return f'{int(major) + 1}.{int(minor)}'
 
 
 @dataclass(slots=True, frozen=True, eq=True)
