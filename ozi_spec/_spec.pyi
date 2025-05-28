@@ -16,7 +16,7 @@ from ozi_spec.python import PythonSupport
 class Spec(Default):
     """OZI Specification metadata."""
 
-    version: str = '0.x'
+    version: str = '1.x'
     python: PythonProject = ClassicProject()
 
 @dataclass(slots=True, frozen=True, eq=True)
@@ -29,7 +29,7 @@ class Experimental(Default):
 class OZI(Default):
     """OZI distribution metadata."""
 
-    version: str = '1.x'
+    version: str = '2.x'
     python_support: PythonSupport = PythonSupport()
     experimental: Experimental = Experimental()
 
