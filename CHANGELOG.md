@@ -1,4 +1,26 @@
 # ozi-spec CHANGELOG
+## 1.0.1 (2025-05-29)
+
+
+### Bug fixes
+
+
+* fix: remove sematic-release changelog and release notes templates — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`3ebb2f3`](https://github.com/OZI-Project/ozi-spec/commit/3ebb2f348cf8a9b09470aa1d6734bcb33ad916f8))
+
+* fix: clean up stubs for major version 1 — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`7cec0b8`](https://github.com/OZI-Project/ozi-spec/commit/7cec0b8980d6b541c7c871a3c335ffbc1c9a780f))
+
+
+### Chores
+
+
+* chore: update release branches — Eden Ross Duff, MSc <ozi.project@outlook.com>
+([`29081a0`](https://github.com/OZI-Project/ozi-spec/commit/29081a02dcbd02710a42c021bd9499e10358c62c))
+
+* chore: clean up lint — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`bf658f1`](https://github.com/OZI-Project/ozi-spec/commit/bf658f105d15b0889de93bcf5e259b389a0565e9))
+
 ## 1.0.0 (2025-05-28)
 
 
