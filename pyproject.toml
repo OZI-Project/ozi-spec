@@ -250,6 +250,11 @@ match = "\\A0\\.\\d+\\Z"
 prerelease_token = "alpha"
 prerelease = false
 
+[tool.semantic_release.branches."1.x"]
+match = "\\A1\\.\\d+\\Z"
+prerelease_token = "rc"
+prerelease = false
+
 [tool.semantic_release.commit_parser_options]
 allowed_tags = [
     "build",
