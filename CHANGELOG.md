@@ -1,4 +1,25 @@
 # ozi-spec CHANGELOG
+## 1.0.2 (2025-05-30)
+
+
+### Build system
+
+
+* build(deps): bump OZI-Project/checkpoint from 1.7.4 to 1.7.5
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.7.4 to 1.7.5.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/40890b7e9f18621e556892606346aebc8292cfa6...301753e6853d6a65055c8df69dafe7df74bd7963)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-version: 1.7.5
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`3113413`](https://github.com/OZI-Project/ozi-spec/commit/3113413786d1875ee4d7b1dcb60debf52110f010))
+
 ## 1.0.1 (2025-05-29)
 
 
