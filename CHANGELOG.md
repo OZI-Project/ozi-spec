@@ -1,4 +1,55 @@
 # ozi-spec CHANGELOG
+## 1.0.3 (2025-06-03)
+
+
+### Bug fixes
+
+
+* fix: update for OZI-2.0.3 — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`3162495`](https://github.com/OZI-Project/ozi-spec/commit/3162495cc0fb8147d90de68dca224aced72a3c01))
+
+
+### Build system
+
+
+* build(deps): bump ossf/scorecard-action from 2.4.1 to 2.4.2
+
+Bumps [ossf/scorecard-action](https://github.com/ossf/scorecard-action) from 2.4.1 to 2.4.2.
+- [Release notes](https://github.com/ossf/scorecard-action/releases)
+- [Changelog](https://github.com/ossf/scorecard-action/blob/main/RELEASE.md)
+- [Commits](https://github.com/ossf/scorecard-action/compare/f49aabe0b5af0936a0987cfb85d86b75731b0186...05b42c624433fc40578a4040d5cf5e36ddca8cde)
+
+
+updated-dependencies:
+- dependency-name: ossf/scorecard-action
+  dependency-version: 2.4.2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`bd2ed24`](https://github.com/OZI-Project/ozi-spec/commit/bd2ed24503ffa12ce4331fb1fc774f3567fad8b1))
+
+* build(deps): bump OZI-Project/release from 1.8.3 to 1.8.5
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.8.3 to 1.8.5.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/0a9f46ecacc5bb6a926467a601c8b75bb2deb4ac...84d51474b41de0c8c98d34431f9c0e282fd72c19)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-version: 1.8.5
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`07e2f69`](https://github.com/OZI-Project/ozi-spec/commit/07e2f699ebc8eb2380db5b4e5607c3f2ed31c712))
+
+
+### Chores
+
+
+* chore: update wrapfile to OZI-2.0.2 — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`1014a37`](https://github.com/OZI-Project/ozi-spec/commit/1014a378659d824331d8401c7ff265f2c20fd346))
+
 ## 1.0.2 (2025-05-30)
 
 
