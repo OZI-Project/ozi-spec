@@ -169,7 +169,7 @@ jobs:
             api.github.com:443
             github.com:443
 
-      - uses: OZI-Project/draft@9fcb96b0c50c0da405737413299ede083f1d94cf # 1.14.0
+      - uses: OZI-Project/draft@d870c506fefd49de075e21217885c8670cd9b883 # 1.14.2
         id: draft
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -266,7 +266,7 @@ jobs:
             ghcr.io:443
             pkg-containers.githubusercontent.com:443
 
-    - uses: OZI-Project/publish@0d8a74931c945399bb0967f77c67055956b9e5c5 # 1.14.0
+    - uses: OZI-Project/publish@d2deb87a158a3555d67cb9dbabde2fe3e271fa6a # 1.14.3
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         create-pull-request: true
