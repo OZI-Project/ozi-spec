@@ -37,7 +37,7 @@ jobs:
             tuf-repo-cdn.sigstore.dev:443
             oauth2.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@34c59f4977fed722934fae2caadc29e3f0f8bf0d # 1.8.3
+      - uses: OZI-Project/checkpoint@46c3ab38b65e3e8f5330c96a0f310d2800ea4348 # 1.9.0
         with:
           python-version: "3.10"
 
@@ -68,7 +68,7 @@ jobs:
             tuf-repo-cdn.sigstore.dev:443
             oauth2.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@34c59f4977fed722934fae2caadc29e3f0f8bf0d # 1.8.3
+      - uses: OZI-Project/checkpoint@46c3ab38b65e3e8f5330c96a0f310d2800ea4348 # 1.9.0
         with:
           python-version: "3.11"
 
@@ -99,7 +99,7 @@ jobs:
             tuf-repo-cdn.sigstore.dev:443
             oauth2.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@34c59f4977fed722934fae2caadc29e3f0f8bf0d # 1.8.3
+      - uses: OZI-Project/checkpoint@46c3ab38b65e3e8f5330c96a0f310d2800ea4348 # 1.9.0
         with:
           python-version: "3.12"
 
@@ -131,7 +131,7 @@ jobs:
             index.crates.io:443
             static.crates.io:443
 
-      - uses: OZI-Project/checkpoint@34c59f4977fed722934fae2caadc29e3f0f8bf0d
+      - uses: OZI-Project/checkpoint@46c3ab38b65e3e8f5330c96a0f310d2800ea4348
         with:
           python-version: "3.13"
 
@@ -162,7 +162,7 @@ jobs:
             tuf-repo-cdn.sigstore.dev:443
             index.crates.io:443
 
-      - uses: OZI-Project/checkpoint@34c59f4977fed722934fae2caadc29e3f0f8bf0d # 1.8.3
+      - uses: OZI-Project/checkpoint@46c3ab38b65e3e8f5330c96a0f310d2800ea4348 # 1.9.0
         with:
           python-version: "3.13"
           freethreaded: true
