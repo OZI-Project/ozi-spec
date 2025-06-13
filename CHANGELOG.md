@@ -1,4 +1,40 @@
 # ozi-spec CHANGELOG
+## 1.0.6 (2025-06-13)
+
+
+### Build system
+
+
+* build(deps): bump OZI-Project/draft from 1.14.2 to 1.15.0
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.14.2 to 1.15.0.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/d870c506fefd49de075e21217885c8670cd9b883...4f9117750cd22709a929ed3f36578f172a94bd41)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-version: 1.15.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`41452e5`](https://github.com/OZI-Project/ozi-spec/commit/41452e5d4ebdde3ae4ac9a8cf11e183db06243e3))
+
+* build(deps): bump OZI-Project/publish from 1.14.3 to 1.15.0
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.14.3 to 1.15.0.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/d2deb87a158a3555d67cb9dbabde2fe3e271fa6a...c448915d89a76028ab54f2b539ad159e3a612003)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-version: 1.15.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`44b36ec`](https://github.com/OZI-Project/ozi-spec/commit/44b36ec34c26e7678ed671b5680ff8e78d7663af))
+
 ## 1.0.5 (2025-06-12)
 
 
