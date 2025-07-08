@@ -40,6 +40,15 @@ class GenerateProvenance(Default):
     version: str = '@github_slsa_version@'
 
 @dataclass(slots=True, frozen=True, eq=True)
+class Provenance(Default):
+    """Github provenance generator metadata.
+
+    .. versionadded:: 1.1
+    """
+
+    version: str = '@github_provenance_version@'
+
+@dataclass(slots=True, frozen=True, eq=True)
 class Checkpoint(Default):
     """Checkpoint suites to run."""
 
@@ -54,6 +63,7 @@ class HardenRunnerEndpoints(Default):
     checkpoint: str = '@github_checkpoint_endpoints@'  # noqa: B950
     draft: str = '@github_draft_endpoints@'  # noqa: B950
     release: str = '@github_release_endpoints@'  # noqa: B950
+    provenance: str = '@github_provenance_endpoints@'  # noqa: B950
     publish: str = '@github_publish_endpoints@'  # noqa: B950
     # fmt: on
 
