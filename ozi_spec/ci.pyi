@@ -9,11 +9,7 @@ from dataclasses import dataclass
 from dataclasses import field
 
 from ozi_spec.base import Default
-from ozi_spec.github_ci import Checkpoint
-from ozi_spec.github_ci import Draft
-from ozi_spec.github_ci import GenerateProvenance
-from ozi_spec.github_ci import Publish
-from ozi_spec.github_ci import Release
+from ozi_spec.github_ci import GithubMetadata
 
 @dataclass(slots=True, frozen=True, eq=True)
 class CheckpointSuite(Default):
@@ -185,17 +181,15 @@ class CI(Default):
     .. versionchanged:: 0.16
        Moved provenance, gh_action_pypi_publish, and harden_runner to ``github``.
 
+    .. versionchanged:: 1.1
+       Moved workflow references into provider keys.
+       Removed tox-gh from backend.
     """
 
     backend: Mapping[str, str] = field(
         default_factory=lambda: {
             'tox': 'tox~=4.18',
-            'tox-gh': 'tox-gh~=1.3',
         },
     )
-    checkpoint: Checkpoint = Checkpoint()
-    draft: Draft = Draft()
-    release: Release = Release()
-    publish: Publish = Publish()
-    provenance: GenerateProvenance = GenerateProvenance()
     providers: tuple[str, ...] = ('github',)
+    github: GithubMetadata = GithubMetadata()

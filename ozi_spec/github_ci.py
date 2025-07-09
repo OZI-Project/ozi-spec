@@ -43,6 +43,16 @@ class GenerateProvenance(Default):
 
 
 @dataclass(slots=True, frozen=True, eq=True)
+class Provenance(Default):
+    """Github provenance generator metadata.
+
+    .. versionadded:: 1.1
+    """
+
+    version: str = '@github_provenance_version@'
+
+
+@dataclass(slots=True, frozen=True, eq=True)
 class Checkpoint(Default):
     """Checkpoint suites to run."""
 
@@ -58,6 +68,7 @@ class HardenRunnerEndpoints(Default):
     checkpoint: str = '@github_checkpoint_endpoints@'  # noqa: B950
     draft: str = '@github_draft_endpoints@'  # noqa: B950
     release: str = '@github_release_endpoints@'  # noqa: B950
+    provenance: str = '@github_provenance_endpoints@'  # noqa: B950
     publish: str = '@github_publish_endpoints@'  # noqa: B950
     # fmt: on
 
@@ -81,6 +92,11 @@ class GithubActionPyPI(Default):
 class GithubMetadata(Default):
     """Github specific CI metadata"""
 
-    harden_runner: HardenRunner = HardenRunner()
+    checkpoint: Checkpoint = Checkpoint()
+    draft: Draft = Draft()
     gh_action_pypi_publish: GithubActionPyPI = GithubActionPyPI()
-    provenance: GenerateProvenance = GenerateProvenance()
+    harden_runner: HardenRunner = HardenRunner()
+    slsa_provenance: GenerateProvenance = GenerateProvenance()
+    provenance: Provenance = Provenance()
+    publish: Publish = Publish()
+    release: Release = Release()
