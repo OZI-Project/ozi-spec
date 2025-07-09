@@ -84,6 +84,11 @@ class GithubActionPyPI(Default):
 class GithubMetadata(Default):
     """Github specific CI metadata"""
 
-    harden_runner: HardenRunner = HardenRunner()
+    checkpoint: Checkpoint = Checkpoint()
+    draft: Draft = Draft()
     gh_action_pypi_publish: GithubActionPyPI = GithubActionPyPI()
-    provenance: GenerateProvenance = GenerateProvenance()
+    harden_runner: HardenRunner = HardenRunner()
+    slsa_provenance: GenerateProvenance = GenerateProvenance()
+    provenance: Provenance = Provenance()
+    publish: Publish = Publish()
+    release: Release = Release()
