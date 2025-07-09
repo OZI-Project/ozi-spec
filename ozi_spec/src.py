@@ -104,7 +104,7 @@ class SrcTemplate(Default):
     test: tuple[str, ...] = ('tests/meson.build',)
     ci_provider: Mapping[str, tuple[str, ...]] = field(
         default_factory=lambda: {
-            'github': ('github_workflows/ozi.yml', 'github_workflows/cleanup.yml'),
+            'github': ('.github/workflows/ozi.yml', '.github/workflows/cleanup.yml'),
         },
     )
     templates: tuple[str, ...] = ()
