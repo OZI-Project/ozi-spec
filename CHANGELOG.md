@@ -1,4 +1,86 @@
 # ozi-spec CHANGELOG
+## 1.1.0 (2025-07-09)
+
+
+### Build system
+
+
+* build(deps): bump github/codeql-action from 3.29.0 to 3.29.2
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.29.0 to 3.29.2.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/ce28f5bb42b7a9f2c824e633a3f6ee835bab6858...181d5eefc20863364f96762470ba6f862bdef56b)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-version: 3.29.2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`afa9b68`](https://github.com/OZI-Project/ozi-spec/commit/afa9b688b44baf4a7d875ee83e3876d6878d5ec4))
+
+* build(deps): bump OZI-Project/draft from 1.15.0 to 1.16.0
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.15.0 to 1.16.0.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/4f9117750cd22709a929ed3f36578f172a94bd41...7ce5c1150603d27957375d1c85570faa29ab5fd5)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-version: 1.16.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`e3061b9`](https://github.com/OZI-Project/ozi-spec/commit/e3061b93e92185784817cb4b82d7d8976259a1ad))
+
+* build(deps): bump step-security/harden-runner from 2.12.1 to 2.12.2
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.12.1 to 2.12.2.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/002fdce3c6a235733a90a27c80493a3241e56863...6c439dc8bdf85cadbbce9ed30d1c7b959517bc49)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-version: 2.12.2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`fc49279`](https://github.com/OZI-Project/ozi-spec/commit/fc49279d9c65e8cab1588812e7e1642e7a498622))
+
+* build(deps): bump OZI-Project/checkpoint from 1.9.1 to 1.9.3
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.9.1 to 1.9.3.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/b7afe55ac890df008deb75191e53f83823117f92...4c60c58ba33a128bbde246fbee9e16569062f7cf)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-version: 1.9.3
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`fb5827c`](https://github.com/OZI-Project/ozi-spec/commit/fb5827c62176d98aac79c3e2a944b8abfc9e048c))
+
+* build(deps): bump OZI-Project/publish from 1.15.0 to 1.16.0
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.15.0 to 1.16.0.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/c448915d89a76028ab54f2b539ad159e3a612003...9df2afca0ca23d527508e76a8deef37330bd90bb)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-version: 1.16.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`6e508e1`](https://github.com/OZI-Project/ozi-spec/commit/6e508e1310074b02fb9b898de20e1aa4677ea935))
+
 ## 1.0.6 (2025-06-13)
 
 
@@ -131,6 +213,26 @@ updated-dependencies:
   dependency-type: direct:production
 ... — dependabot[bot] <support@github.com>
 ([`248de63`](https://github.com/OZI-Project/ozi-spec/commit/248de63aa5b4e7b9385e585c0e15d95101d6882e))
+
+
+### Chores
+
+
+* chore: update OZI wrapfile to 2.1 — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`5760eeb`](https://github.com/OZI-Project/ozi-spec/commit/5760eeb782418fac90e95a3a14740e8eef36caec))
+
+
+### Features
+
+
+* feat: correct templates path for github workflows — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`451567e`](https://github.com/OZI-Project/ozi-spec/commit/451567e6612c201b6df9fc71daae925d1dde5e3d))
+
+* feat: move checkpoint, draft, release, publish metadata into provider specific keys — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`ffd8d3a`](https://github.com/OZI-Project/ozi-spec/commit/ffd8d3a5912732b7a059330f273eb04e3b4caaaf))
+
+* feat: add github actions native provenance workflow — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`2771b81`](https://github.com/OZI-Project/ozi-spec/commit/2771b81e1310cd5c32c16d927d6e1236ab0b29ba))
 
 ## 1.0.4 (2025-06-05)
 
