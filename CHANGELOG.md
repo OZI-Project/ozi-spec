@@ -1,4 +1,43 @@
 # ozi-spec CHANGELOG
+## 1.1.1 (2025-07-17)
+
+
+### Bug fixes
+
+
+* fix: add release-assets.githubusercontent.com:443 endpoint to release — Eden Ross Duff, MSc <ozi.project@outlook.com>
+([`0d3349d`](https://github.com/OZI-Project/ozi-spec/commit/0d3349d4d35b60f5baaef45d3b82b671eafb31ec))
+
+
+### Build system
+
+
+* build(deps): bump step-security/harden-runner from 2.12.2 to 2.13.0
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-version: 2.13.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`de9e0b2`](https://github.com/OZI-Project/ozi-spec/commit/de9e0b23af4a95ae6ec1869357c00c44e0fdb66e))
+
+* build(deps): bump OZI-Project/release from 1.8.10 to 1.8.11
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.8.10 to 1.8.11.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/fd220285eff3de13b0eeab9f0882f245fa55b2e6...3b2d9beadc38335e9fdace1dc21d7d5807d7be76)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-version: 1.8.11
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`191d035`](https://github.com/OZI-Project/ozi-spec/commit/191d03505098ffeb331579fba1318ec207554d02))
+
 ## 1.1.0 (2025-07-09)
 
 
