@@ -1,4 +1,56 @@
 # ozi-spec CHANGELOG
+## 1.1.2 (2025-07-26)
+
+
+### Build system
+
+
+* build(deps): bump OZI-Project/release from 1.8.11 to 1.9.0
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.8.11 to 1.9.0.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/3b2d9beadc38335e9fdace1dc21d7d5807d7be76...d3920f3f0471dec9369a2245cc6e6b42756d27f8)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-version: 1.9.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`5b969f4`](https://github.com/OZI-Project/ozi-spec/commit/5b969f483fbc809e5d70e6e9c31e9cc2ec717824))
+
+* build(deps): bump github/codeql-action from 3.29.2 to 3.29.4
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.29.2 to 3.29.4.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/181d5eefc20863364f96762470ba6f862bdef56b...4e828ff8d448a8a6e532957b1811f387a63867e8)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-version: 3.29.4
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`70bad57`](https://github.com/OZI-Project/ozi-spec/commit/70bad571834753e484c84bee9be2451d1f3faf8d))
+
+* build(deps): bump OZI-Project/checkpoint from 1.9.3 to 1.9.4
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.9.3 to 1.9.4.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/4c60c58ba33a128bbde246fbee9e16569062f7cf...e6919d1fe476e76ce08cb6e85f847d0bf6dd8b6e)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-version: 1.9.4
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`3af0684`](https://github.com/OZI-Project/ozi-spec/commit/3af0684ab639687202d252d81edeb4c44d9818a3))
+
 ## 1.1.1 (2025-07-17)
 
 
