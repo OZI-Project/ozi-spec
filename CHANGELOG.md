@@ -1,4 +1,16 @@
 # ozi-spec CHANGELOG
+## 1.1.4 (2025-08-08)
+
+
+### Bug fixes
+
+
+* fix: update dev.yml endpoints — Eden Ross Duff, MSc <ozi.project@outlook.com>
+([`b8e49f2`](https://github.com/OZI-Project/ozi-spec/commit/b8e49f21efc2903d335ed60fd3256dd1c05bcc58))
+
+* fix: add endpoint release-assets.githubusercontent.com — Eden Ross Duff, MSc <ozi.project@outlook.com>
+([`1add354`](https://github.com/OZI-Project/ozi-spec/commit/1add354c68bb0d03d7d3bf278e5fc06573880904))
+
 ## 1.1.3 (2025-08-05)
 
 
