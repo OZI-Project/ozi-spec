@@ -40,6 +40,7 @@ jobs:
             fulcio.sigstore.dev:443
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
+            release-assets.githubusercontent.com:443
 
       - uses: OZI-Project/checkpoint@f475dbf6078211f784f6e7b3bb7c1b00ce0d05b9 # 1.9.5
         with:
@@ -70,6 +71,7 @@ jobs:
             fulcio.sigstore.dev:443
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
+            release-assets.githubusercontent.com:443
 
       - uses: OZI-Project/checkpoint@f475dbf6078211f784f6e7b3bb7c1b00ce0d05b9 # 1.9.5
         with:
@@ -100,41 +102,11 @@ jobs:
             fulcio.sigstore.dev:443
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
+            release-assets.githubusercontent.com:443
 
       - uses: OZI-Project/checkpoint@f475dbf6078211f784f6e7b3bb7c1b00ce0d05b9 # 1.9.5
         with:
           python-version: "3.13"
-
-  checkpoint-cp313t-ubuntu-latest:
-    name: checkpoint (Python 3.13t on ubuntu-latest)
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-    permissions:
-        id-token: write
-    steps:
-      - name: Harden Runner
-        uses: step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911 # v2.13.0
-        with:
-          disable-sudo: true
-          egress-policy: block
-          allowed-endpoints: >
-            files.pythonhosted.org:443
-            github.com:443
-            api.github.com:443
-            oziproject.dev:443
-            www.oziproject.dev:443
-            pypi.org:443
-            registry.npmjs.org:443
-            objects.githubusercontent.com:443
-            fulcio.sigstore.dev:443
-            rekor.sigstore.dev:443
-            tuf-repo-cdn.sigstore.dev:443
-
-      - uses: OZI-Project/checkpoint@f475dbf6078211f784f6e7b3bb7c1b00ce0d05b9 # 1.9.5
-        with:
-          python-version: "3.13"
-          freethreaded: true
 
   checkpoint:
     runs-on: ubuntu-latest
