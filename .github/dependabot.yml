@@ -12,10 +12,7 @@ updates:
     groups:
       OZI:
         patterns:
-          - checkpoint
-          - publish
-          - release
-          - draft
+          - 'OZI-Project/*'
 
   - package-ecosystem: pip
     versioning-strategy: increase-if-necessary
