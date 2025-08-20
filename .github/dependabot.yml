@@ -9,7 +9,13 @@ updates:
     directory: /
     schedule:
       interval: daily
-
+    groups:
+      OZI:
+        patterns:
+          - checkpoint
+          - publish
+          - release
+          - draft
 
   - package-ecosystem: pip
     versioning-strategy: increase-if-necessary
