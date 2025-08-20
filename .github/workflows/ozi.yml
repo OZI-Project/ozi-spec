@@ -42,7 +42,7 @@ jobs:
             tuf-repo-cdn.sigstore.dev:443
             release-assets.githubusercontent.com:443
 
-      - uses: OZI-Project/checkpoint@f475dbf6078211f784f6e7b3bb7c1b00ce0d05b9 # 1.9.5
+      - uses: OZI-Project/checkpoint@567295409c0cf62e340aa3457550509a0fa7e5cf # 1.9.6
         with:
           python-version: "3.11"
 
@@ -73,7 +73,7 @@ jobs:
             tuf-repo-cdn.sigstore.dev:443
             release-assets.githubusercontent.com:443
 
-      - uses: OZI-Project/checkpoint@f475dbf6078211f784f6e7b3bb7c1b00ce0d05b9 # 1.9.5
+      - uses: OZI-Project/checkpoint@567295409c0cf62e340aa3457550509a0fa7e5cf # 1.9.6
         with:
           python-version: "3.12"
 
@@ -104,7 +104,7 @@ jobs:
             tuf-repo-cdn.sigstore.dev:443
             release-assets.githubusercontent.com:443
 
-      - uses: OZI-Project/checkpoint@f475dbf6078211f784f6e7b3bb7c1b00ce0d05b9 # 1.9.5
+      - uses: OZI-Project/checkpoint@567295409c0cf62e340aa3457550509a0fa7e5cf # 1.9.6
         with:
           python-version: "3.13"
 
@@ -141,7 +141,7 @@ jobs:
             api.github.com:443
             github.com:443
 
-      - uses: OZI-Project/draft@cabcb89f38f90863aa0217f0b4b2dba02262b004 # 1.17.0
+      - uses: OZI-Project/draft@4f3dcb71f8251f1e8238eb011aa12dd6a9020d23 # 1.17.2
         id: draft
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -189,7 +189,7 @@ jobs:
             downloads.python.org:443
             release-assets.githubusercontent.com:443
 
-      - uses: OZI-Project/release@d3920f3f0471dec9369a2245cc6e6b42756d27f8 # 1.9.0
+      - uses: OZI-Project/release@eb10d9730ae9ad7c7c63e016d714013b4e017d5d # 1.9.1
         id: release
         with:
           python-dist: ${{ matrix.py }}
@@ -264,7 +264,7 @@ jobs:
             ghcr.io:443
             pkg-containers.githubusercontent.com:443
 
-    - uses: OZI-Project/publish@ed9bff22f51f8b70c47a326e1e73a48174a8c6d2 # 1.17.0
+    - uses: OZI-Project/publish@4f60b808859fd63bd4be3bb9cc3e34d7a14c3bf7 # 1.17.2
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         create-pull-request: true

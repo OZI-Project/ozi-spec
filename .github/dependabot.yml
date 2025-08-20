@@ -9,7 +9,10 @@ updates:
     directory: /
     schedule:
       interval: daily
-
+    groups:
+      OZI:
+        patterns:
+          - 'OZI-Project/*'
 
   - package-ecosystem: pip
     versioning-strategy: increase-if-necessary
