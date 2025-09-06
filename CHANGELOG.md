@@ -1,9 +1,42 @@
 # ozi-spec CHANGELOG
+## 1.1.7 (2025-09-06)
+
 ## 1.1.6 (2025-08-30)
 
 
 ### Build system
 
+
+* build(deps): bump pypa/gh-action-pypi-publish from 1.12.4 to 1.13.0
+
+Bumps [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish) from 1.12.4 to 1.13.0.
+- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)
+- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/76f52bc884231f62b9a034ebfe128415bbaabdfc...ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e)
+
+
+updated-dependencies:
+- dependency-name: pypa/gh-action-pypi-publish
+  dependency-version: 1.13.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`7879007`](https://github.com/OZI-Project/ozi-spec/commit/787900786950aa8a0b221be932f15bf34d8340ec))
+
+* build(deps): bump github/codeql-action from 3.29.11 to 3.30.0
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.29.11 to 3.30.0.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/3c3833e0f8c1c83d449a7478aa59c036a9165498...2d92b76c45b91eb80fc44c74ce3fce0ee94e8f9d)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-version: 3.30.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`b0817fe`](https://github.com/OZI-Project/ozi-spec/commit/b0817fe6dbdf6aef1ba32b21cbd1adcb0f3fda0c))
 
 * build(deps): bump github/codeql-action from 3.29.10 to 3.29.11
 
