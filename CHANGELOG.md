@@ -1,4 +1,104 @@
 # ozi-spec CHANGELOG
+## 1.1.8 (2025-09-09)
+
+
+### Build system
+
+
+* build(deps): bump step-security/harden-runner from 2.13.0 to 2.13.1
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.13.0 to 2.13.1.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/ec9f2d5744a09debf3a187a3f4f675c53b671911...f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-version: 2.13.1
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`e0fffae`](https://github.com/OZI-Project/ozi-spec/commit/e0fffaeebb844fec2a98a5bde3cbebf3be44f59b))
+
+* build(deps): bump github/codeql-action from 3.30.0 to 3.30.2
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.30.0 to 3.30.2.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/2d92b76c45b91eb80fc44c74ce3fce0ee94e8f9d...d3678e237b9c32a6c9bffb3315c335f976f3549f)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-version: 3.30.2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`a5da848`](https://github.com/OZI-Project/ozi-spec/commit/a5da848efac9c2620e55cbf1d29d1b51cd4ad3df))
+
+* build(deps): bump the ozi group with 5 updates
+
+Bumps the ozi group with 5 updates:
+
+| Package | From | To |
+|  |  |  |
+| [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) | `1.9.9` | `1.10.0` |
+| [OZI-Project/draft](https://github.com/ozi-project/draft) | `1.17.2` | `1.17.3` |
+| [OZI-Project/release](https://github.com/ozi-project/release) | `1.9.1` | `1.10.0` |
+| [OZI-Project/provenance](https://github.com/ozi-project/provenance) | `0.1.0` | `1.0.0` |
+| [OZI-Project/publish](https://github.com/ozi-project/publish) | `1.17.2` | `1.17.3` |
+
+
+Updates `OZI-Project/checkpoint` from 1.9.9 to 1.10.0
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/bc80bd040b1b6705a270fc6b111b08dfe6cde16b...1faf4433bbcc31ed6a0104896a92564d94182b20)
+
+Updates `OZI-Project/draft` from 1.17.2 to 1.17.3
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/4f3dcb71f8251f1e8238eb011aa12dd6a9020d23...3df8701fb8fbda746814804dcdc1b6e7533d4fe8)
+
+Updates `OZI-Project/release` from 1.9.1 to 1.10.0
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/eb10d9730ae9ad7c7c63e016d714013b4e017d5d...60a6112177f9e232a55f0d2dfe3aa0d2da322cf1)
+
+Updates `OZI-Project/provenance` from 0.1.0 to 1.0.0
+- [Release notes](https://github.com/ozi-project/provenance/releases)
+- [Commits](https://github.com/ozi-project/provenance/compare/a7369a6ef4a56f442b97615539b8de23dcb1e94e...9a0953f8937c2d16844fcf5f79f6295058bebbd3)
+
+Updates `OZI-Project/publish` from 1.17.2 to 1.17.3
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/4f60b808859fd63bd4be3bb9cc3e34d7a14c3bf7...c3ea682a04a1458e0edc4886979850a647304677)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-version: 1.10.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: ozi
+- dependency-name: OZI-Project/draft
+  dependency-version: 1.17.3
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+  dependency-group: ozi
+- dependency-name: OZI-Project/release
+  dependency-version: 1.10.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: ozi
+- dependency-name: OZI-Project/provenance
+  dependency-version: 1.0.0
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+  dependency-group: ozi
+- dependency-name: OZI-Project/publish
+  dependency-version: 1.17.3
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+  dependency-group: ozi
+... — dependabot[bot] <support@github.com>
+([`1d13415`](https://github.com/OZI-Project/ozi-spec/commit/1d13415035871238cffa922906e65c5469d5ed34))
+
 ## 1.1.7 (2025-09-06)
 
 ## 1.1.6 (2025-08-30)
