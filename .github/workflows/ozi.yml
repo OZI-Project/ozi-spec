@@ -42,7 +42,7 @@ jobs:
             tuf-repo-cdn.sigstore.dev:443
             release-assets.githubusercontent.com:443
 
-      - uses: OZI-Project/checkpoint@1faf4433bbcc31ed6a0104896a92564d94182b20 # 1.10.0
+      - uses: OZI-Project/checkpoint@b8935c41223bccd7886bd6a2f668b12a23859ed7 # 1.10.1
         with:
           python-version: "3.11"
 
@@ -73,7 +73,7 @@ jobs:
             tuf-repo-cdn.sigstore.dev:443
             release-assets.githubusercontent.com:443
 
-      - uses: OZI-Project/checkpoint@1faf4433bbcc31ed6a0104896a92564d94182b20 # 1.10.0
+      - uses: OZI-Project/checkpoint@b8935c41223bccd7886bd6a2f668b12a23859ed7 # 1.10.1
         with:
           python-version: "3.12"
 
@@ -104,7 +104,7 @@ jobs:
             tuf-repo-cdn.sigstore.dev:443
             release-assets.githubusercontent.com:443
 
-      - uses: OZI-Project/checkpoint@1faf4433bbcc31ed6a0104896a92564d94182b20 # 1.10.0
+      - uses: OZI-Project/checkpoint@b8935c41223bccd7886bd6a2f668b12a23859ed7 # 1.10.1
         with:
           python-version: "3.13"
 
@@ -141,7 +141,7 @@ jobs:
             api.github.com:443
             github.com:443
 
-      - uses: OZI-Project/draft@3df8701fb8fbda746814804dcdc1b6e7533d4fe8 # 1.17.3
+      - uses: OZI-Project/draft@d1cca28d3fa7f004b7b21abcb945e6760246bae7 # 1.17.4
         id: draft
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -219,7 +219,7 @@ jobs:
           ghcr.io:443
           pkg-containers.githubusercontent.com:443
 
-    - uses: OZI-Project/provenance@9a0953f8937c2d16844fcf5f79f6295058bebbd3
+    - uses: OZI-Project/provenance@96f6b35116d8140aaa0415fe31dddc4a4a84af2d
       with:
         release-tag: ${{ needs.draft.outputs.tag }}
 
@@ -264,7 +264,7 @@ jobs:
             ghcr.io:443
             pkg-containers.githubusercontent.com:443
 
-    - uses: OZI-Project/publish@c3ea682a04a1458e0edc4886979850a647304677 # 1.17.3
+    - uses: OZI-Project/publish@4ec8a034b233d85270e2b80ab567b1691f708b02 # 1.17.4
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         create-pull-request: true
