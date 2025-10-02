@@ -1,9 +1,108 @@
 # ozi-spec CHANGELOG
+## 1.1.9 (2025-10-02)
+
+
+### Build system
+
+
+* build(deps): bump github/codeql-action from 3.30.2 to 3.30.5
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.30.2 to 3.30.5.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/d3678e237b9c32a6c9bffb3315c335f976f3549f...3599b3baa15b485a2e49ef411a7a4bb2452e7f93)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-version: 3.30.5
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`fad405d`](https://github.com/OZI-Project/ozi-spec/commit/fad405dcedaba5ae0988a66bc61af11d98438472))
+
+* build(deps): bump actions/dependency-review-action from 4.7.3 to 4.8.0
+
+Bumps [actions/dependency-review-action](https://github.com/actions/dependency-review-action) from 4.7.3 to 4.8.0.
+- [Release notes](https://github.com/actions/dependency-review-action/releases)
+- [Commits](https://github.com/actions/dependency-review-action/compare/595b5aeba73380359d98a5e087f648dbb0edce1b...56339e523c0409420f6c2c9a2f4292bbb3c07dd3)
+
+
+updated-dependencies:
+- dependency-name: actions/dependency-review-action
+  dependency-version: 4.8.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`f5c2858`](https://github.com/OZI-Project/ozi-spec/commit/f5c28582f0c975c8ddb1dad904cdd744c16ed4d9))
+
+* build(deps): bump the ozi group across 1 directory with 4 updates
+
+Bumps the ozi group with 4 updates in the / directory: [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint), [OZI-Project/draft](https://github.com/ozi-project/draft), [OZI-Project/provenance](https://github.com/ozi-project/provenance) and [OZI-Project/publish](https://github.com/ozi-project/publish).
+
+
+Updates `OZI-Project/checkpoint` from 1.10.0 to 1.10.1
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/1faf4433bbcc31ed6a0104896a92564d94182b20...b8935c41223bccd7886bd6a2f668b12a23859ed7)
+
+Updates `OZI-Project/draft` from 1.17.3 to 1.17.4
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/3df8701fb8fbda746814804dcdc1b6e7533d4fe8...d1cca28d3fa7f004b7b21abcb945e6760246bae7)
+
+Updates `OZI-Project/provenance` from 1.0.0 to 1.1.0
+- [Release notes](https://github.com/ozi-project/provenance/releases)
+- [Commits](https://github.com/ozi-project/provenance/compare/9a0953f8937c2d16844fcf5f79f6295058bebbd3...96f6b35116d8140aaa0415fe31dddc4a4a84af2d)
+
+Updates `OZI-Project/publish` from 1.17.3 to 1.17.4
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/c3ea682a04a1458e0edc4886979850a647304677...4ec8a034b233d85270e2b80ab567b1691f708b02)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-version: 1.10.1
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+  dependency-group: ozi
+- dependency-name: OZI-Project/draft
+  dependency-version: 1.17.4
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+  dependency-group: ozi
+- dependency-name: OZI-Project/provenance
+  dependency-version: 1.1.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: ozi
+- dependency-name: OZI-Project/publish
+  dependency-version: 1.17.4
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+  dependency-group: ozi
+... — dependabot[bot] <support@github.com>
+([`c863adf`](https://github.com/OZI-Project/ozi-spec/commit/c863adf0c4716353e7c78e15a1da29080740c9d8))
+
 ## 1.1.8 (2025-09-09)
 
 
 ### Build system
 
+
+* build(deps): bump ossf/scorecard-action from 2.4.2 to 2.4.3
+
+Bumps [ossf/scorecard-action](https://github.com/ossf/scorecard-action) from 2.4.2 to 2.4.3.
+- [Release notes](https://github.com/ossf/scorecard-action/releases)
+- [Changelog](https://github.com/ossf/scorecard-action/blob/main/RELEASE.md)
+- [Commits](https://github.com/ossf/scorecard-action/compare/05b42c624433fc40578a4040d5cf5e36ddca8cde...4eaacf0543bb3f2c246792bd56e8cdeffafb205a)
+
+
+updated-dependencies:
+- dependency-name: ossf/scorecard-action
+  dependency-version: 2.4.3
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`02ee5ef`](https://github.com/OZI-Project/ozi-spec/commit/02ee5ef1c3050274efff224e4b0763a08d71009a))
 
 * build(deps): bump step-security/harden-runner from 2.13.0 to 2.13.1
 
