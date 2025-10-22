@@ -4,7 +4,7 @@ import warnings
 
 
 def test_metadata() -> None:
-    if sys.version_info < (3, 11):
+    if sys.version_info < (3, 12):
         warnings.filterwarnings('ignore')
         from ozi_spec import METADATA
     else:
