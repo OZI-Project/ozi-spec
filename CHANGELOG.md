@@ -1,4 +1,72 @@
 # ozi-spec CHANGELOG
+## 1.1.10 (2025-10-22)
+
+
+### Build system
+
+
+* build(deps): bump github/codeql-action from 3.30.5 to 4.30.9
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.30.5 to 4.30.9.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/3599b3baa15b485a2e49ef411a7a4bb2452e7f93...16140ae1a102900babc80a33c44059580f687047)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-version: 4.30.9
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+... — dependabot[bot] <support@github.com>
+([`9249193`](https://github.com/OZI-Project/ozi-spec/commit/924919378eb6391e33c249f869800b6cfe586d6f))
+
+* build(deps): bump actions/dependency-review-action from 4.8.0 to 4.8.1
+
+Bumps [actions/dependency-review-action](https://github.com/actions/dependency-review-action) from 4.8.0 to 4.8.1.
+- [Release notes](https://github.com/actions/dependency-review-action/releases)
+- [Commits](https://github.com/actions/dependency-review-action/compare/56339e523c0409420f6c2c9a2f4292bbb3c07dd3...40c09b7dc99638e5ddb0bfd91c1673effc064d8a)
+
+
+updated-dependencies:
+- dependency-name: actions/dependency-review-action
+  dependency-version: 4.8.1
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`189750c`](https://github.com/OZI-Project/ozi-spec/commit/189750cdb1c6255330fd6e265fca6cf91f273ffd))
+
+* build: Update Python version check in test_metadata — Eden Ross Duff, MSc <ozi.project@outlook.com>
+([`44a25b3`](https://github.com/OZI-Project/ozi-spec/commit/44a25b34edc978a7ddc7971f5c0fc22c0b3de33d))
+
+* build(deps): bump the ozi group with 2 updates
+
+Bumps the ozi group with 2 updates: [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) and [OZI-Project/release](https://github.com/ozi-project/release).
+
+
+Updates `OZI-Project/checkpoint` from 1.10.1 to 1.11.0
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/b8935c41223bccd7886bd6a2f668b12a23859ed7...5c04e23edea0edcd1eb731ad465d3fb7fe5ad0d7)
+
+Updates `OZI-Project/release` from 1.10.0 to 1.11.0
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/60a6112177f9e232a55f0d2dfe3aa0d2da322cf1...14ba53970650ad2d5c8ac8c335074155c78cccec)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-version: 1.11.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: ozi
+- dependency-name: OZI-Project/release
+  dependency-version: 1.11.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: ozi
+... — dependabot[bot] <support@github.com>
+([`6315350`](https://github.com/OZI-Project/ozi-spec/commit/6315350b1850f83093d90fd652df055d654f4e6e))
+
 ## 1.1.9 (2025-10-02)
 
 
