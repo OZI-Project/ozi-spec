@@ -308,7 +308,7 @@ deps =
      uv
 commands_pre =
      uv pip install OZI.build[core,uv]~=2.3.2 PyYAML
-     uv tool install --python={env_python} --force "meson~=1.2,<1.9"
+     uv tool install --python={env_python} --force "meson~=1.2,<1.10"
 commands =
      meson setup {env_tmp_dir} -Dozi:{env_name}=enabled -Dozi:tox-env-dir={env_dir}
      meson compile -C {env_tmp_dir}
