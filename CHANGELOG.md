@@ -1,4 +1,13 @@
 # ozi-spec CHANGELOG
+## 1.1.11 (2025-10-23)
+
+
+### Build system
+
+
+* build: Update Meson version constraint in pyproject.toml — Eden Ross Duff, MSc <ozi.project@outlook.com>
+([`c6439bf`](https://github.com/OZI-Project/ozi-spec/commit/c6439bfba7d726e36e38d7bae4f0dc5a6b3ffb70))
+
 ## 1.1.10 (2025-10-22)
 
 
