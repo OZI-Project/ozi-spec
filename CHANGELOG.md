@@ -5,6 +5,9 @@
 ### Bug fixes
 
 
+* fix: Update Python version matrix in ozi.yml — Eden Ross Duff, MSc <ozi.project@outlook.com>
+([`1d8fa97`](https://github.com/OZI-Project/ozi-spec/commit/1d8fa971600815fe56e9b024a88ce5f1396d76fa))
+
 * fix: manually set OZI supported python versions (#544)
 ([`d073a06`](https://github.com/OZI-Project/ozi-spec/commit/d073a06239eac8928b47c60ca2555aeaa39774d2))
 
