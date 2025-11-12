@@ -29,7 +29,7 @@ pyminor: int
 pypatch: int
 DATE_FORMAT: str = '%Y-%m-%d'
 DEPRECATION_DELTA_WEEKS: int = 104
-OZI_SUPPORTED_VERSIONS: tuple[int] = (10, 11, 12, 13)
+OZI_SUPPORTED_VERSIONS: tuple[int, int, int, int] = (10, 11, 12, 13)
 
 class _PythonSupport(_FactoryDataclass, Protocol):
     deprecation_schedule: dict[int, str]
