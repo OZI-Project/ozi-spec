@@ -1,9 +1,94 @@
 # ozi-spec CHANGELOG
+## 1.1.12 (2025-11-12)
+
+
+### Bug fixes
+
+
+* fix: Update Python version matrix in ozi.yml — Eden Ross Duff, MSc <ozi.project@outlook.com>
+([`1d8fa97`](https://github.com/OZI-Project/ozi-spec/commit/1d8fa971600815fe56e9b024a88ce5f1396d76fa))
+
+* fix: manually set OZI supported python versions (#544)
+([`d073a06`](https://github.com/OZI-Project/ozi-spec/commit/d073a06239eac8928b47c60ca2555aeaa39774d2))
+
+* fix: manually set OZI supported python versions — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`d073a06`](https://github.com/OZI-Project/ozi-spec/commit/d073a06239eac8928b47c60ca2555aeaa39774d2))
+
+* fix: fix mypy complaints — Eden Ross Duff MSc <rjdbcm@outlook.com>
+
+ — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`d073a06`](https://github.com/OZI-Project/ozi-spec/commit/d073a06239eac8928b47c60ca2555aeaa39774d2))
+
+
+### Build system
+
+
+* build(deps): bump actions/dependency-review-action from 4.8.1 to 4.8.2
+
+Bumps [actions/dependency-review-action](https://github.com/actions/dependency-review-action) from 4.8.1 to 4.8.2.
+- [Release notes](https://github.com/actions/dependency-review-action/releases)
+- [Commits](https://github.com/actions/dependency-review-action/compare/40c09b7dc99638e5ddb0bfd91c1673effc064d8a...3c4e3dcb1aa7874d2c16be7d79418e9b7efd6261)
+
+
+updated-dependencies:
+- dependency-name: actions/dependency-review-action
+  dependency-version: 4.8.2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`db60075`](https://github.com/OZI-Project/ozi-spec/commit/db60075fd201727a5a14f2c1968b8e907a8c0914))
+
+* build(deps): bump step-security/harden-runner from 2.13.1 to 2.13.2
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.13.1 to 2.13.2.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a...95d9a5deda9de15063e7595e9719c11c38c90ae2)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-version: 2.13.2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`974a85f`](https://github.com/OZI-Project/ozi-spec/commit/974a85fb6766ab26e8a8290d84ee37ff8eac305c))
+
+* build(deps): bump actions/upload-artifact from 4.6.2 to 5.0.0
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 4.6.2 to 5.0.0.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/ea165f8d65b6e75b540449e92b4886f43607fa02...330a01c490aca151604b8cf639adc76d48f6c5d4)
+
+
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-version: 5.0.0
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+... — dependabot[bot] <support@github.com>
+([`effa8bf`](https://github.com/OZI-Project/ozi-spec/commit/effa8bf9446a968385cf9cf3abbb1f3b0e384b35))
+
 ## 1.1.11 (2025-10-23)
 
 
 ### Build system
 
+
+* build(deps): bump github/codeql-action from 4.30.9 to 4.31.2
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 4.30.9 to 4.31.2.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/16140ae1a102900babc80a33c44059580f687047...0499de31b99561a6d14a36a5f662c2a54f91beee)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-version: 4.31.2
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`458f89b`](https://github.com/OZI-Project/ozi-spec/commit/458f89b1df93ffeccf47e3809dd754d914a3885b))
 
 * build: Update Meson version constraint in pyproject.toml — Eden Ross Duff, MSc <ozi.project@outlook.com>
 ([`c6439bf`](https://github.com/OZI-Project/ozi-spec/commit/c6439bfba7d726e36e38d7bae4f0dc5a6b3ffb70))
