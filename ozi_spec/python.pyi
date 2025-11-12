@@ -24,9 +24,12 @@ from ozi_spec.base import _FactoryDataclass
 if TYPE_CHECKING:  # pragma: no cover
     from collections.abc import Mapping
 
-pymajor, pyminor, pypatch = map(int, platform.python_version_tuple())
-DATE_FORMAT = '%Y-%m-%d'
-DEPRECATION_DELTA_WEEKS = 104
+pymajor: int
+pyminor: int
+pypatch: int
+DATE_FORMAT: str = '%Y-%m-%d'
+DEPRECATION_DELTA_WEEKS: int = 104
+OZI_SUPPORTED_VERSIONS: tuple[int, int, int, int] = (10, 11, 12, 13)
 
 class _PythonSupport(_FactoryDataclass, Protocol):
     deprecation_schedule: dict[int, str]
