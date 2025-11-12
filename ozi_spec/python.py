@@ -27,6 +27,7 @@ if TYPE_CHECKING:  # pragma: no cover
 pymajor, pyminor, pypatch = map(int, platform.python_version_tuple())
 DATE_FORMAT = '%Y-%m-%d'
 DEPRECATION_DELTA_WEEKS = 104
+OZI_SUPPORTED_VERSIONS = (10, 11, 12, 13)
 
 
 class _PythonSupport(_FactoryDataclass, Protocol):  # noqa: DC101
@@ -119,6 +120,7 @@ class PythonSupport(Default, _PythonSupport):
                 > datetime.strptime(self.current_date, DATE_FORMAT).replace(
                     tzinfo=timezone.utc,
                 )
+                or k in OZI_SUPPORTED_VERSIONS
             ],
         )[:4]
 
